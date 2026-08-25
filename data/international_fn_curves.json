@@ -1,0 +1,34 @@
+{
+  "_provenance_note": "Every curve here was extracted by full-text read of the named primary source on 2026-07-14 (research session 2, agents' reads logged in data/literature_delta.md). Cumulative F(>=N) values are derived arithmetic from the sources' per-incident tables; populations are mid-period national estimates from the named statistical agency series. NEVER add a curve without source, pop_millions, and a full-text read (F159 discipline).",
+  "figure_note": "Scopes differ by source and are stated per curve:\nSingapore = building-envelope fires (this study); China = all fires;\nAustralia = preventable residential fires; New Zealand = unintentional\ndomestic fires. F divided by mid-period national population.",
+  "curves": [
+    {
+      "label": "China 1998-2002, all fires (Wang et al. 2005)",
+      "style": "markers",
+      "N": [1, 2, 3, 4, 6, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 24, 25, 38, 74, 309],
+      "F": [1790.8, 398.2, 155.0, 79.4, 36.6, 7.0, 5.6, 5.2, 4.8, 3.8, 3.2, 2.8, 2.6, 2.2, 2.2, 1.8, 1.6, 1.0, 0.6, 0.4, 0.2],
+      "pop_millions": 1266,
+      "window": "1998-2002 (T=5)",
+      "scope": "all fires nationwide (excl. HK/Macao/Taiwan)",
+      "source": "Wang F, Lu S, Li C. Fire Safety Science 8:353-362 (2005), DOI 10.3801/iafss.fss.8-353. Cumulative F(>=N) derived from per-year incident counts in Table 4 (p.359); N4/N5 and N6-N9 are merged bins in the source, so F is resolvable only at the N values listed (markers, not steps). Population 1,266 million (year 2000) as stated in the paper's Table 1. Full PDF read 2026-07-14; two internal text inconsistencies in the source (its stated N1 total 5625 vs table-summed 6963; its stated '34 incidents >10 fatalities' vs table-derived 35 at >=10) are documented in data/literature_delta.md and neither affects the table-derived values used here."
+    },
+    {
+      "label": "Australia FY2004-2017, preventable residential fires (Coates et al. 2019)",
+      "N": [1, 2, 3, 4, 5],
+      "F": [57.8571, 4.0714, 1.1429, 0.6429, 0.1429],
+      "pop_millions": 22.186,
+      "window": "FY2003-04 to FY2016-17 (T=14)",
+      "scope": "preventable residential fires only; final 2-3 years under-reported 7-23% per source",
+      "source": "Coates L et al. Preventable Residential Fire Fatalities in Australia July 2003 to June 2017. Bushfire and Natural Hazards CRC Report 506.2019, Table 8 p.40 (753 x N1, 41 x N2, 7 x N3, 7 x N4, 2 x N>4). Cumulative F(>=N) = derived; the '>4' bin enters as F(>=5) = 2/14 with the events' exact sizes unknown, so the curve terminates at N=5 open-ended. Population: ABS National, state and territory population, table 310101 (ERP 30 Jun 2010 = 22,031,800; 30 Jun 2011 = 22,340,000; mid-window mean 22,185,900). Full PDF read 2026-07-14."
+    },
+    {
+      "label": "New Zealand 2007-2014, unintentional domestic fires (Lilley & McNoe 2018)",
+      "N": [1, 2, 3, 4],
+      "F": [13.375, 1.125, 0.375, 0.125],
+      "pop_millions": 4.367,
+      "window": "2007-2014 (T=8)",
+      "scope": "unintentional domestic fires only",
+      "source": "Lilley R, McNoe B. Unintentional Domestic Fire-Related Fatal Injury in New Zealand: 2007-2014. Fire and Emergency New Zealand Research Report 167 (2018), ISBN 978-1-92-728727-9 (98 x N1, 6 x N2, 2 x N3, 1 x N4 = 107 incidents; source's stated 118 total deaths vs implied 120 is a 2-death internal inconsistency in the source, noted not resolved). Cumulative F(>=N) = derived. Population: Stats NZ National population estimates at 30 June 2018, Table 1 (ERP 30 Jun 2010 = 4,350,700; 30 Jun 2011 = 4,384,000; mid-window mean 4,367,350). Full PDF read (Wayback snapshot) 2026-07-14."
+    }
+  ]
+}
