@@ -1,0 +1,65 @@
+{
+ "Singapore": {
+  "b": 2.743,
+  "ci": [
+   2.24,
+   3.41
+  ],
+  "n_within_regime": 47,
+  "mfi_within_regime": 0.2553
+ },
+ "England": {
+  "b": 4.275,
+  "ci": [
+   4.09,
+   4.48
+  ],
+  "n_within_regime": 2354,
+  "mfi_within_regime": 0.0599
+ },
+ "USA": {
+  "b": 3.424,
+  "ci": [
+   3.37,
+   3.48
+  ],
+  "n_within_regime": 11400,
+  "mfi_within_regime": 0.13
+ },
+ "Sweden": {
+  "b": 4.134,
+  "ci": [
+   3.89,
+   4.4
+  ],
+  "n_within_regime": 1183,
+  "mfi_within_regime": 0.0702
+ },
+ "Australia": {
+  "b": 4.052,
+  "ci": [
+   3.77,
+   4.36
+  ],
+  "n_within_regime": 810,
+  "mfi_within_regime": 0.0704
+ },
+ "NewZealand": {
+  "b": 3.856,
+  "ci": [
+   3.2,
+   4.7
+  ],
+  "n_within_regime": 107,
+  "mfi_within_regime": 0.0841
+ },
+ "China": {
+  "b": 2.744,
+  "ci": [
+   2.7,
+   2.79
+  ],
+  "n_within_regime": 8951,
+  "mfi_within_regime": 0.2221
+ }
+}

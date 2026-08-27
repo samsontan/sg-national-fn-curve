@@ -1,0 +1,52 @@
+{
+ "Singapore": {
+  "b_common": 2.743,
+  "lam_x_EN_obs_support": 0.75,
+  "truncation_ratio": 1.24,
+  "F10_upper_bound_per_M_yr": 0.0053
+ },
+ "England": {
+  "b_common": 4.275,
+  "lam_x_EN_obs_support": 5.19,
+  "truncation_ratio": 1.0,
+  "F10_upper_bound_per_M_yr": 0.00086
+ },
+ "USA": {
+  "b_common": 3.424,
+  "lam_x_EN_obs_support": 6.8,
+  "truncation_ratio": 1.02,
+  "F10_upper_bound_per_M_yr": 0.0088
+ },
+ "Sweden": {
+  "b_common": 4.134,
+  "lam_x_EN_obs_support": 9.02,
+  "truncation_ratio": 1.01,
+  "F10_upper_bound_per_M_yr": 0.0021
+ },
+ "Australia": {
+  "b_common": 4.052,
+  "lam_x_EN_obs_support": 2.87,
+  "truncation_ratio": 1.0,
+  "F10_upper_bound_per_M_yr": 0.00082
+ },
+ "NewZealand": {
+  "b_common": 3.856,
+  "lam_x_EN_obs_support": 3.38,
+  "truncation_ratio": 1.02,
+  "F10_upper_bound_per_M_yr": 0.0016
+ },
+ "China": {
+  "b_common": 2.744,
+  "lam_x_EN_obs_support": 2.09,
+  "truncation_ratio": 1.06,
+  "F10_upper_bound_per_M_yr": 0.013
+ },
+ "estimator_examples": {
+  "MFI_0.06": 4.31,
+  "MFI_0.09": 3.78,
+  "MFI_0.13": 3.32,
+  "MFI_0.22": 2.67,
+  "MFI_0.26": 2.48
+ },
+ "estimator_se_note": "SE(b) = |db/dMFI| * sqrt(MFI(1-MFI)/n); about 0.37 at MFI=0.10 with n=100, about 0.21 at MFI=0.25 with n=100."
+}

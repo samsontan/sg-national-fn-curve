@@ -1,0 +1,7 @@
+{
+ "b_within_regime": 4.275,
+ "P_ge70_per_event": 2.65e-07,
+ "return_period_yr": 14405,
+ "P_any_of_ordinary_events_ge70": 0.00062,
+ "note": "Selection-free: the with-Grenfell refit (4.23) still leaves the event at p about 6e-4 across the window (paper Section 4.12)."
+}

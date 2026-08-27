@@ -1,0 +1,21 @@
+{
+ "all_seven": {
+  "b_common": 3.135760946809711,
+  "lrt": 675.1833879422011,
+  "df": 6,
+  "p": 1.3935307770860438e-142
+ },
+ "five_western": {
+  "b_common": 3.5504912168178673,
+  "lrt": 118.08134570345464,
+  "df": 4,
+  "p": 1.3721674823765126e-24
+ },
+ "singapore_china": {
+  "b_common": 2.7365200707483424,
+  "lrt": 1.3853069239503384,
+  "df": 1,
+  "p": 0.2391992494156583
+ },
+ "note": "Reported in the supplement only; at these sample sizes with residual misspecification the p-values overstate crispness (paper Section 4.11)."
+}

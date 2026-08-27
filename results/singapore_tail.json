@@ -1,0 +1,25 @@
+{
+ "Nmax8_large_household": {
+  "b_refit": 2.595,
+  "RP_5plus_yr": 10.7,
+  "RP_10plus_yr": null,
+  "RP_30plus_yr": null
+ },
+ "Nmax17_dormitory": {
+  "b_refit": 2.697,
+  "RP_5plus_yr": 9.3,
+  "RP_10plus_yr": 45.5,
+  "RP_30plus_yr": null
+ },
+ "untruncated_bounding": {
+  "b_refit": 2.743,
+  "RP_5plus_yr": 9.1,
+  "RP_10plus_yr": 33.2,
+  "RP_30plus_yr": 239.0
+ },
+ "monitoring_bayes_factors_sharp_cap_vs_uncapped": {
+  "after_10yr": 2.9,
+  "after_20yr": 6.6,
+  "after_30yr": 13.0
+ }
+}

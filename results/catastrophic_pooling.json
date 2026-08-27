@@ -1,0 +1,16 @@
+{
+ "events": 4,
+ "exposure_M_person_yr": 9379,
+ "pooled_rate_per_M_person_yr": 0.000426,
+ "ci": [
+  0.000116,
+  0.00109
+ ],
+ "singapore_RP_yr": 415,
+ "leave_one_out_RP_yr": {
+  "China": 540,
+  "England": 524,
+  "USA": 327
+ },
+ "note": "Any-cause reference class; size N>=30 as proxy for regime failure; assumptions per paper Section 4.13."
+}

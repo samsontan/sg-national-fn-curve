@@ -1,0 +1,100 @@
+{
+ "Singapore": {
+  "n_events": 47,
+  "T": 14,
+  "pop_millions": 5.6514,
+  "lam_per_million_yr": 0.594,
+  "b_obs_support": 2.289,
+  "ci": [
+   1.624,
+   3.061
+  ],
+  "Nmax_obs": 4,
+  "gof_p": 0.986,
+  "mfi_observed": 0.2553
+ },
+ "England": {
+  "n_events": 2355,
+  "T": 9,
+  "pop_millions": 54.4,
+  "lam_per_million_yr": 4.81,
+  "b_obs_support": 4.234,
+  "ci": [
+   4.051,
+   4.43
+  ],
+  "Nmax_obs": 71,
+  "gof_p": 0.001,
+  "mfi_observed": 0.0603
+ },
+ "USA": {
+  "n_events": 11400,
+  "T": 6,
+  "pop_millions": 332.0,
+  "lam_per_million_yr": 5.7229,
+  "b_obs_support": 3.39,
+  "ci": [
+   3.333,
+   3.447
+  ],
+  "Nmax_obs": 10,
+  "gof_p": 0.0,
+  "mfi_observed": 0.13
+ },
+ "Sweden": {
+  "n_events": 1183,
+  "T": 15,
+  "pop_millions": 9.5,
+  "lam_per_million_yr": 8.3018,
+  "b_obs_support": 4.072,
+  "ci": [
+   3.817,
+   4.348
+  ],
+  "Nmax_obs": 5,
+  "gof_p": 1.0,
+  "mfi_observed": 0.0702
+ },
+ "Australia": {
+  "n_events": 810,
+  "T": 14,
+  "pop_millions": 22.186,
+  "lam_per_million_yr": 2.6078,
+  "b_obs_support": 4.031,
+  "ci": [
+   3.742,
+   4.348
+  ],
+  "Nmax_obs": 8,
+  "gof_p": 0.307,
+  "mfi_observed": 0.0704
+ },
+ "NewZealand": {
+  "n_events": 107,
+  "T": 8,
+  "pop_millions": 4.367,
+  "lam_per_million_yr": 3.0627,
+  "b_obs_support": 3.713,
+  "ci": [
+   2.993,
+   4.6
+  ],
+  "Nmax_obs": 4,
+  "gof_p": 0.944,
+  "mfi_observed": 0.0841
+ },
+ "China": {
+  "n_events": 8954,
+  "T": 5,
+  "pop_millions": 1266.0,
+  "lam_per_million_yr": 1.4145,
+  "b_obs_support": 2.738,
+  "ci": [
+   2.697,
+   2.779
+  ],
+  "Nmax_obs": 309,
+  "gof_p": 0.0,
+  "mfi_observed": 0.2224
+ }
+}

@@ -1,0 +1,89 @@
+{
+  "_provenance_note": "Multi-country building-fire F-N curve dataset compiled 2026-08-27. Each curve's F(>=N) values are cumulative exceedance frequencies (events per year with >= N deaths). Population is mid-period national estimate. All values derived from primary sources cited per curve. NEVER add a curve without source, pop_millions, and a primary-source read.",
+  "figure_note": "Scopes differ by source and are stated per curve. For cross-country comparison, normalise F by pop_millions to get events per million population per year.",
+  "curves": [
+    {
+      "label": "Singapore 2012-2025, building envelope (this study)",
+      "style": "markers",
+      "N": [1, 2, 3, 4],
+      "F_gte_N": [3.357, 0.857, 0.286, 0.071],
+      "raw_counts_gte_N": [47, 12, 4, 1],
+      "T_years": 14,
+      "pop_millions": 5.7,
+      "window": "2012-2025 (T=14)",
+      "scope": "building-envelope fires, residential + non-residential",
+      "source": "Event-resolved register compiled from SCDF annual releases and coroner reports. Manuscript Section 4. 47 events, 64 deaths, max N=4."
+    },
+    {
+      "label": "China 1998-2002, all fires (Wang et al. 2005)",
+      "style": "markers",
+      "N": [1, 2, 3, 4, 6, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 24, 25, 38, 74, 309],
+      "F_gte_N": [1790.8, 398.2, 155.0, 79.4, 36.6, 7.0, 5.6, 5.2, 4.8, 3.8, 3.2, 2.8, 2.6, 2.2, 2.2, 1.8, 1.6, 1.0, 0.6, 0.4, 0.2],
+      "T_years": 5,
+      "pop_millions": 1266,
+      "window": "1998-2002 (T=5)",
+      "scope": "all fires nationwide (excl. HK/Macao/Taiwan)",
+      "source": "Wang F, Lu S, Li C. Fire Safety Science 8:353-362 (2005), DOI 10.3801/iafss.fss.8-353. Cumulative F(>=N) derived from per-year incident counts in Table 4 (p.359). Population 1,266 million (year 2000) as stated in Table 1."
+    },
+    {
+      "label": "England 2010/11-2018/19, building fires (Home Office)",
+      "style": "markers",
+      "N": [1, 2, 3, 4, 5, 6, 71],
+      "F_gte_N": [261.67, 15.78, 3.78, 1.89, 1.00, 0.44, 0.11],
+      "raw_counts_gte_N": [2355, 142, 34, 17, 9, 4, 1],
+      "T_years": 9,
+      "pop_millions": 54.4,
+      "window": "2010/11-2018/19 (T=9 financial years)",
+      "scope": "building fires only (Shoreham N=11 outdoor aircraft crash excluded); England, not UK",
+      "source": "An in-depth review of fire-related fatalities and severe casualties in England, 2010/11 to 2018/19. UK Home Office/MHCLG (2019), Table 2. https://www.gov.uk/government/publications/an-in-depth-review-of-fire-related-fatalities-and-severe-casualties-in-england-2010-to-201819. N=71 is Grenfell Tower (14 Jun 2017; IRS toll 71, official final toll 72). Population: ONS mid-year estimates, average 2010-2018 = 54.4M.",
+      "notes": "No data points between N=7 and N=70 (no building fire killed 7-70 people in this window). This gap is genuine data, not missing data."
+    },
+    {
+      "label": "USA 2018-2023, residential building fires (USFA)",
+      "style": "markers",
+      "N": [1, 2, 3, 4, 5],
+      "F_gte_N": [1900, 247, 57, 22, 10],
+      "T_years": 1,
+      "pop_millions": 332,
+      "window": "2018-2023 (annualised from USFA TFRS reports)",
+      "scope": "residential building fires only; non-residential structure fires excluded (~25% of all fire deaths)",
+      "source": "USFA TFRS v22i2 (2018-2020 fatal fires, 87%/10%/3% distribution) + USFA TFRS v23i1 (2021-2023 multi-fatality breakdown: 76.8%/14.3%/4.7%/4.2%). 1,900 fatal fires/year from national estimates. N>=5 bucket is aggregated (4.2% of multi-fatality fires). Population: US Census ~332M. Primary URLs: https://www.usfa.fema.gov/downloads/pdf/statistics/v22i2.pdf, https://www.usfa.fema.gov/statistics/reports/who-fire-impacts/multiple-fatality-fires-in-residential-buildings-v23i1.html",
+      "notes": "F values are already annualised (T=1). The 5+ tail is aggregated; NFPA Catastrophic Multiple-Death Fires report has detail but is paywalled. Distribution derived from two overlapping periods; proportion-based, not raw counts for a single period."
+    },
+    {
+      "label": "Sweden 1999-2013, residential fires (Jonsson et al.)",
+      "style": "markers",
+      "N": [1, 2, 3, 4, 5],
+      "F_gte_N": [78.87, 5.53, 1.20, 0.40, 0.13],
+      "raw_counts_gte_N": [1183, 83, 18, 6, 2],
+      "T_years": 15,
+      "pop_millions": 9.5,
+      "window": "1999-2013 (T=15)",
+      "scope": "residential fires only; ~5/6 of all Swedish fatal fires",
+      "source": "Jonsson et al. The state of the residential fire fatality problem in Sweden. J Safety Res 2017;63:183-191. Sardqvist & Holmstedt, Characteristics of fatal residential fires in Sweden (Brandforsk report). 1,183 incidents / 1,292 deaths. Per-incident distribution reconstructed from aggregate constraint (109 extra deaths) and 1988-2000 proportional data (~92% single, ~6% double, ~1% triple, ~1% quad+). Population: SCB mid-period ~9.5M.",
+      "notes": "RECONSTRUCTED per-incident distribution. Exact counts require the Brandforsk PDF (confirmed at brandskyddsforeningen.se) or MSB IDA database (ida.msb.se). The aggregate constraint (1183 incidents, 1292 deaths) is firm; the per-N split carries uncertainty of roughly +-15% at N>=2. Gothenburg discotheque fire (1998, 63 deaths) is outside this window and non-residential."
+    },
+    {
+      "label": "Australia FY2004-2017, preventable residential fires (Coates et al. 2019)",
+      "style": "markers",
+      "N": [1, 2, 3, 4, 5],
+      "F_gte_N": [57.857, 4.071, 1.143, 0.643, 0.143],
+      "T_years": 14,
+      "pop_millions": 22.186,
+      "window": "FY2003-04 to FY2016-17 (T=14)",
+      "scope": "preventable residential fires only; final 2-3 years under-reported 7-23% per source",
+      "source": "Coates L et al. Preventable Residential Fire Fatalities in Australia July 2003 to June 2017. BNHCRC Report 506.2019, Table 8 p.40. Population: ABS mid-window mean 22,185,900."
+    },
+    {
+      "label": "New Zealand 2007-2014, unintentional domestic fires (Lilley & McNoe 2018)",
+      "style": "markers",
+      "N": [1, 2, 3, 4],
+      "F_gte_N": [13.375, 1.125, 0.375, 0.125],
+      "T_years": 8,
+      "pop_millions": 4.367,
+      "window": "2007-2014 (T=8)",
+      "scope": "unintentional domestic fires only",
+      "source": "Lilley R, McNoe B. Unintentional Domestic Fire-Related Fatal Injury in New Zealand: 2007-2014. FENZ Research Report 167 (2018). Population: Stats NZ mid-window mean 4,367,350."
+    }
+  ]
+}
