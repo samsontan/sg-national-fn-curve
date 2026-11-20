@@ -1,0 +1,85 @@
+year,metric,value,unit,source_url,access_date
+2012,Total national residential dwelling stock (HDB + private),1216217,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2013,Total national residential dwelling stock (HDB + private),1231914,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2014,Total national residential dwelling stock (HDB + private),1271109,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2015,Total national residential dwelling stock (HDB + private),1322898,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2016,Total national residential dwelling stock (HDB + private),1370319,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2017,Total national residential dwelling stock (HDB + private),1421302,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2018,Total national residential dwelling stock (HDB + private),1460968,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2019,Total national residential dwelling stock (HDB + private),1477627,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2020,Total national residential dwelling stock (HDB + private),1490946,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2021,Total national residential dwelling stock (HDB + private),1507505,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2022,Total national residential dwelling stock (HDB + private),1526540,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2023,Total national residential dwelling stock (HDB + private),1563641,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2024,Total national residential dwelling stock (HDB + private),1596629,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2025,Total national residential dwelling stock (HDB + private),1623242,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2012,HDB dwelling stock (subset of total),927643,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2013,HDB dwelling stock (subset of total),933389,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2014,HDB dwelling stock (subset of total),953975,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2015,HDB dwelling stock (subset of total),980613,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2016,HDB dwelling stock (subset of total),1004623,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2017,HDB dwelling stock (subset of total),1032461,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2018,HDB dwelling stock (subset of total),1056716,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2019,HDB dwelling stock (subset of total),1066196,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2020,HDB dwelling stock (subset of total),1076879,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2021,HDB dwelling stock (subset of total),1087800,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2022,HDB dwelling stock (subset of total),1102012,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2023,HDB dwelling stock (subset of total),1125605,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2024,HDB dwelling stock (subset of total),1142728,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2025,HDB dwelling stock (subset of total),1160535,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2012,"Private residential dwelling stock (Condo/Apartments + Landed + Others; derived as national total minus HDB, cross-checked by summing the three SingStat sub-rows)",288574,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2013,"Private residential dwelling stock (Condo/Apartments + Landed + Others; derived as national total minus HDB, cross-checked by summing the three SingStat sub-rows)",298525,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2014,"Private residential dwelling stock (Condo/Apartments + Landed + Others; derived as national total minus HDB, cross-checked by summing the three SingStat sub-rows)",317134,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2015,"Private residential dwelling stock (Condo/Apartments + Landed + Others; derived as national total minus HDB, cross-checked by summing the three SingStat sub-rows)",342285,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2016,"Private residential dwelling stock (Condo/Apartments + Landed + Others; derived as national total minus HDB, cross-checked by summing the three SingStat sub-rows)",365696,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2017,"Private residential dwelling stock (Condo/Apartments + Landed + Others; derived as national total minus HDB, cross-checked by summing the three SingStat sub-rows)",388841,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2018,"Private residential dwelling stock (Condo/Apartments + Landed + Others; derived as national total minus HDB, cross-checked by summing the three SingStat sub-rows)",404252,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2019,"Private residential dwelling stock (Condo/Apartments + Landed + Others; derived as national total minus HDB, cross-checked by summing the three SingStat sub-rows)",411431,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2020,"Private residential dwelling stock (Condo/Apartments + Landed + Others; derived as national total minus HDB, cross-checked by summing the three SingStat sub-rows)",414067,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2021,"Private residential dwelling stock (Condo/Apartments + Landed + Others; derived as national total minus HDB, cross-checked by summing the three SingStat sub-rows)",419705,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2022,"Private residential dwelling stock (Condo/Apartments + Landed + Others; derived as national total minus HDB, cross-checked by summing the three SingStat sub-rows)",424528,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2023,"Private residential dwelling stock (Condo/Apartments + Landed + Others; derived as national total minus HDB, cross-checked by summing the three SingStat sub-rows)",438036,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2024,"Private residential dwelling stock (Condo/Apartments + Landed + Others; derived as national total minus HDB, cross-checked by summing the three SingStat sub-rows)",453901,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2025,"Private residential dwelling stock (Condo/Apartments + Landed + Others; derived as national total minus HDB, cross-checked by summing the three SingStat sub-rows)",462707,units,https://data.gov.sg/datasets/d_6c58a523a05b55836f383fa2a68d332d/view,2026-07-11
+2012,"Total population (residents + non-residents, mid-year estimate)",5312437,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2013,"Total population (residents + non-residents, mid-year estimate)",5399162,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2014,"Total population (residents + non-residents, mid-year estimate)",5469724,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2015,"Total population (residents + non-residents, mid-year estimate)",5535002,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2016,"Total population (residents + non-residents, mid-year estimate)",5607283,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2017,"Total population (residents + non-residents, mid-year estimate)",5612253,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2018,"Total population (residents + non-residents, mid-year estimate)",5638676,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2019,"Total population (residents + non-residents, mid-year estimate)",5703569,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2020,"Total population (residents + non-residents, mid-year estimate)",5685807,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2021,"Total population (residents + non-residents, mid-year estimate)",5453566,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2022,"Total population (residents + non-residents, mid-year estimate)",5637022,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2023,"Total population (residents + non-residents, mid-year estimate)",5917648,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2024,"Total population (residents + non-residents, mid-year estimate)",6036860,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2025,"Total population (residents + non-residents, mid-year estimate)",6111175,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2012,"Resident population (citizens + PRs, mid-year estimate)",3818205,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2013,"Resident population (citizens + PRs, mid-year estimate)",3844751,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2014,"Resident population (citizens + PRs, mid-year estimate)",3870739,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2015,"Resident population (citizens + PRs, mid-year estimate)",3902690,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2016,"Resident population (citizens + PRs, mid-year estimate)",3933559,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2017,"Resident population (citizens + PRs, mid-year estimate)",3965796,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2018,"Resident population (citizens + PRs, mid-year estimate)",3994283,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2019,"Resident population (citizens + PRs, mid-year estimate)",4026209,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2020,"Resident population (citizens + PRs, mid-year estimate)",4044210,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2021,"Resident population (citizens + PRs, mid-year estimate)",3986842,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2022,"Resident population (citizens + PRs, mid-year estimate)",4073239,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2023,"Resident population (citizens + PRs, mid-year estimate)",4149253,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2024,"Resident population (citizens + PRs, mid-year estimate)",4180868,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2025,"Resident population (citizens + PRs, mid-year estimate)",4204515,persons,https://data.gov.sg/datasets/d_3d227e5d9fdec73f3bcadce671c333a6/view,2026-07-11
+2012,National total building GFA (all premises types),NOT FOUND,m2,"https://tablebuilder.singstat.gov.sg/ (Stock of Commercial and Industrial Space tables, table IDs not confirmed) and BCA Annual Report / Building Construction Real Estate NA (Statistics) publications",2026-07-11
+2013,National total building GFA (all premises types),NOT FOUND,m2,"https://tablebuilder.singstat.gov.sg/ (Stock of Commercial and Industrial Space tables, table IDs not confirmed) and BCA Annual Report / Building Construction Real Estate NA (Statistics) publications",2026-07-11
+2014,National total building GFA (all premises types),NOT FOUND,m2,"https://tablebuilder.singstat.gov.sg/ (Stock of Commercial and Industrial Space tables, table IDs not confirmed) and BCA Annual Report / Building Construction Real Estate NA (Statistics) publications",2026-07-11
+2015,National total building GFA (all premises types),NOT FOUND,m2,"https://tablebuilder.singstat.gov.sg/ (Stock of Commercial and Industrial Space tables, table IDs not confirmed) and BCA Annual Report / Building Construction Real Estate NA (Statistics) publications",2026-07-11
+2016,National total building GFA (all premises types),NOT FOUND,m2,"https://tablebuilder.singstat.gov.sg/ (Stock of Commercial and Industrial Space tables, table IDs not confirmed) and BCA Annual Report / Building Construction Real Estate NA (Statistics) publications",2026-07-11
+2017,National total building GFA (all premises types),NOT FOUND,m2,"https://tablebuilder.singstat.gov.sg/ (Stock of Commercial and Industrial Space tables, table IDs not confirmed) and BCA Annual Report / Building Construction Real Estate NA (Statistics) publications",2026-07-11
+2018,National total building GFA (all premises types),NOT FOUND,m2,"https://tablebuilder.singstat.gov.sg/ (Stock of Commercial and Industrial Space tables, table IDs not confirmed) and BCA Annual Report / Building Construction Real Estate NA (Statistics) publications",2026-07-11
+2019,National total building GFA (all premises types),NOT FOUND,m2,"https://tablebuilder.singstat.gov.sg/ (Stock of Commercial and Industrial Space tables, table IDs not confirmed) and BCA Annual Report / Building Construction Real Estate NA (Statistics) publications",2026-07-11
+2020,National total building GFA (all premises types),NOT FOUND,m2,"https://tablebuilder.singstat.gov.sg/ (Stock of Commercial and Industrial Space tables, table IDs not confirmed) and BCA Annual Report / Building Construction Real Estate NA (Statistics) publications",2026-07-11
+2021,National total building GFA (all premises types),NOT FOUND,m2,"https://tablebuilder.singstat.gov.sg/ (Stock of Commercial and Industrial Space tables, table IDs not confirmed) and BCA Annual Report / Building Construction Real Estate NA (Statistics) publications",2026-07-11
+2022,National total building GFA (all premises types),NOT FOUND,m2,"https://tablebuilder.singstat.gov.sg/ (Stock of Commercial and Industrial Space tables, table IDs not confirmed) and BCA Annual Report / Building Construction Real Estate NA (Statistics) publications",2026-07-11
+2023,National total building GFA (all premises types),NOT FOUND,m2,"https://tablebuilder.singstat.gov.sg/ (Stock of Commercial and Industrial Space tables, table IDs not confirmed) and BCA Annual Report / Building Construction Real Estate NA (Statistics) publications",2026-07-11
+2024,National total building GFA (all premises types),NOT FOUND,m2,"https://tablebuilder.singstat.gov.sg/ (Stock of Commercial and Industrial Space tables, table IDs not confirmed) and BCA Annual Report / Building Construction Real Estate NA (Statistics) publications",2026-07-11
+2025,National total building GFA (all premises types),NOT FOUND,m2,"https://tablebuilder.singstat.gov.sg/ (Stock of Commercial and Industrial Space tables, table IDs not confirmed) and BCA Annual Report / Building Construction Real Estate NA (Statistics) publications",2026-07-11

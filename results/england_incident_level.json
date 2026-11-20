@@ -1,0 +1,356 @@
+{
+ "source": "Home Office fire-related fatalities dataset, England, year ending March 2026 edition",
+ "window": "2010/11-2018/19",
+ "rows_in_window": 2633,
+ "all_fires_reconstructed": {
+  "1": 2205,
+  "2": 106,
+  "3": 17,
+  "4": 10,
+  "5": 5,
+  "6": 3,
+  "11": 1,
+  "71": 1
+ },
+ "all_fires_published": {
+  "1": 2213,
+  "2": 108,
+  "3": 17,
+  "4": 8,
+  "5": 5,
+  "6": 3,
+  "11": 1,
+  "71": 1
+ },
+ "by_location": {
+  "Dwellings": {
+   "deaths": 2013,
+   "fatal_fires": 1804,
+   "multi_fatality_fires": 96,
+   "distribution": {
+    "1": 1708,
+    "2": 71,
+    "3": 12,
+    "4": 7,
+    "5": 2,
+    "6": 3,
+    "71": 1
+   },
+   "mfi": 0.0532,
+   "mfi_ci95": [
+    0.043,
+    0.065
+   ]
+  },
+  "Other Buildings": {
+   "deaths": 162,
+   "fatal_fires": 142,
+   "multi_fatality_fires": 12,
+   "distribution": {
+    "1": 130,
+    "2": 8,
+    "3": 2,
+    "5": 2
+   },
+   "mfi": 0.0845,
+   "mfi_ci95": [
+    0.044,
+    0.143
+   ]
+  },
+  "Road Vehicles": {
+   "deaths": 274,
+   "fatal_fires": 245,
+   "multi_fatality_fires": 22,
+   "distribution": {
+    "1": 223,
+    "2": 17,
+    "3": 3,
+    "4": 2
+   },
+   "mfi": 0.0898,
+   "mfi_ci95": [
+    0.057,
+    0.133
+   ]
+  },
+  "Other Outdoors": {
+   "deaths": 184,
+   "fatal_fires": 157,
+   "multi_fatality_fires": 13,
+   "distribution": {
+    "1": 144,
+    "2": 10,
+    "4": 1,
+    "5": 1,
+    "11": 1
+   },
+   "mfi": 0.0828,
+   "mfi_ci95": [
+    0.045,
+    0.137
+   ]
+  }
+ },
+ "buildings": {
+  "deaths": 2175,
+  "fatal_fires": 1946,
+  "multi_fatality_fires": 108,
+  "distribution": {
+   "1": 1838,
+   "2": 79,
+   "3": 14,
+   "4": 7,
+   "5": 4,
+   "6": 3,
+   "71": 1
+  },
+  "mfi": 0.0555,
+  "mfi_ci95": [
+   0.046,
+   0.067
+  ]
+ },
+ "dwellings_by_intent": {
+  "Recorded as Accidental": {
+   "deaths": 1698,
+   "fatal_fires": 1525,
+   "multi_fatality_fires": 76,
+   "distribution": {
+    "1": 1449,
+    "2": 60,
+    "3": 7,
+    "4": 5,
+    "5": 1,
+    "6": 2,
+    "71": 1
+   },
+   "mfi": 0.0498,
+   "mfi_ci95": [
+    0.039,
+    0.062
+   ]
+  },
+  "Recorded as Deliberate": {
+   "deaths": 315,
+   "fatal_fires": 279,
+   "multi_fatality_fires": 20,
+   "distribution": {
+    "1": 259,
+    "2": 11,
+    "3": 5,
+    "4": 2,
+    "5": 1,
+    "6": 1
+   },
+   "mfi": 0.0717,
+   "mfi_ci95": [
+    0.044,
+    0.109
+   ]
+  }
+ },
+ "dwelling_rates": {
+  "per_million_population_yr": 3.69,
+  "per_dwelling_yr": 8.48e-06
+ },
+ "dwellings_mfi_if_two_fours_are_split": 0.0543,
+ "dwelling_severity_law": {
+  "ordinary_fires": 1803,
+  "b": 4.41,
+  "ci95": [
+   4.18,
+   4.66
+  ],
+  "gof_p": 0.15,
+  "fatal_dwelling_fires_per_yr": 200.4,
+  "grenfell_return_period_yr": 34400,
+  "grenfell_return_period_yr_flat_edge": 12300
+ },
+ "singapore_contrast": {
+  "sg_mfi": 0.227,
+  "sg_ci95": [
+   0.115,
+   0.378
+  ],
+  "england_mfi": 0.0532,
+  "england_ci95": [
+   0.043,
+   0.065
+  ],
+  "ratio_point": 4.3,
+  "ratio_at_sg_lower_limit": 2.2,
+  "ratio_sg_lower_over_england_upper": 1.8,
+  "fisher_p": 0.00012
+ },
+ "dwelling_victims": {
+  "note": "Multiple-fatality rows exclude the 71 Grenfell Tower records.",
+  "single": {
+   "n": 1708,
+   "found_in_room_of_origin": 0.567,
+   "found_elsewhere_in_building": 0.414,
+   "night_00_06": 0.216
+  },
+  "multiple": {
+   "n": 234,
+   "found_in_room_of_origin": 0.197,
+   "found_elsewhere_in_building": 0.761,
+   "night_00_06": 0.509
+  }
+ },
+ "dwellings_annual": {
+  "2010/11": {
+   "fatal_fires": 234,
+   "multi": 15,
+   "mfi": 0.0641,
+   "ci95": [
+    0.036,
+    0.104
+   ]
+  },
+  "2011/12": {
+   "fatal_fires": 212,
+   "multi": 13,
+   "mfi": 0.0613,
+   "ci95": [
+    0.033,
+    0.103
+   ]
+  },
+  "2012/13": {
+   "fatal_fires": 200,
+   "multi": 4,
+   "mfi": 0.02,
+   "ci95": [
+    0.005,
+    0.05
+   ]
+  },
+  "2013/14": {
+   "fatal_fires": 197,
+   "multi": 13,
+   "mfi": 0.066,
+   "ci95": [
+    0.036,
+    0.11
+   ]
+  },
+  "2014/15": {
+   "fatal_fires": 184,
+   "multi": 5,
+   "mfi": 0.0272,
+   "ci95": [
+    0.009,
+    0.062
+   ]
+  },
+  "2015/16": {
+   "fatal_fires": 215,
+   "multi": 11,
+   "mfi": 0.0512,
+   "ci95": [
+    0.026,
+    0.09
+   ]
+  },
+  "2016/17": {
+   "fatal_fires": 200,
+   "multi": 14,
+   "mfi": 0.07,
+   "ci95": [
+    0.039,
+    0.115
+   ]
+  },
+  "2017/18": {
+   "fatal_fires": 181,
+   "multi": 8,
+   "mfi": 0.0442,
+   "ci95": [
+    0.019,
+    0.085
+   ]
+  },
+  "2018/19": {
+   "fatal_fires": 181,
+   "multi": 13,
+   "mfi": 0.0718,
+   "ci95": [
+    0.039,
+    0.12
+   ]
+  },
+  "2019/20": {
+   "fatal_fires": 189,
+   "multi": 8,
+   "mfi": 0.0423,
+   "ci95": [
+    0.018,
+    0.082
+   ]
+  },
+  "2020/21": {
+   "fatal_fires": 173,
+   "multi": 8,
+   "mfi": 0.0462,
+   "ci95": [
+    0.02,
+    0.089
+   ]
+  },
+  "2021/22": {
+   "fatal_fires": 196,
+   "multi": 10,
+   "mfi": 0.051,
+   "ci95": [
+    0.025,
+    0.092
+   ]
+  },
+  "2022/23": {
+   "fatal_fires": 200,
+   "multi": 11,
+   "mfi": 0.055,
+   "ci95": [
+    0.028,
+    0.096
+   ]
+  },
+  "2023/24": {
+   "fatal_fires": 167,
+   "multi": 9,
+   "mfi": 0.0539,
+   "ci95": [
+    0.025,
+    0.1
+   ]
+  },
+  "2024/25": {
+   "fatal_fires": 197,
+   "multi": 13,
+   "mfi": 0.066,
+   "ci95": [
+    0.036,
+    0.11
+   ]
+  },
+  "2025/26": {
+   "fatal_fires": 171,
+   "multi": 10,
+   "mfi": 0.0585,
+   "ci95": [
+    0.028,
+    0.105
+   ]
+  }
+ },
+ "dwellings_2010_11_to_2025_26": {
+  "fatal_fires": 3097,
+  "multi": 165,
+  "mfi": 0.0533,
+  "ci95": [
+   0.046,
+   0.062
+  ]
+ }
+}

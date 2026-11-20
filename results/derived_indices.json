@@ -1,13 +1,13 @@
 {
  "Singapore": {
-  "b_common": 2.743,
-  "lam_x_EN_obs_support": 0.75,
-  "truncation_ratio": 1.24,
-  "F10_upper_bound_per_M_yr": 0.0053
+  "b_common": 2.774,
+  "lam_x_EN_obs_support": 0.79,
+  "truncation_ratio": 1.22,
+  "F10_upper_bound_per_M_yr": 0.0052
  },
  "England": {
   "b_common": 4.275,
-  "lam_x_EN_obs_support": 5.19,
+  "lam_x_EN_obs_support": 5.2,
   "truncation_ratio": 1.0,
   "F10_upper_bound_per_M_yr": 0.00086
  },
@@ -16,12 +16,6 @@
   "lam_x_EN_obs_support": 6.8,
   "truncation_ratio": 1.02,
   "F10_upper_bound_per_M_yr": 0.0088
- },
- "Sweden": {
-  "b_common": 4.134,
-  "lam_x_EN_obs_support": 9.02,
-  "truncation_ratio": 1.01,
-  "F10_upper_bound_per_M_yr": 0.0021
  },
  "Australia": {
   "b_common": 4.052,

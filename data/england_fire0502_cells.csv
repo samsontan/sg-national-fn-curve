@@ -1,0 +1,2423 @@
+financial_year,quarter,frs_name,location,fatal_fires,deaths
+2010/11,Q1,Avon,dwellings,2,2
+2010/11,Q1,Berkshire,dwellings,1,1
+2010/11,Q1,Buckinghamshire,dwellings,1,1
+2010/11,Q1,Cambridgeshire,road vehicles,2,2
+2010/11,Q1,Cheshire,outdoors,1,1
+2010/11,Q1,Cleveland,dwellings,2,2
+2010/11,Q1,Cornwall,dwellings,3,3
+2010/11,Q1,Derbyshire,dwellings,3,4
+2010/11,Q1,Derbyshire,other buildings,1,1
+2010/11,Q1,Derbyshire,road vehicles,1,1
+2010/11,Q1,Devon and Somerset,dwellings,3,3
+2010/11,Q1,Devon and Somerset,road vehicles,1,1
+2010/11,Q1,Dorset and Wiltshire,dwellings,2,2
+2010/11,Q1,Durham,dwellings,1,1
+2010/11,Q1,East Sussex,dwellings,1,1
+2010/11,Q1,East Sussex,other buildings,1,1
+2010/11,Q1,Essex,dwellings,3,4
+2010/11,Q1,Gloucestershire,dwellings,1,1
+2010/11,Q1,Greater London,dwellings,13,13
+2010/11,Q1,Greater London,other buildings,1,1
+2010/11,Q1,Greater Manchester,dwellings,4,4
+2010/11,Q1,Greater Manchester,road vehicles,1,1
+2010/11,Q1,Hampshire and Isle of Wight,dwellings,3,4
+2010/11,Q1,Hampshire and Isle of Wight,outdoors,1,2
+2010/11,Q1,Hereford and Worcester,dwellings,1,1
+2010/11,Q1,Hereford and Worcester,road vehicles,1,1
+2010/11,Q1,Humberside,dwellings,1,1
+2010/11,Q1,Humberside,other buildings,1,1
+2010/11,Q1,Kent,road vehicles,1,1
+2010/11,Q1,Lancashire,dwellings,1,1
+2010/11,Q1,Lincolnshire,dwellings,1,1
+2010/11,Q1,Merseyside,dwellings,2,2
+2010/11,Q1,Merseyside,road vehicles,1,1
+2010/11,Q1,Norfolk,dwellings,3,3
+2010/11,Q1,Norfolk,outdoors,1,1
+2010/11,Q1,Norfolk,road vehicles,1,1
+2010/11,Q1,North Yorkshire,other buildings,1,1
+2010/11,Q1,North Yorkshire,road vehicles,1,1
+2010/11,Q1,Northamptonshire,dwellings,1,1
+2010/11,Q1,Nottinghamshire,dwellings,1,1
+2010/11,Q1,Oxfordshire,dwellings,2,2
+2010/11,Q1,South Yorkshire,dwellings,1,1
+2010/11,Q1,Suffolk,dwellings,3,3
+2010/11,Q1,Tyne and Wear,dwellings,1,1
+2010/11,Q1,West Midlands,dwellings,5,5
+2010/11,Q1,West Midlands,outdoors,1,1
+2010/11,Q1,West Yorkshire,dwellings,2,2
+2010/11,Q1,West Yorkshire,outdoors,1,1
+2010/11,Q2,Avon,dwellings,2,2
+2010/11,Q2,Avon,road vehicles,1,1
+2010/11,Q2,Bedfordshire,dwellings,2,2
+2010/11,Q2,Berkshire,dwellings,1,1
+2010/11,Q2,Cambridgeshire,road vehicles,1,1
+2010/11,Q2,Cheshire,dwellings,1,1
+2010/11,Q2,Cheshire,outdoors,1,1
+2010/11,Q2,Cornwall,dwellings,1,1
+2010/11,Q2,Devon and Somerset,dwellings,1,1
+2010/11,Q2,Devon and Somerset,road vehicles,2,3
+2010/11,Q2,Dorset and Wiltshire,other buildings,1,1
+2010/11,Q2,Dorset and Wiltshire,road vehicles,1,1
+2010/11,Q2,Durham,dwellings,1,1
+2010/11,Q2,Essex,dwellings,2,2
+2010/11,Q2,Greater London,dwellings,12,12
+2010/11,Q2,Greater London,other buildings,1,1
+2010/11,Q2,Greater London,outdoors,1,1
+2010/11,Q2,Greater Manchester,dwellings,5,5
+2010/11,Q2,Hampshire and Isle of Wight,dwellings,1,1
+2010/11,Q2,Hampshire and Isle of Wight,road vehicles,1,1
+2010/11,Q2,Hertfordshire,dwellings,1,1
+2010/11,Q2,Lincolnshire,dwellings,1,1
+2010/11,Q2,Lincolnshire,road vehicles,1,1
+2010/11,Q2,Merseyside,dwellings,1,1
+2010/11,Q2,Northamptonshire,dwellings,1,1
+2010/11,Q2,Northamptonshire,road vehicles,1,1
+2010/11,Q2,Nottinghamshire,dwellings,1,1
+2010/11,Q2,Shropshire,dwellings,1,1
+2010/11,Q2,Staffordshire,dwellings,1,1
+2010/11,Q2,Suffolk,dwellings,1,1
+2010/11,Q2,Surrey,road vehicles,1,1
+2010/11,Q2,West Midlands,dwellings,1,1
+2010/11,Q2,West Midlands,other buildings,1,2
+2010/11,Q2,West Sussex,dwellings,1,1
+2010/11,Q2,West Yorkshire,dwellings,2,4
+2010/11,Q2,West Yorkshire,other buildings,1,1
+2010/11,Q3,Avon,dwellings,2,2
+2010/11,Q3,Berkshire,dwellings,1,1
+2010/11,Q3,Buckinghamshire,dwellings,1,1
+2010/11,Q3,Buckinghamshire,road vehicles,1,2
+2010/11,Q3,Cambridgeshire,dwellings,1,1
+2010/11,Q3,Cheshire,dwellings,2,3
+2010/11,Q3,Cheshire,other buildings,1,1
+2010/11,Q3,Cornwall,dwellings,1,1
+2010/11,Q3,Derbyshire,dwellings,1,1
+2010/11,Q3,Devon and Somerset,dwellings,1,1
+2010/11,Q3,Devon and Somerset,road vehicles,1,1
+2010/11,Q3,Dorset and Wiltshire,dwellings,1,1
+2010/11,Q3,Durham,dwellings,2,2
+2010/11,Q3,Essex,dwellings,1,1
+2010/11,Q3,Essex,road vehicles,2,3
+2010/11,Q3,Gloucestershire,road vehicles,1,1
+2010/11,Q3,Greater London,dwellings,9,9
+2010/11,Q3,Greater London,other buildings,2,2
+2010/11,Q3,Greater Manchester,dwellings,2,2
+2010/11,Q3,Hampshire and Isle of Wight,dwellings,3,3
+2010/11,Q3,Hampshire and Isle of Wight,outdoors,1,1
+2010/11,Q3,Humberside,dwellings,3,6
+2010/11,Q3,Humberside,road vehicles,1,1
+2010/11,Q3,Kent,outdoors,1,1
+2010/11,Q3,Lancashire,dwellings,3,3
+2010/11,Q3,Lancashire,other buildings,1,1
+2010/11,Q3,Leicestershire,dwellings,1,1
+2010/11,Q3,Merseyside,dwellings,2,2
+2010/11,Q3,Norfolk,dwellings,2,3
+2010/11,Q3,North Yorkshire,dwellings,2,2
+2010/11,Q3,Northamptonshire,dwellings,2,2
+2010/11,Q3,Nottinghamshire,dwellings,2,2
+2010/11,Q3,Oxfordshire,dwellings,2,2
+2010/11,Q3,Oxfordshire,road vehicles,1,1
+2010/11,Q3,South Yorkshire,outdoors,1,1
+2010/11,Q3,Staffordshire,dwellings,6,6
+2010/11,Q3,Suffolk,dwellings,1,1
+2010/11,Q3,Surrey,dwellings,2,2
+2010/11,Q3,Surrey,other buildings,1,1
+2010/11,Q3,Warwickshire,dwellings,1,1
+2010/11,Q3,West Midlands,dwellings,3,5
+2010/11,Q3,West Sussex,dwellings,1,1
+2010/11,Q3,West Yorkshire,dwellings,4,4
+2010/11,Q3,West Yorkshire,outdoors,1,1
+2010/11,Q4,Avon,dwellings,2,3
+2010/11,Q4,Avon,other buildings,1,1
+2010/11,Q4,Avon,outdoors,1,1
+2010/11,Q4,Cambridgeshire,dwellings,1,2
+2010/11,Q4,Cambridgeshire,road vehicles,2,2
+2010/11,Q4,Cheshire,dwellings,1,1
+2010/11,Q4,Cheshire,outdoors,1,1
+2010/11,Q4,Cornwall,dwellings,1,1
+2010/11,Q4,Derbyshire,dwellings,2,5
+2010/11,Q4,Devon and Somerset,outdoors,1,2
+2010/11,Q4,Dorset and Wiltshire,other buildings,1,1
+2010/11,Q4,Dorset and Wiltshire,road vehicles,1,1
+2010/11,Q4,East Sussex,dwellings,1,1
+2010/11,Q4,Essex,dwellings,3,3
+2010/11,Q4,Gloucestershire,dwellings,2,2
+2010/11,Q4,Greater London,dwellings,15,18
+2010/11,Q4,Greater London,outdoors,1,1
+2010/11,Q4,Greater London,road vehicles,1,1
+2010/11,Q4,Greater Manchester,dwellings,2,2
+2010/11,Q4,Greater Manchester,outdoors,1,2
+2010/11,Q4,Greater Manchester,road vehicles,1,1
+2010/11,Q4,Kent,road vehicles,1,1
+2010/11,Q4,Lancashire,dwellings,4,4
+2010/11,Q4,Leicestershire,dwellings,5,5
+2010/11,Q4,Lincolnshire,other buildings,1,1
+2010/11,Q4,Merseyside,dwellings,1,1
+2010/11,Q4,Norfolk,dwellings,1,1
+2010/11,Q4,North Yorkshire,dwellings,1,1
+2010/11,Q4,Northamptonshire,dwellings,1,1
+2010/11,Q4,Northumberland,dwellings,1,1
+2010/11,Q4,Nottinghamshire,dwellings,3,3
+2010/11,Q4,Oxfordshire,dwellings,1,1
+2010/11,Q4,South Yorkshire,dwellings,1,1
+2010/11,Q4,Staffordshire,dwellings,1,1
+2010/11,Q4,Staffordshire,road vehicles,1,1
+2010/11,Q4,Surrey,dwellings,1,1
+2010/11,Q4,Surrey,road vehicles,1,1
+2010/11,Q4,Tyne and Wear,dwellings,2,2
+2010/11,Q4,Warwickshire,dwellings,1,1
+2010/11,Q4,Warwickshire,road vehicles,2,2
+2010/11,Q4,West Midlands,dwellings,3,3
+2010/11,Q4,West Midlands,outdoors,1,1
+2010/11,Q4,West Midlands,road vehicles,1,1
+2010/11,Q4,West Sussex,dwellings,1,1
+2010/11,Q4,West Sussex,road vehicles,1,1
+2010/11,Q4,West Yorkshire,dwellings,2,2
+2010/11,Q4,West Yorkshire,outdoors,1,1
+2011/12,Q1,Avon,dwellings,2,2
+2011/12,Q1,Bedfordshire,outdoors,1,1
+2011/12,Q1,Buckinghamshire,dwellings,3,3
+2011/12,Q1,Cambridgeshire,dwellings,1,1
+2011/12,Q1,Cheshire,dwellings,2,2
+2011/12,Q1,Cleveland,dwellings,2,3
+2011/12,Q1,Cumbria,dwellings,1,1
+2011/12,Q1,Derbyshire,dwellings,2,2
+2011/12,Q1,Devon and Somerset,dwellings,1,1
+2011/12,Q1,Dorset and Wiltshire,dwellings,1,1
+2011/12,Q1,Durham,dwellings,1,1
+2011/12,Q1,East Sussex,dwellings,2,2
+2011/12,Q1,Essex,dwellings,3,3
+2011/12,Q1,Essex,outdoors,1,1
+2011/12,Q1,Greater London,dwellings,9,9
+2011/12,Q1,Greater London,outdoors,1,1
+2011/12,Q1,Greater London,road vehicles,1,1
+2011/12,Q1,Greater Manchester,dwellings,3,3
+2011/12,Q1,Greater Manchester,other buildings,1,1
+2011/12,Q1,Hampshire and Isle of Wight,dwellings,1,1
+2011/12,Q1,Hampshire and Isle of Wight,outdoors,1,1
+2011/12,Q1,Hertfordshire,dwellings,2,2
+2011/12,Q1,Humberside,dwellings,2,3
+2011/12,Q1,Lancashire,dwellings,2,2
+2011/12,Q1,Merseyside,dwellings,2,2
+2011/12,Q1,Merseyside,road vehicles,1,1
+2011/12,Q1,North Yorkshire,outdoors,1,1
+2011/12,Q1,Northamptonshire,dwellings,1,1
+2011/12,Q1,Nottinghamshire,dwellings,1,2
+2011/12,Q1,Shropshire,dwellings,3,4
+2011/12,Q1,Shropshire,road vehicles,1,1
+2011/12,Q1,South Yorkshire,dwellings,1,1
+2011/12,Q1,South Yorkshire,other buildings,1,1
+2011/12,Q1,Staffordshire,dwellings,1,1
+2011/12,Q1,Staffordshire,road vehicles,1,1
+2011/12,Q1,Suffolk,other buildings,1,1
+2011/12,Q1,Tyne and Wear,dwellings,2,2
+2011/12,Q1,Warwickshire,road vehicles,1,1
+2011/12,Q1,West Midlands,dwellings,6,6
+2011/12,Q1,West Midlands,other buildings,1,1
+2011/12,Q1,West Midlands,outdoors,2,2
+2011/12,Q1,West Midlands,road vehicles,1,1
+2011/12,Q1,West Sussex,dwellings,1,1
+2011/12,Q1,West Yorkshire,dwellings,1,1
+2011/12,Q2,Berkshire,dwellings,1,1
+2011/12,Q2,Berkshire,outdoors,1,1
+2011/12,Q2,Cheshire,dwellings,1,2
+2011/12,Q2,Cumbria,dwellings,1,1
+2011/12,Q2,Derbyshire,road vehicles,1,1
+2011/12,Q2,Devon and Somerset,dwellings,2,2
+2011/12,Q2,East Sussex,dwellings,1,2
+2011/12,Q2,Greater London,dwellings,9,15
+2011/12,Q2,Greater London,other buildings,1,1
+2011/12,Q2,Greater London,outdoors,1,1
+2011/12,Q2,Greater Manchester,dwellings,3,4
+2011/12,Q2,Greater Manchester,outdoors,1,1
+2011/12,Q2,Hampshire and Isle of Wight,outdoors,1,1
+2011/12,Q2,Hampshire and Isle of Wight,road vehicles,1,1
+2011/12,Q2,Hereford and Worcester,dwellings,1,1
+2011/12,Q2,Humberside,dwellings,1,1
+2011/12,Q2,Kent,dwellings,2,4
+2011/12,Q2,Kent,outdoors,1,1
+2011/12,Q2,Kent,road vehicles,1,1
+2011/12,Q2,Lancashire,road vehicles,2,2
+2011/12,Q2,Leicestershire,other buildings,1,1
+2011/12,Q2,Lincolnshire,other buildings,1,5
+2011/12,Q2,Merseyside,dwellings,1,1
+2011/12,Q2,North Yorkshire,dwellings,1,1
+2011/12,Q2,Northamptonshire,dwellings,1,1
+2011/12,Q2,Northamptonshire,road vehicles,1,1
+2011/12,Q2,Nottinghamshire,dwellings,1,1
+2011/12,Q2,Oxfordshire,road vehicles,1,2
+2011/12,Q2,Shropshire,dwellings,1,1
+2011/12,Q2,Shropshire,road vehicles,1,1
+2011/12,Q2,Staffordshire,dwellings,1,1
+2011/12,Q2,Staffordshire,other buildings,1,1
+2011/12,Q2,Staffordshire,outdoors,2,2
+2011/12,Q2,Surrey,dwellings,1,1
+2011/12,Q2,Tyne and Wear,dwellings,1,1
+2011/12,Q2,West Midlands,dwellings,6,6
+2011/12,Q2,West Midlands,other buildings,2,2
+2011/12,Q2,West Sussex,outdoors,1,1
+2011/12,Q2,West Yorkshire,dwellings,1,1
+2011/12,Q2,West Yorkshire,other buildings,1,1
+2011/12,Q3,Avon,dwellings,1,1
+2011/12,Q3,Avon,outdoors,1,1
+2011/12,Q3,Bedfordshire,dwellings,1,1
+2011/12,Q3,Buckinghamshire,outdoors,2,2
+2011/12,Q3,Cleveland,dwellings,1,1
+2011/12,Q3,Cleveland,other buildings,1,1
+2011/12,Q3,Cumbria,dwellings,2,2
+2011/12,Q3,Derbyshire,dwellings,3,3
+2011/12,Q3,Devon and Somerset,dwellings,4,4
+2011/12,Q3,Devon and Somerset,road vehicles,1,4
+2011/12,Q3,East Sussex,dwellings,3,3
+2011/12,Q3,Essex,dwellings,1,1
+2011/12,Q3,Essex,road vehicles,1,1
+2011/12,Q3,Greater London,dwellings,4,4
+2011/12,Q3,Greater London,outdoors,3,3
+2011/12,Q3,Greater Manchester,dwellings,3,3
+2011/12,Q3,Greater Manchester,outdoors,1,1
+2011/12,Q3,Hampshire and Isle of Wight,dwellings,1,1
+2011/12,Q3,Hereford and Worcester,dwellings,1,1
+2011/12,Q3,Hertfordshire,dwellings,1,1
+2011/12,Q3,Hertfordshire,road vehicles,1,1
+2011/12,Q3,Humberside,dwellings,2,2
+2011/12,Q3,Kent,dwellings,1,1
+2011/12,Q3,Lancashire,dwellings,2,2
+2011/12,Q3,Leicestershire,dwellings,2,2
+2011/12,Q3,Leicestershire,road vehicles,1,1
+2011/12,Q3,Lincolnshire,dwellings,1,1
+2011/12,Q3,Merseyside,dwellings,2,2
+2011/12,Q3,Northamptonshire,outdoors,1,1
+2011/12,Q3,Northumberland,dwellings,1,1
+2011/12,Q3,Northumberland,road vehicles,1,1
+2011/12,Q3,Nottinghamshire,dwellings,1,1
+2011/12,Q3,Shropshire,dwellings,1,1
+2011/12,Q3,Shropshire,road vehicles,2,2
+2011/12,Q3,Surrey,dwellings,1,1
+2011/12,Q3,Surrey,road vehicles,1,1
+2011/12,Q3,Warwickshire,road vehicles,1,1
+2011/12,Q3,West Midlands,dwellings,4,4
+2011/12,Q3,West Midlands,outdoors,1,1
+2011/12,Q3,West Sussex,dwellings,1,1
+2011/12,Q3,West Yorkshire,dwellings,2,2
+2011/12,Q4,Avon,dwellings,1,1
+2011/12,Q4,Berkshire,other buildings,1,1
+2011/12,Q4,Cheshire,dwellings,2,2
+2011/12,Q4,Cleveland,outdoors,1,1
+2011/12,Q4,Cumbria,dwellings,2,2
+2011/12,Q4,Cumbria,road vehicles,1,1
+2011/12,Q4,Derbyshire,dwellings,1,1
+2011/12,Q4,Dorset and Wiltshire,dwellings,1,1
+2011/12,Q4,Durham,dwellings,1,1
+2011/12,Q4,East Sussex,dwellings,3,3
+2011/12,Q4,Essex,dwellings,3,3
+2011/12,Q4,Greater London,dwellings,11,11
+2011/12,Q4,Greater London,road vehicles,1,1
+2011/12,Q4,Greater Manchester,dwellings,3,3
+2011/12,Q4,Hampshire and Isle of Wight,dwellings,1,1
+2011/12,Q4,Hereford and Worcester,dwellings,1,2
+2011/12,Q4,Hereford and Worcester,road vehicles,1,1
+2011/12,Q4,Hertfordshire,dwellings,2,2
+2011/12,Q4,Humberside,outdoors,1,1
+2011/12,Q4,Kent,dwellings,5,5
+2011/12,Q4,Lancashire,dwellings,3,6
+2011/12,Q4,Lancashire,outdoors,1,1
+2011/12,Q4,Leicestershire,dwellings,2,2
+2011/12,Q4,Lincolnshire,other buildings,1,1
+2011/12,Q4,Lincolnshire,outdoors,1,1
+2011/12,Q4,Lincolnshire,road vehicles,1,1
+2011/12,Q4,Merseyside,dwellings,1,1
+2011/12,Q4,Norfolk,dwellings,2,2
+2011/12,Q4,North Yorkshire,dwellings,1,1
+2011/12,Q4,Northamptonshire,dwellings,1,1
+2011/12,Q4,Northumberland,dwellings,1,1
+2011/12,Q4,Northumberland,road vehicles,1,1
+2011/12,Q4,Oxfordshire,dwellings,1,1
+2011/12,Q4,Shropshire,dwellings,1,1
+2011/12,Q4,South Yorkshire,dwellings,3,3
+2011/12,Q4,Staffordshire,dwellings,3,4
+2011/12,Q4,Suffolk,dwellings,1,1
+2011/12,Q4,Surrey,dwellings,4,4
+2011/12,Q4,Surrey,other buildings,1,1
+2011/12,Q4,Warwickshire,road vehicles,1,1
+2011/12,Q4,West Midlands,dwellings,4,4
+2011/12,Q4,West Sussex,dwellings,2,2
+2011/12,Q4,West Yorkshire,dwellings,2,2
+2011/12,Q4,West Yorkshire,outdoors,1,1
+2012/13,Q1,Avon,dwellings,1,1
+2012/13,Q1,Avon,outdoors,1,2
+2012/13,Q1,Berkshire,dwellings,1,1
+2012/13,Q1,Buckinghamshire,road vehicles,1,2
+2012/13,Q1,Cambridgeshire,dwellings,1,1
+2012/13,Q1,Cambridgeshire,road vehicles,1,2
+2012/13,Q1,Cheshire,dwellings,2,2
+2012/13,Q1,Cleveland,outdoors,1,1
+2012/13,Q1,Cornwall,dwellings,1,1
+2012/13,Q1,Cornwall,outdoors,1,1
+2012/13,Q1,Derbyshire,dwellings,1,6
+2012/13,Q1,Derbyshire,other buildings,2,2
+2012/13,Q1,Devon and Somerset,dwellings,3,4
+2012/13,Q1,Dorset and Wiltshire,other buildings,1,1
+2012/13,Q1,Dorset and Wiltshire,outdoors,1,1
+2012/13,Q1,Dorset and Wiltshire,road vehicles,1,1
+2012/13,Q1,Durham,dwellings,1,1
+2012/13,Q1,East Sussex,dwellings,1,1
+2012/13,Q1,Essex,dwellings,1,1
+2012/13,Q1,Essex,outdoors,1,1
+2012/13,Q1,Essex,road vehicles,1,1
+2012/13,Q1,Gloucestershire,dwellings,1,1
+2012/13,Q1,Gloucestershire,outdoors,2,2
+2012/13,Q1,Greater London,dwellings,9,9
+2012/13,Q1,Greater Manchester,dwellings,4,4
+2012/13,Q1,Greater Manchester,outdoors,1,1
+2012/13,Q1,Hampshire and Isle of Wight,dwellings,2,2
+2012/13,Q1,Hampshire and Isle of Wight,outdoors,1,1
+2012/13,Q1,Hampshire and Isle of Wight,road vehicles,1,1
+2012/13,Q1,Hertfordshire,dwellings,1,1
+2012/13,Q1,Hertfordshire,road vehicles,1,1
+2012/13,Q1,Humberside,dwellings,2,2
+2012/13,Q1,Kent,other buildings,1,1
+2012/13,Q1,Lincolnshire,dwellings,2,2
+2012/13,Q1,Merseyside,dwellings,1,1
+2012/13,Q1,Norfolk,dwellings,2,2
+2012/13,Q1,Northamptonshire,dwellings,2,2
+2012/13,Q1,Northamptonshire,road vehicles,1,1
+2012/13,Q1,Northumberland,dwellings,1,1
+2012/13,Q1,Northumberland,road vehicles,1,1
+2012/13,Q1,Nottinghamshire,dwellings,2,2
+2012/13,Q1,Oxfordshire,road vehicles,1,2
+2012/13,Q1,Shropshire,dwellings,1,1
+2012/13,Q1,South Yorkshire,dwellings,2,2
+2012/13,Q1,Staffordshire,dwellings,1,1
+2012/13,Q1,Staffordshire,outdoors,1,1
+2012/13,Q1,West Midlands,dwellings,1,1
+2012/13,Q1,West Midlands,other buildings,1,1
+2012/13,Q1,West Midlands,road vehicles,2,2
+2012/13,Q1,West Sussex,dwellings,2,2
+2012/13,Q2,Avon,dwellings,1,1
+2012/13,Q2,Bedfordshire,dwellings,1,1
+2012/13,Q2,Berkshire,dwellings,1,1
+2012/13,Q2,Buckinghamshire,other buildings,1,1
+2012/13,Q2,Buckinghamshire,road vehicles,1,1
+2012/13,Q2,Cambridgeshire,dwellings,1,1
+2012/13,Q2,Cumbria,road vehicles,1,1
+2012/13,Q2,Derbyshire,dwellings,1,1
+2012/13,Q2,Devon and Somerset,dwellings,2,2
+2012/13,Q2,Devon and Somerset,road vehicles,1,1
+2012/13,Q2,Dorset and Wiltshire,dwellings,2,2
+2012/13,Q2,Dorset and Wiltshire,outdoors,1,1
+2012/13,Q2,Dorset and Wiltshire,road vehicles,1,1
+2012/13,Q2,East Sussex,dwellings,1,1
+2012/13,Q2,Essex,dwellings,1,1
+2012/13,Q2,Greater London,dwellings,7,8
+2012/13,Q2,Greater Manchester,dwellings,2,2
+2012/13,Q2,Greater Manchester,outdoors,1,1
+2012/13,Q2,Greater Manchester,road vehicles,1,1
+2012/13,Q2,Hampshire and Isle of Wight,dwellings,2,2
+2012/13,Q2,Humberside,dwellings,1,1
+2012/13,Q2,Kent,dwellings,1,1
+2012/13,Q2,Lancashire,dwellings,2,2
+2012/13,Q2,Lincolnshire,outdoors,1,1
+2012/13,Q2,Merseyside,dwellings,1,1
+2012/13,Q2,Nottinghamshire,dwellings,2,2
+2012/13,Q2,Oxfordshire,dwellings,1,1
+2012/13,Q2,Staffordshire,dwellings,1,1
+2012/13,Q2,Surrey,outdoors,1,1
+2012/13,Q2,West Midlands,dwellings,2,2
+2012/13,Q2,West Yorkshire,dwellings,2,2
+2012/13,Q3,Avon,dwellings,2,2
+2012/13,Q3,Bedfordshire,dwellings,1,1
+2012/13,Q3,Berkshire,dwellings,2,2
+2012/13,Q3,Cheshire,dwellings,1,1
+2012/13,Q3,Cumbria,dwellings,1,1
+2012/13,Q3,Cumbria,outdoors,1,1
+2012/13,Q3,Devon and Somerset,dwellings,3,3
+2012/13,Q3,Dorset and Wiltshire,dwellings,3,3
+2012/13,Q3,Durham,dwellings,1,1
+2012/13,Q3,East Sussex,other buildings,1,1
+2012/13,Q3,Essex,dwellings,2,7
+2012/13,Q3,Essex,road vehicles,1,1
+2012/13,Q3,Gloucestershire,road vehicles,1,1
+2012/13,Q3,Greater London,dwellings,10,10
+2012/13,Q3,Greater London,outdoors,1,2
+2012/13,Q3,Greater London,road vehicles,1,1
+2012/13,Q3,Greater Manchester,dwellings,2,2
+2012/13,Q3,Greater Manchester,outdoors,1,1
+2012/13,Q3,Hampshire and Isle of Wight,dwellings,2,2
+2012/13,Q3,Hereford and Worcester,outdoors,1,1
+2012/13,Q3,Kent,dwellings,2,2
+2012/13,Q3,Lancashire,dwellings,2,2
+2012/13,Q3,Leicestershire,dwellings,1,1
+2012/13,Q3,Lincolnshire,dwellings,1,1
+2012/13,Q3,Lincolnshire,road vehicles,1,1
+2012/13,Q3,Merseyside,other buildings,1,1
+2012/13,Q3,Norfolk,dwellings,1,1
+2012/13,Q3,North Yorkshire,dwellings,1,1
+2012/13,Q3,Nottinghamshire,dwellings,1,1
+2012/13,Q3,Oxfordshire,dwellings,1,1
+2012/13,Q3,Shropshire,dwellings,1,1
+2012/13,Q3,Shropshire,other buildings,1,1
+2012/13,Q3,South Yorkshire,dwellings,1,1
+2012/13,Q3,Staffordshire,dwellings,1,1
+2012/13,Q3,Suffolk,dwellings,1,1
+2012/13,Q3,Surrey,dwellings,1,1
+2012/13,Q3,Warwickshire,road vehicles,1,1
+2012/13,Q3,West Midlands,dwellings,2,2
+2012/13,Q3,West Midlands,outdoors,1,1
+2012/13,Q3,West Midlands,road vehicles,1,1
+2012/13,Q3,West Sussex,dwellings,2,2
+2012/13,Q3,West Yorkshire,dwellings,1,1
+2012/13,Q4,Avon,dwellings,1,1
+2012/13,Q4,Bedfordshire,dwellings,1,1
+2012/13,Q4,Berkshire,dwellings,1,1
+2012/13,Q4,Buckinghamshire,dwellings,1,1
+2012/13,Q4,Cheshire,dwellings,1,1
+2012/13,Q4,Cleveland,road vehicles,1,1
+2012/13,Q4,Cornwall,dwellings,1,1
+2012/13,Q4,Cornwall,outdoors,1,1
+2012/13,Q4,Cumbria,dwellings,2,2
+2012/13,Q4,Derbyshire,dwellings,1,1
+2012/13,Q4,Devon and Somerset,dwellings,1,1
+2012/13,Q4,Devon and Somerset,road vehicles,1,1
+2012/13,Q4,Dorset and Wiltshire,dwellings,2,2
+2012/13,Q4,Durham,dwellings,1,1
+2012/13,Q4,Durham,other buildings,1,1
+2012/13,Q4,East Sussex,dwellings,1,1
+2012/13,Q4,Essex,road vehicles,1,1
+2012/13,Q4,Greater London,dwellings,10,10
+2012/13,Q4,Greater London,other buildings,3,3
+2012/13,Q4,Greater London,outdoors,1,1
+2012/13,Q4,Greater Manchester,dwellings,4,4
+2012/13,Q4,Greater Manchester,road vehicles,2,2
+2012/13,Q4,Hampshire and Isle of Wight,dwellings,1,1
+2012/13,Q4,Hampshire and Isle of Wight,road vehicles,2,2
+2012/13,Q4,Hereford and Worcester,other buildings,1,1
+2012/13,Q4,Hereford and Worcester,road vehicles,1,1
+2012/13,Q4,Hertfordshire,dwellings,2,2
+2012/13,Q4,Kent,road vehicles,1,1
+2012/13,Q4,Lancashire,dwellings,2,2
+2012/13,Q4,Leicestershire,dwellings,4,4
+2012/13,Q4,Merseyside,dwellings,5,5
+2012/13,Q4,Norfolk,dwellings,1,1
+2012/13,Q4,Northumberland,dwellings,1,1
+2012/13,Q4,Oxfordshire,dwellings,2,2
+2012/13,Q4,South Yorkshire,dwellings,2,2
+2012/13,Q4,South Yorkshire,road vehicles,1,1
+2012/13,Q4,Staffordshire,dwellings,1,1
+2012/13,Q4,Suffolk,dwellings,1,1
+2012/13,Q4,Suffolk,outdoors,1,1
+2012/13,Q4,Surrey,dwellings,4,4
+2012/13,Q4,Tyne and Wear,dwellings,1,1
+2012/13,Q4,West Midlands,dwellings,7,7
+2012/13,Q4,West Midlands,outdoors,1,1
+2012/13,Q4,West Sussex,dwellings,3,3
+2012/13,Q4,West Yorkshire,dwellings,1,1
+2012/13,Q4,West Yorkshire,other buildings,1,1
+2013/14,Q1,Avon,dwellings,1,1
+2013/14,Q1,Buckinghamshire,dwellings,2,2
+2013/14,Q1,Cheshire,dwellings,1,1
+2013/14,Q1,Cleveland,dwellings,2,3
+2013/14,Q1,Cornwall,road vehicles,1,1
+2013/14,Q1,Cumbria,dwellings,1,1
+2013/14,Q1,Devon and Somerset,dwellings,3,5
+2013/14,Q1,Devon and Somerset,outdoors,1,1
+2013/14,Q1,Dorset and Wiltshire,dwellings,2,2
+2013/14,Q1,Durham,dwellings,1,1
+2013/14,Q1,East Sussex,dwellings,1,1
+2013/14,Q1,Essex,dwellings,1,1
+2013/14,Q1,Gloucestershire,dwellings,2,2
+2013/14,Q1,Greater London,dwellings,14,16
+2013/14,Q1,Greater London,other buildings,2,2
+2013/14,Q1,Greater Manchester,dwellings,1,1
+2013/14,Q1,Hereford and Worcester,dwellings,1,1
+2013/14,Q1,Hertfordshire,dwellings,1,1
+2013/14,Q1,Kent,outdoors,3,3
+2013/14,Q1,Lancashire,dwellings,2,2
+2013/14,Q1,Lincolnshire,dwellings,1,1
+2013/14,Q1,Merseyside,dwellings,1,1
+2013/14,Q1,Norfolk,dwellings,3,3
+2013/14,Q1,Norfolk,outdoors,1,1
+2013/14,Q1,North Yorkshire,dwellings,2,2
+2013/14,Q1,North Yorkshire,road vehicles,1,2
+2013/14,Q1,Nottinghamshire,dwellings,1,2
+2013/14,Q1,Staffordshire,dwellings,1,1
+2013/14,Q1,Suffolk,dwellings,2,2
+2013/14,Q1,Warwickshire,dwellings,1,1
+2013/14,Q1,West Midlands,dwellings,8,8
+2013/14,Q1,West Midlands,other buildings,1,1
+2013/14,Q1,West Sussex,dwellings,2,3
+2013/14,Q1,West Yorkshire,dwellings,5,5
+2013/14,Q2,Berkshire,dwellings,1,1
+2013/14,Q2,Cambridgeshire,dwellings,3,3
+2013/14,Q2,Cambridgeshire,road vehicles,1,1
+2013/14,Q2,Cheshire,road vehicles,1,1
+2013/14,Q2,Cleveland,dwellings,1,1
+2013/14,Q2,Derbyshire,dwellings,3,3
+2013/14,Q2,Devon and Somerset,dwellings,1,1
+2013/14,Q2,Devon and Somerset,road vehicles,1,1
+2013/14,Q2,Dorset and Wiltshire,dwellings,1,1
+2013/14,Q2,Durham,dwellings,2,2
+2013/14,Q2,Essex,dwellings,1,1
+2013/14,Q2,Essex,other buildings,1,1
+2013/14,Q2,Gloucestershire,road vehicles,1,1
+2013/14,Q2,Greater London,dwellings,6,7
+2013/14,Q2,Greater London,other buildings,1,1
+2013/14,Q2,Hampshire and Isle of Wight,dwellings,1,1
+2013/14,Q2,Hereford and Worcester,dwellings,2,2
+2013/14,Q2,Hereford and Worcester,other buildings,1,1
+2013/14,Q2,Humberside,dwellings,1,1
+2013/14,Q2,Kent,dwellings,1,1
+2013/14,Q2,Kent,outdoors,1,1
+2013/14,Q2,Kent,road vehicles,1,1
+2013/14,Q2,Leicestershire,dwellings,2,5
+2013/14,Q2,Leicestershire,road vehicles,1,1
+2013/14,Q2,Merseyside,dwellings,2,3
+2013/14,Q2,Norfolk,dwellings,1,1
+2013/14,Q2,North Yorkshire,dwellings,1,1
+2013/14,Q2,North Yorkshire,road vehicles,2,2
+2013/14,Q2,Northumberland,dwellings,1,1
+2013/14,Q2,Staffordshire,dwellings,1,2
+2013/14,Q2,Staffordshire,outdoors,1,1
+2013/14,Q2,Suffolk,dwellings,1,1
+2013/14,Q2,Surrey,dwellings,2,2
+2013/14,Q2,Surrey,other buildings,1,1
+2013/14,Q2,Tyne and Wear,dwellings,1,1
+2013/14,Q2,West Midlands,dwellings,1,1
+2013/14,Q2,West Midlands,outdoors,1,1
+2013/14,Q2,West Sussex,dwellings,1,1
+2013/14,Q2,West Sussex,road vehicles,1,1
+2013/14,Q2,West Yorkshire,other buildings,1,1
+2013/14,Q2,West Yorkshire,road vehicles,1,1
+2013/14,Q3,Avon,dwellings,1,1
+2013/14,Q3,Cambridgeshire,dwellings,1,1
+2013/14,Q3,Cumbria,dwellings,1,1
+2013/14,Q3,Derbyshire,dwellings,1,4
+2013/14,Q3,Derbyshire,other buildings,2,2
+2013/14,Q3,Devon and Somerset,dwellings,3,3
+2013/14,Q3,East Sussex,dwellings,3,3
+2013/14,Q3,Essex,road vehicles,1,2
+2013/14,Q3,Gloucestershire,dwellings,2,2
+2013/14,Q3,Gloucestershire,road vehicles,1,1
+2013/14,Q3,Greater London,dwellings,5,6
+2013/14,Q3,Greater London,outdoors,1,1
+2013/14,Q3,Greater London,road vehicles,2,2
+2013/14,Q3,Greater Manchester,dwellings,7,8
+2013/14,Q3,Hampshire and Isle of Wight,dwellings,1,1
+2013/14,Q3,Hertfordshire,road vehicles,2,3
+2013/14,Q3,Humberside,dwellings,2,2
+2013/14,Q3,Kent,dwellings,1,1
+2013/14,Q3,Kent,other buildings,1,1
+2013/14,Q3,Kent,outdoors,1,1
+2013/14,Q3,Lancashire,dwellings,2,2
+2013/14,Q3,Leicestershire,dwellings,1,1
+2013/14,Q3,Merseyside,dwellings,3,3
+2013/14,Q3,North Yorkshire,road vehicles,1,3
+2013/14,Q3,Northumberland,dwellings,1,1
+2013/14,Q3,South Yorkshire,dwellings,2,2
+2013/14,Q3,Staffordshire,dwellings,1,1
+2013/14,Q3,Tyne and Wear,dwellings,1,1
+2013/14,Q3,West Midlands,dwellings,5,5
+2013/14,Q3,West Sussex,dwellings,1,1
+2013/14,Q3,West Yorkshire,dwellings,3,3
+2013/14,Q4,Berkshire,dwellings,1,1
+2013/14,Q4,Berkshire,other buildings,1,1
+2013/14,Q4,Cheshire,dwellings,1,1
+2013/14,Q4,Cleveland,dwellings,1,1
+2013/14,Q4,Cornwall,dwellings,1,1
+2013/14,Q4,Cumbria,dwellings,1,1
+2013/14,Q4,Devon and Somerset,dwellings,3,3
+2013/14,Q4,Dorset and Wiltshire,dwellings,1,1
+2013/14,Q4,Durham,dwellings,1,1
+2013/14,Q4,East Sussex,dwellings,1,1
+2013/14,Q4,Essex,outdoors,2,3
+2013/14,Q4,Essex,road vehicles,1,1
+2013/14,Q4,Gloucestershire,dwellings,1,1
+2013/14,Q4,Greater London,dwellings,6,6
+2013/14,Q4,Greater London,other buildings,1,1
+2013/14,Q4,Greater London,road vehicles,1,1
+2013/14,Q4,Greater Manchester,dwellings,1,1
+2013/14,Q4,Greater Manchester,other buildings,1,1
+2013/14,Q4,Greater Manchester,outdoors,1,1
+2013/14,Q4,Hampshire and Isle of Wight,dwellings,2,2
+2013/14,Q4,Hereford and Worcester,dwellings,2,2
+2013/14,Q4,Lancashire,dwellings,1,1
+2013/14,Q4,Lancashire,road vehicles,1,1
+2013/14,Q4,Leicestershire,dwellings,1,1
+2013/14,Q4,Leicestershire,other buildings,1,1
+2013/14,Q4,Leicestershire,road vehicles,1,1
+2013/14,Q4,Lincolnshire,dwellings,3,3
+2013/14,Q4,Merseyside,dwellings,3,3
+2013/14,Q4,Nottinghamshire,road vehicles,1,2
+2013/14,Q4,Oxfordshire,dwellings,2,2
+2013/14,Q4,Shropshire,dwellings,1,1
+2013/14,Q4,South Yorkshire,dwellings,3,3
+2013/14,Q4,Staffordshire,dwellings,2,2
+2013/14,Q4,Suffolk,dwellings,1,1
+2013/14,Q4,Surrey,dwellings,1,1
+2013/14,Q4,Tyne and Wear,dwellings,3,3
+2013/14,Q4,Warwickshire,road vehicles,1,1
+2013/14,Q4,West Midlands,dwellings,2,2
+2013/14,Q4,West Sussex,dwellings,1,1
+2013/14,Q4,West Sussex,other buildings,1,1
+2013/14,Q4,West Yorkshire,dwellings,1,1
+2014/15,Q1,Avon,dwellings,1,1
+2014/15,Q1,Cambridgeshire,dwellings,1,1
+2014/15,Q1,Cheshire,road vehicles,1,1
+2014/15,Q1,Cleveland,dwellings,1,1
+2014/15,Q1,Cornwall,dwellings,1,1
+2014/15,Q1,Devon and Somerset,dwellings,1,1
+2014/15,Q1,Devon and Somerset,road vehicles,1,1
+2014/15,Q1,Dorset and Wiltshire,road vehicles,1,1
+2014/15,Q1,Essex,dwellings,1,1
+2014/15,Q1,Greater London,dwellings,4,4
+2014/15,Q1,Greater Manchester,dwellings,1,1
+2014/15,Q1,Greater Manchester,road vehicles,1,1
+2014/15,Q1,Hampshire and Isle of Wight,road vehicles,1,1
+2014/15,Q1,Hertfordshire,dwellings,2,2
+2014/15,Q1,Humberside,dwellings,1,1
+2014/15,Q1,Kent,dwellings,1,1
+2014/15,Q1,Kent,other buildings,2,2
+2014/15,Q1,Lancashire,dwellings,1,1
+2014/15,Q1,Lancashire,outdoors,1,1
+2014/15,Q1,Merseyside,dwellings,2,3
+2014/15,Q1,Norfolk,road vehicles,1,1
+2014/15,Q1,Nottinghamshire,dwellings,2,2
+2014/15,Q1,Shropshire,outdoors,1,1
+2014/15,Q1,South Yorkshire,dwellings,1,5
+2014/15,Q1,Staffordshire,dwellings,2,2
+2014/15,Q1,Suffolk,road vehicles,1,1
+2014/15,Q1,Surrey,dwellings,1,1
+2014/15,Q1,Tyne and Wear,dwellings,1,1
+2014/15,Q1,Warwickshire,road vehicles,1,1
+2014/15,Q1,West Midlands,dwellings,1,1
+2014/15,Q1,West Midlands,road vehicles,2,2
+2014/15,Q1,West Yorkshire,dwellings,3,3
+2014/15,Q2,Avon,dwellings,1,1
+2014/15,Q2,Cambridgeshire,dwellings,2,2
+2014/15,Q2,Cambridgeshire,outdoors,1,1
+2014/15,Q2,Cheshire,dwellings,1,1
+2014/15,Q2,Cleveland,dwellings,1,1
+2014/15,Q2,Cornwall,road vehicles,1,1
+2014/15,Q2,Cumbria,dwellings,1,1
+2014/15,Q2,Cumbria,other buildings,1,2
+2014/15,Q2,Derbyshire,dwellings,1,1
+2014/15,Q2,Devon and Somerset,dwellings,1,1
+2014/15,Q2,Devon and Somerset,other buildings,1,1
+2014/15,Q2,Dorset and Wiltshire,dwellings,3,3
+2014/15,Q2,Dorset and Wiltshire,road vehicles,1,3
+2014/15,Q2,Durham,road vehicles,1,1
+2014/15,Q2,Greater London,dwellings,9,9
+2014/15,Q2,Greater London,outdoors,1,1
+2014/15,Q2,Hampshire and Isle of Wight,dwellings,2,2
+2014/15,Q2,Hertfordshire,road vehicles,1,1
+2014/15,Q2,Humberside,dwellings,2,2
+2014/15,Q2,Humberside,road vehicles,2,2
+2014/15,Q2,Kent,dwellings,1,1
+2014/15,Q2,Lincolnshire,outdoors,1,1
+2014/15,Q2,Merseyside,dwellings,2,2
+2014/15,Q2,Norfolk,dwellings,2,2
+2014/15,Q2,North Yorkshire,road vehicles,1,1
+2014/15,Q2,Northamptonshire,outdoors,1,1
+2014/15,Q2,Oxfordshire,dwellings,1,1
+2014/15,Q2,Shropshire,dwellings,1,1
+2014/15,Q2,South Yorkshire,dwellings,1,1
+2014/15,Q2,Staffordshire,dwellings,1,1
+2014/15,Q2,Suffolk,outdoors,1,1
+2014/15,Q2,West Midlands,dwellings,6,6
+2014/15,Q2,West Midlands,outdoors,1,1
+2014/15,Q2,West Midlands,road vehicles,1,1
+2014/15,Q2,West Yorkshire,dwellings,1,1
+2014/15,Q2,West Yorkshire,outdoors,1,1
+2014/15,Q2,West Yorkshire,road vehicles,1,1
+2014/15,Q3,Avon,dwellings,1,1
+2014/15,Q3,Berkshire,dwellings,2,2
+2014/15,Q3,Buckinghamshire,other buildings,1,1
+2014/15,Q3,Buckinghamshire,road vehicles,1,1
+2014/15,Q3,Cambridgeshire,dwellings,1,1
+2014/15,Q3,Cheshire,dwellings,1,1
+2014/15,Q3,Cornwall,dwellings,1,1
+2014/15,Q3,Dorset and Wiltshire,dwellings,4,4
+2014/15,Q3,Dorset and Wiltshire,outdoors,1,1
+2014/15,Q3,East Sussex,other buildings,1,1
+2014/15,Q3,Essex,dwellings,1,1
+2014/15,Q3,Gloucestershire,dwellings,1,1
+2014/15,Q3,Gloucestershire,road vehicles,1,1
+2014/15,Q3,Greater London,dwellings,6,7
+2014/15,Q3,Greater Manchester,dwellings,3,3
+2014/15,Q3,Greater Manchester,other buildings,1,1
+2014/15,Q3,Hampshire and Isle of Wight,dwellings,1,1
+2014/15,Q3,Hereford and Worcester,dwellings,1,1
+2014/15,Q3,Hertfordshire,dwellings,1,1
+2014/15,Q3,Hertfordshire,road vehicles,1,1
+2014/15,Q3,Humberside,dwellings,1,1
+2014/15,Q3,Kent,road vehicles,1,1
+2014/15,Q3,Lancashire,dwellings,1,1
+2014/15,Q3,Leicestershire,outdoors,1,1
+2014/15,Q3,Merseyside,dwellings,4,4
+2014/15,Q3,Norfolk,dwellings,2,2
+2014/15,Q3,Norfolk,road vehicles,1,1
+2014/15,Q3,North Yorkshire,dwellings,1,1
+2014/15,Q3,Nottinghamshire,dwellings,2,2
+2014/15,Q3,Oxfordshire,dwellings,1,1
+2014/15,Q3,Oxfordshire,road vehicles,1,1
+2014/15,Q3,South Yorkshire,dwellings,1,3
+2014/15,Q3,Staffordshire,other buildings,1,2
+2014/15,Q3,Surrey,dwellings,3,5
+2014/15,Q3,Tyne and Wear,dwellings,1,1
+2014/15,Q3,Tyne and Wear,outdoors,1,1
+2014/15,Q3,West Midlands,dwellings,8,8
+2014/15,Q3,West Sussex,road vehicles,1,1
+2014/15,Q3,West Yorkshire,dwellings,1,1
+2014/15,Q4,Avon,dwellings,4,4
+2014/15,Q4,Bedfordshire,dwellings,1,1
+2014/15,Q4,Berkshire,dwellings,1,1
+2014/15,Q4,Buckinghamshire,dwellings,3,3
+2014/15,Q4,Buckinghamshire,road vehicles,1,1
+2014/15,Q4,Cheshire,dwellings,1,1
+2014/15,Q4,Cheshire,other buildings,1,1
+2014/15,Q4,Cornwall,dwellings,1,1
+2014/15,Q4,Cumbria,dwellings,1,1
+2014/15,Q4,Derbyshire,dwellings,1,1
+2014/15,Q4,Devon and Somerset,dwellings,6,6
+2014/15,Q4,Durham,dwellings,1,1
+2014/15,Q4,East Sussex,dwellings,1,1
+2014/15,Q4,Greater London,dwellings,5,5
+2014/15,Q4,Greater London,other buildings,2,2
+2014/15,Q4,Greater London,outdoors,1,1
+2014/15,Q4,Greater London,road vehicles,1,1
+2014/15,Q4,Greater Manchester,dwellings,5,5
+2014/15,Q4,Hampshire and Isle of Wight,dwellings,3,3
+2014/15,Q4,Hereford and Worcester,dwellings,1,1
+2014/15,Q4,Hertfordshire,other buildings,1,1
+2014/15,Q4,Hertfordshire,road vehicles,2,2
+2014/15,Q4,Humberside,dwellings,1,1
+2014/15,Q4,Kent,dwellings,2,2
+2014/15,Q4,Lancashire,dwellings,3,3
+2014/15,Q4,Leicestershire,other buildings,1,1
+2014/15,Q4,Lincolnshire,dwellings,1,1
+2014/15,Q4,Merseyside,dwellings,4,4
+2014/15,Q4,Norfolk,dwellings,3,3
+2014/15,Q4,Norfolk,road vehicles,1,1
+2014/15,Q4,Northamptonshire,outdoors,1,1
+2014/15,Q4,Northamptonshire,road vehicles,1,1
+2014/15,Q4,Nottinghamshire,dwellings,1,1
+2014/15,Q4,Oxfordshire,other buildings,2,2
+2014/15,Q4,South Yorkshire,dwellings,1,1
+2014/15,Q4,Staffordshire,dwellings,2,2
+2014/15,Q4,Suffolk,dwellings,2,2
+2014/15,Q4,Surrey,dwellings,3,3
+2014/15,Q4,Surrey,other buildings,1,1
+2014/15,Q4,Warwickshire,dwellings,1,1
+2014/15,Q4,Warwickshire,road vehicles,1,1
+2014/15,Q4,West Midlands,dwellings,2,2
+2014/15,Q4,West Sussex,other buildings,1,1
+2014/15,Q4,West Sussex,outdoors,1,1
+2014/15,Q4,West Sussex,road vehicles,1,1
+2014/15,Q4,West Yorkshire,dwellings,4,4
+2015/16,Q1,Bedfordshire,road vehicles,1,3
+2015/16,Q1,Berkshire,road vehicles,1,1
+2015/16,Q1,Buckinghamshire,dwellings,2,2
+2015/16,Q1,Cambridgeshire,dwellings,1,1
+2015/16,Q1,Cumbria,dwellings,2,2
+2015/16,Q1,Derbyshire,dwellings,1,3
+2015/16,Q1,Devon and Somerset,dwellings,4,4
+2015/16,Q1,Dorset and Wiltshire,dwellings,2,2
+2015/16,Q1,Dorset and Wiltshire,outdoors,1,1
+2015/16,Q1,Durham,dwellings,2,2
+2015/16,Q1,Essex,dwellings,2,2
+2015/16,Q1,Gloucestershire,dwellings,1,1
+2015/16,Q1,Greater London,dwellings,8,8
+2015/16,Q1,Greater London,other buildings,1,1
+2015/16,Q1,Greater London,road vehicles,2,2
+2015/16,Q1,Greater Manchester,dwellings,3,3
+2015/16,Q1,Greater Manchester,road vehicles,1,1
+2015/16,Q1,Humberside,dwellings,1,1
+2015/16,Q1,Lancashire,dwellings,1,1
+2015/16,Q1,Lancashire,outdoors,1,1
+2015/16,Q1,Leicestershire,dwellings,1,1
+2015/16,Q1,Lincolnshire,dwellings,2,2
+2015/16,Q1,Merseyside,dwellings,2,2
+2015/16,Q1,Norfolk,dwellings,1,1
+2015/16,Q1,Norfolk,outdoors,1,1
+2015/16,Q1,North Yorkshire,dwellings,3,3
+2015/16,Q1,Nottinghamshire,dwellings,2,2
+2015/16,Q1,South Yorkshire,road vehicles,1,1
+2015/16,Q1,Suffolk,dwellings,1,1
+2015/16,Q1,Surrey,dwellings,1,1
+2015/16,Q1,West Midlands,dwellings,3,3
+2015/16,Q1,West Midlands,outdoors,1,1
+2015/16,Q1,West Yorkshire,dwellings,4,4
+2015/16,Q1,West Yorkshire,other buildings,1,1
+2015/16,Q2,Avon,dwellings,1,1
+2015/16,Q2,Berkshire,dwellings,1,1
+2015/16,Q2,Cambridgeshire,road vehicles,1,1
+2015/16,Q2,Cheshire,other buildings,1,3
+2015/16,Q2,Cheshire,outdoors,1,1
+2015/16,Q2,Cornwall,dwellings,1,1
+2015/16,Q2,Cumbria,dwellings,3,3
+2015/16,Q2,Derbyshire,dwellings,2,2
+2015/16,Q2,Durham,dwellings,1,1
+2015/16,Q2,East Sussex,dwellings,1,1
+2015/16,Q2,East Sussex,other buildings,1,3
+2015/16,Q2,Greater London,dwellings,5,5
+2015/16,Q2,Greater Manchester,dwellings,1,1
+2015/16,Q2,Greater Manchester,road vehicles,1,1
+2015/16,Q2,Hampshire and Isle of Wight,dwellings,2,2
+2015/16,Q2,Hampshire and Isle of Wight,outdoors,1,4
+2015/16,Q2,Hampshire and Isle of Wight,road vehicles,1,1
+2015/16,Q2,Hertfordshire,dwellings,1,1
+2015/16,Q2,Humberside,dwellings,1,1
+2015/16,Q2,Kent,dwellings,1,1
+2015/16,Q2,Lancashire,dwellings,3,3
+2015/16,Q2,Leicestershire,dwellings,2,2
+2015/16,Q2,Lincolnshire,dwellings,1,2
+2015/16,Q2,Merseyside,dwellings,4,4
+2015/16,Q2,Norfolk,dwellings,3,3
+2015/16,Q2,Norfolk,other buildings,1,2
+2015/16,Q2,Oxfordshire,road vehicles,1,2
+2015/16,Q2,South Yorkshire,dwellings,3,4
+2015/16,Q2,West Midlands,dwellings,3,3
+2015/16,Q2,West Midlands,other buildings,1,1
+2015/16,Q2,West Sussex,outdoors,1,11
+2015/16,Q2,West Yorkshire,dwellings,6,6
+2015/16,Q3,Avon,dwellings,1,1
+2015/16,Q3,Bedfordshire,dwellings,1,2
+2015/16,Q3,Berkshire,dwellings,3,3
+2015/16,Q3,Berkshire,other buildings,1,1
+2015/16,Q3,Buckinghamshire,dwellings,1,1
+2015/16,Q3,Cambridgeshire,dwellings,3,3
+2015/16,Q3,Cleveland,dwellings,1,1
+2015/16,Q3,Cumbria,dwellings,1,1
+2015/16,Q3,Devon and Somerset,dwellings,2,2
+2015/16,Q3,Dorset and Wiltshire,dwellings,3,3
+2015/16,Q3,Essex,dwellings,1,1
+2015/16,Q3,Essex,outdoors,1,2
+2015/16,Q3,Greater London,dwellings,5,5
+2015/16,Q3,Greater London,other buildings,1,1
+2015/16,Q3,Greater London,road vehicles,1,1
+2015/16,Q3,Greater Manchester,dwellings,3,3
+2015/16,Q3,Hereford and Worcester,dwellings,1,1
+2015/16,Q3,Hertfordshire,dwellings,1,1
+2015/16,Q3,Hertfordshire,other buildings,1,2
+2015/16,Q3,Humberside,dwellings,1,1
+2015/16,Q3,Kent,dwellings,1,1
+2015/16,Q3,Kent,road vehicles,1,1
+2015/16,Q3,Lancashire,dwellings,1,1
+2015/16,Q3,Lancashire,other buildings,1,1
+2015/16,Q3,Lincolnshire,other buildings,1,1
+2015/16,Q3,Merseyside,dwellings,3,4
+2015/16,Q3,Norfolk,dwellings,1,1
+2015/16,Q3,Northamptonshire,dwellings,1,1
+2015/16,Q3,Nottinghamshire,dwellings,2,2
+2015/16,Q3,South Yorkshire,dwellings,5,5
+2015/16,Q3,South Yorkshire,road vehicles,1,1
+2015/16,Q3,Staffordshire,dwellings,2,2
+2015/16,Q3,Suffolk,dwellings,1,1
+2015/16,Q3,Suffolk,road vehicles,1,2
+2015/16,Q3,Surrey,dwellings,1,1
+2015/16,Q3,Tyne and Wear,dwellings,1,1
+2015/16,Q3,Tyne and Wear,other buildings,1,1
+2015/16,Q3,West Midlands,dwellings,1,1
+2015/16,Q3,West Midlands,outdoors,1,1
+2015/16,Q3,West Midlands,road vehicles,1,1
+2015/16,Q3,West Sussex,dwellings,1,1
+2015/16,Q3,West Yorkshire,dwellings,1,1
+2015/16,Q4,Avon,dwellings,1,1
+2015/16,Q4,Buckinghamshire,dwellings,1,1
+2015/16,Q4,Cambridgeshire,dwellings,2,3
+2015/16,Q4,Cambridgeshire,road vehicles,1,1
+2015/16,Q4,Cheshire,dwellings,2,2
+2015/16,Q4,Cornwall,dwellings,1,1
+2015/16,Q4,Cumbria,dwellings,1,1
+2015/16,Q4,Cumbria,road vehicles,1,1
+2015/16,Q4,Derbyshire,dwellings,3,3
+2015/16,Q4,Derbyshire,other buildings,2,2
+2015/16,Q4,Devon and Somerset,dwellings,2,2
+2015/16,Q4,Dorset and Wiltshire,outdoors,1,1
+2015/16,Q4,Durham,dwellings,2,2
+2015/16,Q4,East Sussex,dwellings,1,1
+2015/16,Q4,Essex,dwellings,1,1
+2015/16,Q4,Essex,road vehicles,1,1
+2015/16,Q4,Gloucestershire,dwellings,2,2
+2015/16,Q4,Greater London,dwellings,8,8
+2015/16,Q4,Greater London,other buildings,2,2
+2015/16,Q4,Greater London,outdoors,3,3
+2015/16,Q4,Greater Manchester,dwellings,5,6
+2015/16,Q4,Greater Manchester,road vehicles,1,1
+2015/16,Q4,Hampshire and Isle of Wight,dwellings,1,1
+2015/16,Q4,Hampshire and Isle of Wight,other buildings,1,1
+2015/16,Q4,Humberside,dwellings,2,2
+2015/16,Q4,Kent,dwellings,1,1
+2015/16,Q4,Kent,outdoors,1,1
+2015/16,Q4,Kent,road vehicles,1,1
+2015/16,Q4,Lancashire,dwellings,2,2
+2015/16,Q4,Leicestershire,dwellings,2,2
+2015/16,Q4,Leicestershire,road vehicles,1,1
+2015/16,Q4,Merseyside,dwellings,2,4
+2015/16,Q4,Norfolk,dwellings,2,2
+2015/16,Q4,North Yorkshire,dwellings,3,3
+2015/16,Q4,North Yorkshire,road vehicles,1,1
+2015/16,Q4,Oxfordshire,dwellings,2,2
+2015/16,Q4,South Yorkshire,dwellings,3,3
+2015/16,Q4,Staffordshire,dwellings,2,2
+2015/16,Q4,Suffolk,dwellings,1,1
+2015/16,Q4,Surrey,dwellings,1,1
+2015/16,Q4,West Midlands,dwellings,5,5
+2015/16,Q4,West Sussex,dwellings,2,2
+2015/16,Q4,West Yorkshire,dwellings,6,9
+2016/17,Q1,Bedfordshire,dwellings,1,1
+2016/17,Q1,Cheshire,dwellings,1,1
+2016/17,Q1,Cleveland,outdoors,1,1
+2016/17,Q1,Cornwall,dwellings,2,2
+2016/17,Q1,Devon and Somerset,dwellings,1,1
+2016/17,Q1,Devon and Somerset,outdoors,1,1
+2016/17,Q1,Dorset and Wiltshire,dwellings,1,1
+2016/17,Q1,Dorset and Wiltshire,other buildings,1,1
+2016/17,Q1,Durham,dwellings,1,1
+2016/17,Q1,Essex,road vehicles,1,1
+2016/17,Q1,Greater London,dwellings,8,8
+2016/17,Q1,Greater London,other buildings,2,2
+2016/17,Q1,Greater Manchester,dwellings,2,2
+2016/17,Q1,Hampshire and Isle of Wight,dwellings,1,1
+2016/17,Q1,Hampshire and Isle of Wight,other buildings,1,1
+2016/17,Q1,Humberside,dwellings,1,1
+2016/17,Q1,Lancashire,dwellings,1,1
+2016/17,Q1,Leicestershire,dwellings,1,1
+2016/17,Q1,Lincolnshire,dwellings,2,4
+2016/17,Q1,Norfolk,dwellings,1,1
+2016/17,Q1,North Yorkshire,dwellings,1,1
+2016/17,Q1,Nottinghamshire,dwellings,3,3
+2016/17,Q1,Nottinghamshire,outdoors,1,1
+2016/17,Q1,Oxfordshire,other buildings,1,1
+2016/17,Q1,Oxfordshire,outdoors,1,1
+2016/17,Q1,South Yorkshire,dwellings,1,1
+2016/17,Q1,Staffordshire,dwellings,1,1
+2016/17,Q1,Surrey,dwellings,1,1
+2016/17,Q1,Tyne and Wear,dwellings,2,2
+2016/17,Q1,West Midlands,dwellings,3,3
+2016/17,Q1,West Sussex,dwellings,1,1
+2016/17,Q1,West Yorkshire,dwellings,3,3
+2016/17,Q2,Buckinghamshire,outdoors,1,1
+2016/17,Q2,Cambridgeshire,other buildings,1,1
+2016/17,Q2,Cheshire,dwellings,4,4
+2016/17,Q2,Devon and Somerset,dwellings,1,1
+2016/17,Q2,Devon and Somerset,other buildings,1,1
+2016/17,Q2,Devon and Somerset,road vehicles,1,1
+2016/17,Q2,Durham,dwellings,2,2
+2016/17,Q2,East Sussex,dwellings,1,1
+2016/17,Q2,East Sussex,road vehicles,1,1
+2016/17,Q2,Essex,dwellings,1,1
+2016/17,Q2,Greater London,dwellings,8,8
+2016/17,Q2,Greater London,other buildings,1,1
+2016/17,Q2,Humberside,dwellings,2,2
+2016/17,Q2,Kent,dwellings,1,1
+2016/17,Q2,Kent,outdoors,1,1
+2016/17,Q2,Merseyside,dwellings,1,1
+2016/17,Q2,Norfolk,dwellings,1,1
+2016/17,Q2,Norfolk,road vehicles,1,1
+2016/17,Q2,North Yorkshire,dwellings,1,1
+2016/17,Q2,Oxfordshire,road vehicles,1,1
+2016/17,Q2,South Yorkshire,dwellings,1,1
+2016/17,Q2,Staffordshire,dwellings,2,2
+2016/17,Q2,Tyne and Wear,dwellings,1,1
+2016/17,Q2,West Midlands,dwellings,2,2
+2016/17,Q3,Avon,dwellings,1,1
+2016/17,Q3,Avon,outdoors,1,1
+2016/17,Q3,Bedfordshire,dwellings,1,1
+2016/17,Q3,Bedfordshire,road vehicles,1,1
+2016/17,Q3,Buckinghamshire,dwellings,1,1
+2016/17,Q3,Buckinghamshire,outdoors,1,1
+2016/17,Q3,Cheshire,dwellings,1,1
+2016/17,Q3,Cumbria,dwellings,2,2
+2016/17,Q3,Derbyshire,dwellings,1,1
+2016/17,Q3,Devon and Somerset,dwellings,4,4
+2016/17,Q3,Devon and Somerset,road vehicles,1,1
+2016/17,Q3,Dorset and Wiltshire,dwellings,3,4
+2016/17,Q3,East Sussex,dwellings,2,2
+2016/17,Q3,Essex,dwellings,4,5
+2016/17,Q3,Gloucestershire,dwellings,1,1
+2016/17,Q3,Greater London,dwellings,14,14
+2016/17,Q3,Greater Manchester,dwellings,3,3
+2016/17,Q3,Greater Manchester,other buildings,1,2
+2016/17,Q3,Greater Manchester,outdoors,1,1
+2016/17,Q3,Hertfordshire,dwellings,1,1
+2016/17,Q3,Hertfordshire,road vehicles,1,1
+2016/17,Q3,Kent,dwellings,1,1
+2016/17,Q3,Lancashire,dwellings,1,1
+2016/17,Q3,Lincolnshire,dwellings,1,1
+2016/17,Q3,Merseyside,dwellings,5,6
+2016/17,Q3,Norfolk,dwellings,1,1
+2016/17,Q3,Norfolk,other buildings,1,1
+2016/17,Q3,Northamptonshire,dwellings,2,2
+2016/17,Q3,Northumberland,dwellings,1,2
+2016/17,Q3,Nottinghamshire,dwellings,2,2
+2016/17,Q3,Oxfordshire,dwellings,2,3
+2016/17,Q3,South Yorkshire,dwellings,2,3
+2016/17,Q3,South Yorkshire,other buildings,1,1
+2016/17,Q3,Staffordshire,dwellings,2,2
+2016/17,Q3,Suffolk,dwellings,1,1
+2016/17,Q3,Suffolk,road vehicles,2,2
+2016/17,Q3,Surrey,dwellings,2,2
+2016/17,Q3,Tyne and Wear,dwellings,1,1
+2016/17,Q3,West Midlands,dwellings,3,3
+2016/17,Q3,West Midlands,outdoors,1,1
+2016/17,Q3,West Midlands,road vehicles,2,2
+2016/17,Q3,West Sussex,dwellings,1,1
+2016/17,Q3,West Yorkshire,dwellings,2,3
+2016/17,Q4,Bedfordshire,dwellings,1,1
+2016/17,Q4,Cambridgeshire,dwellings,1,1
+2016/17,Q4,Cheshire,dwellings,2,2
+2016/17,Q4,Cornwall,dwellings,1,1
+2016/17,Q4,Cumbria,dwellings,1,1
+2016/17,Q4,Derbyshire,dwellings,1,1
+2016/17,Q4,Devon and Somerset,road vehicles,1,1
+2016/17,Q4,East Sussex,dwellings,1,1
+2016/17,Q4,Gloucestershire,other buildings,1,1
+2016/17,Q4,Gloucestershire,road vehicles,1,1
+2016/17,Q4,Greater London,dwellings,8,11
+2016/17,Q4,Greater Manchester,dwellings,4,5
+2016/17,Q4,Greater Manchester,road vehicles,1,1
+2016/17,Q4,Hereford and Worcester,dwellings,1,1
+2016/17,Q4,Hereford and Worcester,road vehicles,2,2
+2016/17,Q4,Humberside,dwellings,2,2
+2016/17,Q4,Kent,dwellings,2,2
+2016/17,Q4,Kent,other buildings,1,1
+2016/17,Q4,Kent,outdoors,1,1
+2016/17,Q4,Lancashire,dwellings,2,3
+2016/17,Q4,Lancashire,other buildings,1,1
+2016/17,Q4,Leicestershire,dwellings,4,4
+2016/17,Q4,Leicestershire,other buildings,1,1
+2016/17,Q4,Lincolnshire,dwellings,2,2
+2016/17,Q4,Merseyside,dwellings,1,1
+2016/17,Q4,Norfolk,dwellings,1,1
+2016/17,Q4,Northamptonshire,dwellings,1,2
+2016/17,Q4,Northamptonshire,road vehicles,1,1
+2016/17,Q4,Northumberland,dwellings,1,1
+2016/17,Q4,Nottinghamshire,dwellings,1,1
+2016/17,Q4,Oxfordshire,dwellings,1,1
+2016/17,Q4,Shropshire,dwellings,2,2
+2016/17,Q4,South Yorkshire,dwellings,2,2
+2016/17,Q4,Suffolk,dwellings,3,3
+2016/17,Q4,Surrey,dwellings,2,4
+2016/17,Q4,Warwickshire,dwellings,3,3
+2016/17,Q4,Warwickshire,road vehicles,1,2
+2016/17,Q4,West Midlands,dwellings,6,6
+2016/17,Q4,West Midlands,other buildings,1,1
+2016/17,Q4,West Sussex,dwellings,2,2
+2016/17,Q4,West Yorkshire,dwellings,3,3
+2017/18,Q1,Avon,dwellings,2,2
+2017/18,Q1,Bedfordshire,dwellings,1,1
+2017/18,Q1,Bedfordshire,outdoors,1,1
+2017/18,Q1,Berkshire,dwellings,2,2
+2017/18,Q1,Berkshire,road vehicles,1,1
+2017/18,Q1,Buckinghamshire,dwellings,2,3
+2017/18,Q1,Cambridgeshire,dwellings,1,1
+2017/18,Q1,Cleveland,dwellings,2,2
+2017/18,Q1,Cumbria,other buildings,1,1
+2017/18,Q1,Derbyshire,road vehicles,1,1
+2017/18,Q1,Devon and Somerset,dwellings,3,3
+2017/18,Q1,Devon and Somerset,outdoors,1,1
+2017/18,Q1,Dorset and Wiltshire,dwellings,1,1
+2017/18,Q1,Dorset and Wiltshire,outdoors,1,1
+2017/18,Q1,Essex,dwellings,1,1
+2017/18,Q1,Essex,outdoors,1,1
+2017/18,Q1,Greater London,dwellings,5,75
+2017/18,Q1,Greater Manchester,dwellings,4,4
+2017/18,Q1,Hampshire and Isle of Wight,dwellings,3,3
+2017/18,Q1,Hereford and Worcester,dwellings,1,1
+2017/18,Q1,Hertfordshire,dwellings,2,2
+2017/18,Q1,Hertfordshire,other buildings,1,2
+2017/18,Q1,Humberside,dwellings,1,1
+2017/18,Q1,Kent,dwellings,2,2
+2017/18,Q1,Lancashire,dwellings,2,2
+2017/18,Q1,Lincolnshire,dwellings,1,1
+2017/18,Q1,Lincolnshire,outdoors,1,1
+2017/18,Q1,Merseyside,road vehicles,1,1
+2017/18,Q1,Northamptonshire,outdoors,1,1
+2017/18,Q1,Northumberland,road vehicles,1,1
+2017/18,Q1,Shropshire,road vehicles,1,1
+2017/18,Q1,Staffordshire,dwellings,1,1
+2017/18,Q1,Suffolk,dwellings,1,2
+2017/18,Q1,Tyne and Wear,dwellings,1,1
+2017/18,Q1,Warwickshire,dwellings,1,1
+2017/18,Q1,West Midlands,dwellings,2,2
+2017/18,Q1,West Yorkshire,dwellings,3,3
+2017/18,Q2,Avon,dwellings,2,2
+2017/18,Q2,Avon,outdoors,1,1
+2017/18,Q2,Bedfordshire,outdoors,1,1
+2017/18,Q2,Buckinghamshire,road vehicles,2,2
+2017/18,Q2,Dorset and Wiltshire,dwellings,1,1
+2017/18,Q2,Dorset and Wiltshire,other buildings,1,1
+2017/18,Q2,Dorset and Wiltshire,outdoors,2,4
+2017/18,Q2,Essex,dwellings,1,1
+2017/18,Q2,Greater London,dwellings,6,6
+2017/18,Q2,Greater London,outdoors,1,1
+2017/18,Q2,Greater London,road vehicles,1,1
+2017/18,Q2,Greater Manchester,dwellings,2,5
+2017/18,Q2,Hampshire and Isle of Wight,dwellings,2,2
+2017/18,Q2,Hampshire and Isle of Wight,road vehicles,1,1
+2017/18,Q2,Hereford and Worcester,other buildings,1,1
+2017/18,Q2,Hereford and Worcester,road vehicles,2,2
+2017/18,Q2,Hertfordshire,dwellings,1,1
+2017/18,Q2,Humberside,dwellings,1,1
+2017/18,Q2,Leicestershire,dwellings,1,1
+2017/18,Q2,Lincolnshire,dwellings,1,1
+2017/18,Q2,Norfolk,dwellings,1,1
+2017/18,Q2,North Yorkshire,dwellings,1,1
+2017/18,Q2,North Yorkshire,road vehicles,1,1
+2017/18,Q2,Northamptonshire,dwellings,2,2
+2017/18,Q2,Nottinghamshire,dwellings,3,3
+2017/18,Q2,South Yorkshire,outdoors,1,1
+2017/18,Q2,Staffordshire,road vehicles,1,1
+2017/18,Q2,Tyne and Wear,road vehicles,2,2
+2017/18,Q2,Warwickshire,outdoors,1,2
+2017/18,Q2,West Midlands,dwellings,3,3
+2017/18,Q2,West Midlands,other buildings,1,1
+2017/18,Q2,West Midlands,outdoors,1,1
+2017/18,Q2,West Yorkshire,dwellings,2,2
+2017/18,Q2,West Yorkshire,outdoors,1,1
+2017/18,Q3,Cambridgeshire,dwellings,1,1
+2017/18,Q3,Cheshire,dwellings,1,1
+2017/18,Q3,Cleveland,dwellings,2,2
+2017/18,Q3,Cornwall,dwellings,1,1
+2017/18,Q3,Cumbria,dwellings,1,1
+2017/18,Q3,Devon and Somerset,dwellings,1,1
+2017/18,Q3,Dorset and Wiltshire,dwellings,1,1
+2017/18,Q3,East Sussex,dwellings,1,1
+2017/18,Q3,Essex,dwellings,1,1
+2017/18,Q3,Gloucestershire,dwellings,1,1
+2017/18,Q3,Gloucestershire,road vehicles,1,2
+2017/18,Q3,Greater London,dwellings,8,8
+2017/18,Q3,Greater Manchester,dwellings,3,7
+2017/18,Q3,Greater Manchester,road vehicles,1,1
+2017/18,Q3,Hampshire and Isle of Wight,dwellings,1,1
+2017/18,Q3,Hampshire and Isle of Wight,road vehicles,1,1
+2017/18,Q3,Hereford and Worcester,dwellings,2,2
+2017/18,Q3,Hertfordshire,road vehicles,1,1
+2017/18,Q3,Humberside,dwellings,1,1
+2017/18,Q3,Humberside,outdoors,1,1
+2017/18,Q3,Lancashire,outdoors,1,1
+2017/18,Q3,Leicestershire,dwellings,1,1
+2017/18,Q3,Lincolnshire,dwellings,1,1
+2017/18,Q3,Lincolnshire,road vehicles,1,1
+2017/18,Q3,Merseyside,dwellings,1,1
+2017/18,Q3,North Yorkshire,dwellings,1,1
+2017/18,Q3,Northamptonshire,other buildings,1,1
+2017/18,Q3,Nottinghamshire,dwellings,3,3
+2017/18,Q3,Nottinghamshire,other buildings,1,1
+2017/18,Q3,Oxfordshire,other buildings,1,1
+2017/18,Q3,Shropshire,dwellings,1,1
+2017/18,Q3,Shropshire,road vehicles,1,1
+2017/18,Q3,South Yorkshire,dwellings,2,2
+2017/18,Q3,Staffordshire,dwellings,1,2
+2017/18,Q3,Staffordshire,outdoors,1,1
+2017/18,Q3,Surrey,road vehicles,1,1
+2017/18,Q3,West Midlands,dwellings,3,3
+2017/18,Q3,West Midlands,other buildings,1,1
+2017/18,Q3,West Yorkshire,dwellings,4,5
+2017/18,Q3,West Yorkshire,road vehicles,3,3
+2017/18,Q4,Buckinghamshire,outdoors,1,1
+2017/18,Q4,Cheshire,dwellings,2,2
+2017/18,Q4,Cheshire,other buildings,1,1
+2017/18,Q4,Derbyshire,dwellings,2,2
+2017/18,Q4,Devon and Somerset,dwellings,1,1
+2017/18,Q4,Dorset and Wiltshire,dwellings,3,3
+2017/18,Q4,East Sussex,dwellings,1,1
+2017/18,Q4,Essex,dwellings,3,3
+2017/18,Q4,Gloucestershire,dwellings,2,2
+2017/18,Q4,Gloucestershire,road vehicles,2,2
+2017/18,Q4,Greater London,dwellings,13,14
+2017/18,Q4,Greater London,other buildings,2,2
+2017/18,Q4,Greater London,outdoors,1,1
+2017/18,Q4,Greater Manchester,dwellings,3,3
+2017/18,Q4,Hampshire and Isle of Wight,dwellings,1,1
+2017/18,Q4,Hampshire and Isle of Wight,road vehicles,1,1
+2017/18,Q4,Hereford and Worcester,dwellings,2,2
+2017/18,Q4,Hertfordshire,other buildings,1,2
+2017/18,Q4,Hertfordshire,outdoors,1,1
+2017/18,Q4,Humberside,dwellings,2,2
+2017/18,Q4,Kent,dwellings,3,3
+2017/18,Q4,Lancashire,dwellings,4,4
+2017/18,Q4,Leicestershire,dwellings,2,2
+2017/18,Q4,Leicestershire,other buildings,1,5
+2017/18,Q4,Leicestershire,road vehicles,1,1
+2017/18,Q4,Lincolnshire,dwellings,1,1
+2017/18,Q4,Merseyside,dwellings,3,3
+2017/18,Q4,Norfolk,dwellings,1,1
+2017/18,Q4,North Yorkshire,dwellings,1,1
+2017/18,Q4,North Yorkshire,outdoors,1,1
+2017/18,Q4,South Yorkshire,dwellings,3,3
+2017/18,Q4,Staffordshire,dwellings,2,2
+2017/18,Q4,Suffolk,dwellings,1,1
+2017/18,Q4,Tyne and Wear,dwellings,1,1
+2017/18,Q4,West Midlands,dwellings,2,2
+2017/18,Q4,West Yorkshire,dwellings,3,3
+2018/19,Q1,Avon,dwellings,1,2
+2018/19,Q1,Bedfordshire,road vehicles,1,1
+2018/19,Q1,Berkshire,dwellings,1,1
+2018/19,Q1,Cambridgeshire,outdoors,1,1
+2018/19,Q1,Cornwall,dwellings,1,1
+2018/19,Q1,Cumbria,dwellings,1,2
+2018/19,Q1,Devon and Somerset,dwellings,2,2
+2018/19,Q1,Dorset and Wiltshire,road vehicles,1,1
+2018/19,Q1,Durham,dwellings,1,1
+2018/19,Q1,Gloucestershire,dwellings,1,1
+2018/19,Q1,Gloucestershire,outdoors,1,1
+2018/19,Q1,Greater London,dwellings,6,6
+2018/19,Q1,Greater London,other buildings,1,1
+2018/19,Q1,Greater London,road vehicles,1,2
+2018/19,Q1,Greater Manchester,dwellings,3,3
+2018/19,Q1,Hertfordshire,outdoors,1,1
+2018/19,Q1,Hertfordshire,road vehicles,1,1
+2018/19,Q1,Humberside,dwellings,1,1
+2018/19,Q1,Lancashire,dwellings,2,2
+2018/19,Q1,Leicestershire,dwellings,1,1
+2018/19,Q1,Lincolnshire,dwellings,1,1
+2018/19,Q1,Merseyside,dwellings,1,1
+2018/19,Q1,South Yorkshire,dwellings,1,1
+2018/19,Q1,South Yorkshire,road vehicles,1,1
+2018/19,Q1,Staffordshire,dwellings,2,2
+2018/19,Q1,Tyne and Wear,dwellings,1,1
+2018/19,Q1,Warwickshire,dwellings,1,1
+2018/19,Q1,West Midlands,dwellings,3,3
+2018/19,Q1,West Yorkshire,outdoors,1,1
+2018/19,Q2,Avon,dwellings,1,1
+2018/19,Q2,Bedfordshire,dwellings,1,1
+2018/19,Q2,Cornwall,dwellings,1,1
+2018/19,Q2,Derbyshire,dwellings,1,1
+2018/19,Q2,Derbyshire,other buildings,1,1
+2018/19,Q2,Devon and Somerset,dwellings,1,1
+2018/19,Q2,Devon and Somerset,outdoors,1,1
+2018/19,Q2,Devon and Somerset,road vehicles,2,3
+2018/19,Q2,Dorset and Wiltshire,other buildings,1,1
+2018/19,Q2,East Sussex,dwellings,2,3
+2018/19,Q2,Essex,road vehicles,1,1
+2018/19,Q2,Gloucestershire,other buildings,1,1
+2018/19,Q2,Greater London,dwellings,8,8
+2018/19,Q2,Greater London,other buildings,1,1
+2018/19,Q2,Greater Manchester,dwellings,3,3
+2018/19,Q2,Humberside,outdoors,1,1
+2018/19,Q2,Kent,dwellings,4,4
+2018/19,Q2,Lancashire,dwellings,2,2
+2018/19,Q2,Leicestershire,dwellings,1,1
+2018/19,Q2,Leicestershire,road vehicles,1,2
+2018/19,Q2,Merseyside,dwellings,1,1
+2018/19,Q2,Norfolk,dwellings,2,2
+2018/19,Q2,Norfolk,other buildings,1,1
+2018/19,Q2,Northamptonshire,road vehicles,1,1
+2018/19,Q2,Nottinghamshire,dwellings,2,2
+2018/19,Q2,Shropshire,dwellings,1,1
+2018/19,Q2,Staffordshire,dwellings,1,1
+2018/19,Q2,Tyne and Wear,dwellings,1,1
+2018/19,Q2,Tyne and Wear,outdoors,1,1
+2018/19,Q2,Warwickshire,dwellings,1,1
+2018/19,Q2,Warwickshire,road vehicles,1,1
+2018/19,Q2,West Midlands,dwellings,2,2
+2018/19,Q2,West Yorkshire,dwellings,2,2
+2018/19,Q2,West Yorkshire,other buildings,1,1
+2018/19,Q3,Berkshire,dwellings,1,1
+2018/19,Q3,Buckinghamshire,dwellings,1,1
+2018/19,Q3,Cambridgeshire,dwellings,1,1
+2018/19,Q3,Cheshire,road vehicles,1,1
+2018/19,Q3,Cleveland,outdoors,1,1
+2018/19,Q3,Cornwall,dwellings,1,1
+2018/19,Q3,Derbyshire,dwellings,2,2
+2018/19,Q3,Devon and Somerset,dwellings,1,1
+2018/19,Q3,Devon and Somerset,other buildings,1,1
+2018/19,Q3,Dorset and Wiltshire,dwellings,3,3
+2018/19,Q3,Essex,dwellings,1,1
+2018/19,Q3,Greater London,dwellings,9,10
+2018/19,Q3,Greater Manchester,dwellings,4,5
+2018/19,Q3,Hampshire and Isle of Wight,dwellings,1,1
+2018/19,Q3,Hereford and Worcester,dwellings,2,3
+2018/19,Q3,Hertfordshire,dwellings,1,1
+2018/19,Q3,Humberside,outdoors,1,1
+2018/19,Q3,Kent,dwellings,2,2
+2018/19,Q3,Lancashire,dwellings,5,5
+2018/19,Q3,Leicestershire,dwellings,2,2
+2018/19,Q3,Leicestershire,outdoors,1,5
+2018/19,Q3,Lincolnshire,dwellings,1,1
+2018/19,Q3,Merseyside,road vehicles,1,1
+2018/19,Q3,Norfolk,dwellings,1,1
+2018/19,Q3,Norfolk,road vehicles,1,1
+2018/19,Q3,Northamptonshire,road vehicles,1,2
+2018/19,Q3,Nottinghamshire,dwellings,4,7
+2018/19,Q3,Nottinghamshire,road vehicles,1,1
+2018/19,Q3,Shropshire,dwellings,1,1
+2018/19,Q3,South Yorkshire,dwellings,1,1
+2018/19,Q3,Suffolk,dwellings,2,2
+2018/19,Q3,Surrey,dwellings,1,2
+2018/19,Q3,Tyne and Wear,dwellings,2,2
+2018/19,Q3,Warwickshire,dwellings,2,2
+2018/19,Q3,West Midlands,dwellings,1,1
+2018/19,Q3,West Midlands,other buildings,1,1
+2018/19,Q3,West Yorkshire,dwellings,3,3
+2018/19,Q4,Bedfordshire,dwellings,3,3
+2018/19,Q4,Buckinghamshire,dwellings,1,1
+2018/19,Q4,Cleveland,dwellings,1,2
+2018/19,Q4,Derbyshire,dwellings,1,1
+2018/19,Q4,Devon and Somerset,other buildings,2,2
+2018/19,Q4,Dorset and Wiltshire,dwellings,1,1
+2018/19,Q4,Durham,dwellings,1,1
+2018/19,Q4,East Sussex,dwellings,1,1
+2018/19,Q4,Essex,dwellings,1,1
+2018/19,Q4,Essex,outdoors,1,1
+2018/19,Q4,Gloucestershire,dwellings,1,1
+2018/19,Q4,Greater London,dwellings,10,10
+2018/19,Q4,Greater London,other buildings,1,1
+2018/19,Q4,Greater Manchester,dwellings,3,3
+2018/19,Q4,Hampshire and Isle of Wight,dwellings,4,4
+2018/19,Q4,Hereford and Worcester,dwellings,1,1
+2018/19,Q4,Hertfordshire,dwellings,1,1
+2018/19,Q4,Hertfordshire,other buildings,1,1
+2018/19,Q4,Kent,dwellings,1,1
+2018/19,Q4,Leicestershire,dwellings,1,1
+2018/19,Q4,Lincolnshire,dwellings,1,3
+2018/19,Q4,Merseyside,dwellings,1,2
+2018/19,Q4,North Yorkshire,road vehicles,1,1
+2018/19,Q4,Northumberland,dwellings,1,1
+2018/19,Q4,Nottinghamshire,dwellings,1,1
+2018/19,Q4,Nottinghamshire,other buildings,1,1
+2018/19,Q4,Oxfordshire,dwellings,1,1
+2018/19,Q4,Oxfordshire,road vehicles,1,1
+2018/19,Q4,South Yorkshire,dwellings,6,6
+2018/19,Q4,Staffordshire,dwellings,3,6
+2018/19,Q4,Suffolk,dwellings,1,1
+2018/19,Q4,Suffolk,other buildings,1,1
+2018/19,Q4,Surrey,dwellings,1,1
+2018/19,Q4,Surrey,outdoors,1,1
+2018/19,Q4,West Midlands,dwellings,1,1
+2018/19,Q4,West Sussex,dwellings,1,1
+2018/19,Q4,West Yorkshire,dwellings,6,6
+2019/20,Q1,Berkshire,dwellings,1,1
+2019/20,Q1,Berkshire,outdoors,1,1
+2019/20,Q1,Buckinghamshire,dwellings,1,1
+2019/20,Q1,Cambridgeshire,dwellings,2,2
+2019/20,Q1,Cleveland,road vehicles,1,1
+2019/20,Q1,Cornwall,dwellings,1,1
+2019/20,Q1,Cumbria,dwellings,1,1
+2019/20,Q1,Derbyshire,dwellings,1,1
+2019/20,Q1,Devon and Somerset,dwellings,1,1
+2019/20,Q1,East Sussex,other buildings,1,1
+2019/20,Q1,Essex,dwellings,2,2
+2019/20,Q1,Greater London,dwellings,4,5
+2019/20,Q1,Greater London,other buildings,1,1
+2019/20,Q1,Greater London,outdoors,1,1
+2019/20,Q1,Greater Manchester,dwellings,1,1
+2019/20,Q1,Hampshire and Isle of Wight,dwellings,1,1
+2019/20,Q1,Hereford and Worcester,dwellings,1,1
+2019/20,Q1,Humberside,other buildings,1,1
+2019/20,Q1,Kent,dwellings,1,1
+2019/20,Q1,Lancashire,dwellings,1,2
+2019/20,Q1,Lancashire,other buildings,1,1
+2019/20,Q1,Leicestershire,dwellings,5,6
+2019/20,Q1,Lincolnshire,dwellings,1,1
+2019/20,Q1,Merseyside,dwellings,1,1
+2019/20,Q1,Norfolk,dwellings,1,1
+2019/20,Q1,Northumberland,dwellings,1,1
+2019/20,Q1,Nottinghamshire,dwellings,2,2
+2019/20,Q1,Oxfordshire,dwellings,1,1
+2019/20,Q1,Shropshire,dwellings,1,1
+2019/20,Q1,Suffolk,dwellings,1,1
+2019/20,Q1,Surrey,dwellings,5,5
+2019/20,Q1,Surrey,road vehicles,1,1
+2019/20,Q1,Tyne and Wear,dwellings,1,1
+2019/20,Q1,West Midlands,dwellings,4,5
+2019/20,Q1,West Yorkshire,dwellings,4,4
+2019/20,Q2,Cleveland,other buildings,1,2
+2019/20,Q2,Derbyshire,outdoors,1,1
+2019/20,Q2,Dorset and Wiltshire,dwellings,1,1
+2019/20,Q2,Dorset and Wiltshire,road vehicles,1,1
+2019/20,Q2,Greater London,dwellings,5,5
+2019/20,Q2,Greater London,outdoors,1,1
+2019/20,Q2,Greater Manchester,dwellings,2,2
+2019/20,Q2,Hampshire and Isle of Wight,dwellings,1,1
+2019/20,Q2,Hampshire and Isle of Wight,other buildings,1,1
+2019/20,Q2,Hereford and Worcester,outdoors,1,1
+2019/20,Q2,Kent,other buildings,1,1
+2019/20,Q2,Lancashire,dwellings,3,3
+2019/20,Q2,Leicestershire,road vehicles,1,1
+2019/20,Q2,Lincolnshire,dwellings,1,1
+2019/20,Q2,Merseyside,dwellings,2,2
+2019/20,Q2,Northamptonshire,dwellings,1,1
+2019/20,Q2,Nottinghamshire,dwellings,1,1
+2019/20,Q2,Staffordshire,dwellings,4,4
+2019/20,Q2,Suffolk,dwellings,1,1
+2019/20,Q2,Suffolk,road vehicles,1,1
+2019/20,Q2,Surrey,dwellings,1,1
+2019/20,Q2,Warwickshire,outdoors,1,1
+2019/20,Q2,West Midlands,dwellings,5,5
+2019/20,Q2,West Midlands,road vehicles,2,2
+2019/20,Q2,West Yorkshire,dwellings,2,2
+2019/20,Q2,West Yorkshire,other buildings,1,1
+2019/20,Q3,Avon,dwellings,1,1
+2019/20,Q3,Avon,outdoors,1,1
+2019/20,Q3,Avon,road vehicles,1,1
+2019/20,Q3,Berkshire,dwellings,1,1
+2019/20,Q3,Cheshire,dwellings,1,1
+2019/20,Q3,Cleveland,dwellings,1,1
+2019/20,Q3,Cumbria,dwellings,2,2
+2019/20,Q3,Cumbria,road vehicles,1,1
+2019/20,Q3,Derbyshire,dwellings,2,3
+2019/20,Q3,Devon and Somerset,dwellings,4,4
+2019/20,Q3,Dorset and Wiltshire,dwellings,1,1
+2019/20,Q3,Durham,dwellings,1,1
+2019/20,Q3,East Sussex,road vehicles,2,2
+2019/20,Q3,Gloucestershire,other buildings,1,1
+2019/20,Q3,Greater London,dwellings,9,9
+2019/20,Q3,Greater London,outdoors,1,1
+2019/20,Q3,Greater London,road vehicles,1,1
+2019/20,Q3,Greater Manchester,dwellings,4,4
+2019/20,Q3,Hampshire and Isle of Wight,dwellings,2,2
+2019/20,Q3,Humberside,dwellings,1,1
+2019/20,Q3,Kent,dwellings,1,1
+2019/20,Q3,Kent,road vehicles,1,1
+2019/20,Q3,Lancashire,other buildings,1,2
+2019/20,Q3,Leicestershire,dwellings,1,1
+2019/20,Q3,Merseyside,dwellings,2,2
+2019/20,Q3,Norfolk,dwellings,1,1
+2019/20,Q3,North Yorkshire,dwellings,3,3
+2019/20,Q3,Northamptonshire,dwellings,1,1
+2019/20,Q3,Nottinghamshire,dwellings,2,2
+2019/20,Q3,Shropshire,dwellings,1,1
+2019/20,Q3,South Yorkshire,dwellings,2,2
+2019/20,Q3,Staffordshire,dwellings,3,3
+2019/20,Q3,Suffolk,dwellings,2,3
+2019/20,Q3,Tyne and Wear,dwellings,3,3
+2019/20,Q3,Warwickshire,outdoors,1,1
+2019/20,Q3,West Midlands,dwellings,3,3
+2019/20,Q3,West Sussex,road vehicles,1,1
+2019/20,Q3,West Yorkshire,dwellings,1,1
+2019/20,Q4,Avon,dwellings,1,1
+2019/20,Q4,Avon,other buildings,1,1
+2019/20,Q4,Berkshire,dwellings,1,1
+2019/20,Q4,Cambridgeshire,road vehicles,1,1
+2019/20,Q4,Cheshire,dwellings,3,4
+2019/20,Q4,Derbyshire,dwellings,2,2
+2019/20,Q4,Derbyshire,other buildings,1,1
+2019/20,Q4,Devon and Somerset,dwellings,2,2
+2019/20,Q4,Dorset and Wiltshire,dwellings,3,3
+2019/20,Q4,Durham,dwellings,1,1
+2019/20,Q4,East Sussex,dwellings,1,1
+2019/20,Q4,Greater London,dwellings,9,9
+2019/20,Q4,Greater Manchester,dwellings,2,2
+2019/20,Q4,Greater Manchester,other buildings,1,1
+2019/20,Q4,Hampshire and Isle of Wight,dwellings,1,1
+2019/20,Q4,Hertfordshire,dwellings,1,1
+2019/20,Q4,Humberside,dwellings,2,3
+2019/20,Q4,Kent,dwellings,3,3
+2019/20,Q4,Kent,outdoors,1,1
+2019/20,Q4,Lancashire,dwellings,2,2
+2019/20,Q4,Lincolnshire,dwellings,1,1
+2019/20,Q4,Merseyside,dwellings,1,1
+2019/20,Q4,Norfolk,dwellings,1,1
+2019/20,Q4,Norfolk,outdoors,1,1
+2019/20,Q4,Norfolk,road vehicles,2,2
+2019/20,Q4,Northumberland,dwellings,1,1
+2019/20,Q4,Nottinghamshire,dwellings,1,1
+2019/20,Q4,South Yorkshire,dwellings,1,1
+2019/20,Q4,Surrey,dwellings,2,2
+2019/20,Q4,Tyne and Wear,dwellings,3,3
+2019/20,Q4,Tyne and Wear,other buildings,2,2
+2019/20,Q4,Warwickshire,dwellings,1,1
+2019/20,Q4,West Midlands,dwellings,4,4
+2019/20,Q4,West Midlands,other buildings,1,1
+2019/20,Q4,West Yorkshire,dwellings,6,6
+2020/21,Q1,Avon,dwellings,2,2
+2020/21,Q1,Buckinghamshire,dwellings,3,3
+2020/21,Q1,Cheshire,dwellings,1,2
+2020/21,Q1,Cornwall,dwellings,1,1
+2020/21,Q1,Derbyshire,dwellings,1,1
+2020/21,Q1,Devon and Somerset,dwellings,1,1
+2020/21,Q1,Devon and Somerset,other buildings,1,1
+2020/21,Q1,Devon and Somerset,road vehicles,1,1
+2020/21,Q1,Dorset and Wiltshire,dwellings,1,1
+2020/21,Q1,Dorset and Wiltshire,outdoors,1,1
+2020/21,Q1,East Sussex,dwellings,1,1
+2020/21,Q1,Essex,dwellings,2,3
+2020/21,Q1,Greater London,dwellings,6,6
+2020/21,Q1,Greater Manchester,dwellings,1,1
+2020/21,Q1,Hampshire and Isle of Wight,dwellings,1,1
+2020/21,Q1,Hertfordshire,other buildings,1,1
+2020/21,Q1,Humberside,road vehicles,1,1
+2020/21,Q1,Lincolnshire,other buildings,1,1
+2020/21,Q1,Merseyside,dwellings,4,4
+2020/21,Q1,Norfolk,dwellings,2,2
+2020/21,Q1,Oxfordshire,dwellings,2,2
+2020/21,Q1,South Yorkshire,other buildings,1,1
+2020/21,Q1,Surrey,dwellings,2,2
+2020/21,Q1,Tyne and Wear,road vehicles,1,1
+2020/21,Q1,West Midlands,dwellings,2,2
+2020/21,Q1,West Midlands,other buildings,1,1
+2020/21,Q1,West Midlands,road vehicles,1,1
+2020/21,Q1,West Sussex,outdoors,1,1
+2020/21,Q1,West Yorkshire,dwellings,2,2
+2020/21,Q1,West Yorkshire,other buildings,1,1
+2020/21,Q2,Avon,dwellings,2,2
+2020/21,Q2,Bedfordshire,dwellings,1,1
+2020/21,Q2,Derbyshire,dwellings,1,1
+2020/21,Q2,Dorset and Wiltshire,dwellings,1,1
+2020/21,Q2,Dorset and Wiltshire,road vehicles,1,2
+2020/21,Q2,Gloucestershire,road vehicles,1,1
+2020/21,Q2,Greater London,dwellings,4,4
+2020/21,Q2,Greater London,outdoors,1,1
+2020/21,Q2,Greater Manchester,dwellings,3,3
+2020/21,Q2,Greater Manchester,road vehicles,1,1
+2020/21,Q2,Humberside,dwellings,1,1
+2020/21,Q2,Humberside,outdoors,1,1
+2020/21,Q2,Kent,dwellings,2,3
+2020/21,Q2,Leicestershire,dwellings,1,1
+2020/21,Q2,Leicestershire,outdoors,1,1
+2020/21,Q2,Lincolnshire,road vehicles,1,1
+2020/21,Q2,Norfolk,dwellings,2,2
+2020/21,Q2,Northamptonshire,dwellings,1,1
+2020/21,Q2,Northumberland,dwellings,1,1
+2020/21,Q2,Northumberland,road vehicles,1,1
+2020/21,Q2,South Yorkshire,dwellings,1,1
+2020/21,Q2,South Yorkshire,road vehicles,2,2
+2020/21,Q2,Staffordshire,dwellings,1,1
+2020/21,Q2,Staffordshire,other buildings,1,2
+2020/21,Q2,Surrey,dwellings,1,1
+2020/21,Q2,West Midlands,dwellings,2,2
+2020/21,Q2,West Sussex,road vehicles,1,1
+2020/21,Q2,West Yorkshire,dwellings,1,1
+2020/21,Q3,Bedfordshire,dwellings,1,1
+2020/21,Q3,Cambridgeshire,dwellings,2,3
+2020/21,Q3,Cornwall,dwellings,1,1
+2020/21,Q3,Cumbria,dwellings,1,1
+2020/21,Q3,Derbyshire,dwellings,3,3
+2020/21,Q3,Devon and Somerset,dwellings,4,4
+2020/21,Q3,Dorset and Wiltshire,outdoors,1,1
+2020/21,Q3,Greater London,dwellings,9,9
+2020/21,Q3,Greater Manchester,dwellings,2,2
+2020/21,Q3,Greater Manchester,outdoors,1,1
+2020/21,Q3,Hampshire and Isle of Wight,dwellings,1,1
+2020/21,Q3,Hampshire and Isle of Wight,other buildings,1,1
+2020/21,Q3,Hereford and Worcester,dwellings,1,1
+2020/21,Q3,Hereford and Worcester,road vehicles,1,1
+2020/21,Q3,Humberside,dwellings,1,1
+2020/21,Q3,Kent,dwellings,3,3
+2020/21,Q3,Kent,road vehicles,1,1
+2020/21,Q3,Lancashire,dwellings,2,2
+2020/21,Q3,Lancashire,other buildings,1,1
+2020/21,Q3,Leicestershire,dwellings,3,3
+2020/21,Q3,Norfolk,dwellings,2,2
+2020/21,Q3,Nottinghamshire,dwellings,2,2
+2020/21,Q3,South Yorkshire,dwellings,3,3
+2020/21,Q3,Staffordshire,dwellings,3,3
+2020/21,Q3,Suffolk,other buildings,1,1
+2020/21,Q3,West Midlands,dwellings,3,3
+2020/21,Q3,West Sussex,dwellings,1,2
+2020/21,Q3,West Sussex,outdoors,1,1
+2020/21,Q3,West Yorkshire,dwellings,4,4
+2020/21,Q4,Avon,dwellings,1,1
+2020/21,Q4,Bedfordshire,dwellings,1,1
+2020/21,Q4,Cambridgeshire,road vehicles,2,2
+2020/21,Q4,Cheshire,dwellings,1,1
+2020/21,Q4,Cleveland,dwellings,1,1
+2020/21,Q4,Cornwall,dwellings,2,2
+2020/21,Q4,Cumbria,dwellings,2,2
+2020/21,Q4,Derbyshire,dwellings,2,2
+2020/21,Q4,Derbyshire,outdoors,1,1
+2020/21,Q4,Devon and Somerset,dwellings,2,5
+2020/21,Q4,Dorset and Wiltshire,dwellings,2,2
+2020/21,Q4,Dorset and Wiltshire,other buildings,1,1
+2020/21,Q4,Durham,dwellings,1,1
+2020/21,Q4,East Sussex,dwellings,1,1
+2020/21,Q4,Essex,dwellings,2,2
+2020/21,Q4,Greater London,dwellings,11,13
+2020/21,Q4,Greater Manchester,dwellings,2,2
+2020/21,Q4,Hampshire and Isle of Wight,dwellings,1,1
+2020/21,Q4,Hampshire and Isle of Wight,outdoors,1,1
+2020/21,Q4,Hampshire and Isle of Wight,road vehicles,1,1
+2020/21,Q4,Hereford and Worcester,dwellings,1,1
+2020/21,Q4,Hertfordshire,dwellings,1,1
+2020/21,Q4,Hertfordshire,road vehicles,2,2
+2020/21,Q4,Kent,dwellings,1,1
+2020/21,Q4,Lancashire,dwellings,1,1
+2020/21,Q4,Lancashire,road vehicles,2,2
+2020/21,Q4,Leicestershire,dwellings,1,1
+2020/21,Q4,Lincolnshire,road vehicles,1,1
+2020/21,Q4,Merseyside,dwellings,3,3
+2020/21,Q4,Norfolk,dwellings,1,1
+2020/21,Q4,North Yorkshire,dwellings,1,1
+2020/21,Q4,Northamptonshire,road vehicles,2,2
+2020/21,Q4,Nottinghamshire,dwellings,3,3
+2020/21,Q4,Oxfordshire,dwellings,1,1
+2020/21,Q4,South Yorkshire,dwellings,1,1
+2020/21,Q4,South Yorkshire,other buildings,1,1
+2020/21,Q4,Staffordshire,dwellings,1,1
+2020/21,Q4,Staffordshire,other buildings,1,1
+2020/21,Q4,Suffolk,road vehicles,1,1
+2020/21,Q4,Surrey,dwellings,2,2
+2020/21,Q4,Warwickshire,outdoors,1,1
+2020/21,Q4,West Midlands,dwellings,6,6
+2020/21,Q4,West Midlands,outdoors,1,1
+2020/21,Q4,West Sussex,dwellings,2,2
+2020/21,Q4,West Yorkshire,dwellings,2,3
+2021/22,Q1,Bedfordshire,dwellings,1,1
+2021/22,Q1,Berkshire,dwellings,1,1
+2021/22,Q1,Buckinghamshire,dwellings,1,1
+2021/22,Q1,Cleveland,dwellings,2,2
+2021/22,Q1,Derbyshire,dwellings,1,1
+2021/22,Q1,Devon and Somerset,dwellings,2,2
+2021/22,Q1,Durham,dwellings,1,1
+2021/22,Q1,East Sussex,other buildings,1,1
+2021/22,Q1,Essex,dwellings,4,4
+2021/22,Q1,Gloucestershire,road vehicles,1,1
+2021/22,Q1,Greater London,dwellings,7,7
+2021/22,Q1,Greater London,outdoors,1,1
+2021/22,Q1,Greater Manchester,dwellings,2,2
+2021/22,Q1,Hampshire and Isle of Wight,dwellings,2,2
+2021/22,Q1,Hereford and Worcester,dwellings,2,2
+2021/22,Q1,Humberside,road vehicles,1,1
+2021/22,Q1,Kent,dwellings,2,2
+2021/22,Q1,Kent,outdoors,1,1
+2021/22,Q1,Lancashire,dwellings,1,1
+2021/22,Q1,Lancashire,other buildings,1,1
+2021/22,Q1,Lancashire,outdoors,1,1
+2021/22,Q1,Leicestershire,dwellings,1,1
+2021/22,Q1,Lincolnshire,dwellings,1,1
+2021/22,Q1,Norfolk,dwellings,3,3
+2021/22,Q1,Norfolk,road vehicles,2,2
+2021/22,Q1,North Yorkshire,dwellings,1,1
+2021/22,Q1,Northamptonshire,other buildings,1,1
+2021/22,Q1,Northamptonshire,road vehicles,1,1
+2021/22,Q1,Nottinghamshire,dwellings,1,1
+2021/22,Q1,South Yorkshire,dwellings,1,1
+2021/22,Q1,South Yorkshire,outdoors,1,1
+2021/22,Q1,Staffordshire,dwellings,1,1
+2021/22,Q1,Warwickshire,outdoors,1,1
+2021/22,Q1,West Midlands,dwellings,6,6
+2021/22,Q1,West Midlands,outdoors,1,1
+2021/22,Q1,West Sussex,other buildings,1,1
+2021/22,Q1,West Sussex,outdoors,2,3
+2021/22,Q1,West Yorkshire,dwellings,2,2
+2021/22,Q1,West Yorkshire,outdoors,1,1
+2021/22,Q2,Bedfordshire,outdoors,1,1
+2021/22,Q2,Cornwall,dwellings,1,1
+2021/22,Q2,Devon and Somerset,dwellings,1,1
+2021/22,Q2,Devon and Somerset,road vehicles,1,1
+2021/22,Q2,Dorset and Wiltshire,dwellings,1,1
+2021/22,Q2,East Sussex,dwellings,1,1
+2021/22,Q2,Essex,dwellings,1,1
+2021/22,Q2,Gloucestershire,dwellings,1,1
+2021/22,Q2,Greater London,dwellings,3,3
+2021/22,Q2,Greater London,road vehicles,1,3
+2021/22,Q2,Greater Manchester,dwellings,4,4
+2021/22,Q2,Hampshire and Isle of Wight,dwellings,1,1
+2021/22,Q2,Hertfordshire,dwellings,1,1
+2021/22,Q2,Humberside,dwellings,1,1
+2021/22,Q2,Kent,dwellings,1,1
+2021/22,Q2,Lancashire,dwellings,1,1
+2021/22,Q2,Lincolnshire,other buildings,1,1
+2021/22,Q2,Lincolnshire,road vehicles,1,1
+2021/22,Q2,Norfolk,dwellings,1,1
+2021/22,Q2,Norfolk,outdoors,1,1
+2021/22,Q2,Nottinghamshire,dwellings,1,1
+2021/22,Q2,Nottinghamshire,road vehicles,1,1
+2021/22,Q2,Oxfordshire,dwellings,1,1
+2021/22,Q2,Shropshire,other buildings,1,1
+2021/22,Q2,Surrey,dwellings,1,1
+2021/22,Q2,Warwickshire,other buildings,1,1
+2021/22,Q2,West Midlands,dwellings,3,3
+2021/22,Q2,West Yorkshire,dwellings,1,1
+2021/22,Q2,West Yorkshire,outdoors,1,1
+2021/22,Q3,Avon,dwellings,2,2
+2021/22,Q3,Bedfordshire,road vehicles,2,3
+2021/22,Q3,Berkshire,dwellings,1,2
+2021/22,Q3,Buckinghamshire,dwellings,1,1
+2021/22,Q3,Cambridgeshire,dwellings,1,1
+2021/22,Q3,Cambridgeshire,road vehicles,3,3
+2021/22,Q3,Cheshire,dwellings,1,1
+2021/22,Q3,Cornwall,road vehicles,1,1
+2021/22,Q3,Cumbria,dwellings,1,1
+2021/22,Q3,Derbyshire,dwellings,2,2
+2021/22,Q3,Devon and Somerset,dwellings,1,1
+2021/22,Q3,Dorset and Wiltshire,dwellings,1,1
+2021/22,Q3,Essex,dwellings,5,5
+2021/22,Q3,Greater London,dwellings,15,21
+2021/22,Q3,Greater London,other buildings,1,1
+2021/22,Q3,Greater Manchester,dwellings,3,3
+2021/22,Q3,Hampshire and Isle of Wight,dwellings,2,2
+2021/22,Q3,Hampshire and Isle of Wight,road vehicles,1,1
+2021/22,Q3,Hertfordshire,dwellings,2,2
+2021/22,Q3,Hertfordshire,other buildings,1,1
+2021/22,Q3,Humberside,outdoors,1,1
+2021/22,Q3,Kent,dwellings,4,4
+2021/22,Q3,Kent,road vehicles,1,1
+2021/22,Q3,Lancashire,dwellings,3,4
+2021/22,Q3,Leicestershire,dwellings,1,1
+2021/22,Q3,Lincolnshire,dwellings,2,2
+2021/22,Q3,Merseyside,dwellings,1,1
+2021/22,Q3,Merseyside,other buildings,1,1
+2021/22,Q3,Merseyside,road vehicles,1,1
+2021/22,Q3,Norfolk,dwellings,1,1
+2021/22,Q3,Norfolk,road vehicles,1,1
+2021/22,Q3,North Yorkshire,dwellings,1,1
+2021/22,Q3,North Yorkshire,outdoors,1,1
+2021/22,Q3,Northamptonshire,road vehicles,1,1
+2021/22,Q3,Nottinghamshire,dwellings,1,1
+2021/22,Q3,Oxfordshire,road vehicles,1,1
+2021/22,Q3,Shropshire,dwellings,1,1
+2021/22,Q3,South Yorkshire,dwellings,3,3
+2021/22,Q3,South Yorkshire,other buildings,2,2
+2021/22,Q3,Staffordshire,dwellings,1,1
+2021/22,Q3,Warwickshire,outdoors,1,1
+2021/22,Q3,Warwickshire,road vehicles,1,1
+2021/22,Q3,West Midlands,dwellings,4,5
+2021/22,Q3,West Sussex,dwellings,2,2
+2021/22,Q3,West Yorkshire,dwellings,4,4
+2021/22,Q3,West Yorkshire,outdoors,1,1
+2021/22,Q4,Avon,dwellings,1,1
+2021/22,Q4,Bedfordshire,road vehicles,1,1
+2021/22,Q4,Berkshire,dwellings,2,2
+2021/22,Q4,Berkshire,road vehicles,1,1
+2021/22,Q4,Buckinghamshire,dwellings,1,1
+2021/22,Q4,Cambridgeshire,dwellings,1,1
+2021/22,Q4,Cheshire,dwellings,1,1
+2021/22,Q4,Cleveland,road vehicles,1,1
+2021/22,Q4,Cumbria,dwellings,1,1
+2021/22,Q4,Derbyshire,dwellings,1,1
+2021/22,Q4,Devon and Somerset,dwellings,2,2
+2021/22,Q4,Dorset and Wiltshire,dwellings,2,2
+2021/22,Q4,East Sussex,dwellings,1,2
+2021/22,Q4,Essex,dwellings,1,1
+2021/22,Q4,Essex,road vehicles,1,1
+2021/22,Q4,Gloucestershire,dwellings,1,1
+2021/22,Q4,Greater London,dwellings,7,8
+2021/22,Q4,Greater London,road vehicles,1,1
+2021/22,Q4,Greater Manchester,dwellings,2,2
+2021/22,Q4,Hampshire and Isle of Wight,dwellings,2,2
+2021/22,Q4,Hereford and Worcester,dwellings,1,1
+2021/22,Q4,Hereford and Worcester,outdoors,1,1
+2021/22,Q4,Hertfordshire,dwellings,1,1
+2021/22,Q4,Humberside,dwellings,1,1
+2021/22,Q4,Lancashire,dwellings,2,2
+2021/22,Q4,Leicestershire,dwellings,2,2
+2021/22,Q4,Lincolnshire,dwellings,2,2
+2021/22,Q4,Merseyside,dwellings,3,3
+2021/22,Q4,Norfolk,dwellings,3,3
+2021/22,Q4,North Yorkshire,dwellings,1,1
+2021/22,Q4,Northamptonshire,dwellings,1,1
+2021/22,Q4,Northamptonshire,road vehicles,1,1
+2021/22,Q4,Nottinghamshire,dwellings,3,5
+2021/22,Q4,South Yorkshire,dwellings,1,1
+2021/22,Q4,Staffordshire,dwellings,2,2
+2021/22,Q4,Staffordshire,road vehicles,1,1
+2021/22,Q4,Surrey,dwellings,1,1
+2021/22,Q4,Tyne and Wear,dwellings,2,2
+2021/22,Q4,West Midlands,dwellings,1,1
+2021/22,Q4,West Midlands,road vehicles,1,2
+2021/22,Q4,West Yorkshire,dwellings,4,5
+2022/23,Q1,Avon,dwellings,1,1
+2022/23,Q1,Bedfordshire,dwellings,1,1
+2022/23,Q1,Buckinghamshire,outdoors,1,1
+2022/23,Q1,Cheshire,dwellings,1,1
+2022/23,Q1,Cheshire,road vehicles,1,1
+2022/23,Q1,Cornwall,dwellings,1,1
+2022/23,Q1,Cumbria,dwellings,2,3
+2022/23,Q1,Derbyshire,road vehicles,1,2
+2022/23,Q1,Devon and Somerset,dwellings,1,1
+2022/23,Q1,Durham,outdoors,1,1
+2022/23,Q1,East Sussex,dwellings,1,1
+2022/23,Q1,Greater London,dwellings,2,2
+2022/23,Q1,Greater London,other buildings,1,1
+2022/23,Q1,Greater London,outdoors,2,2
+2022/23,Q1,Greater Manchester,dwellings,5,5
+2022/23,Q1,Hampshire and Isle of Wight,dwellings,2,2
+2022/23,Q1,Hereford and Worcester,dwellings,1,1
+2022/23,Q1,Hereford and Worcester,road vehicles,2,2
+2022/23,Q1,Hertfordshire,dwellings,1,1
+2022/23,Q1,Humberside,dwellings,1,1
+2022/23,Q1,Humberside,road vehicles,1,1
+2022/23,Q1,Lancashire,dwellings,1,2
+2022/23,Q1,Leicestershire,dwellings,1,1
+2022/23,Q1,Lincolnshire,dwellings,2,3
+2022/23,Q1,Lincolnshire,road vehicles,1,1
+2022/23,Q1,Merseyside,dwellings,1,1
+2022/23,Q1,Norfolk,dwellings,1,1
+2022/23,Q1,North Yorkshire,dwellings,2,3
+2022/23,Q1,North Yorkshire,outdoors,1,2
+2022/23,Q1,Northamptonshire,dwellings,1,1
+2022/23,Q1,South Yorkshire,dwellings,1,1
+2022/23,Q1,South Yorkshire,road vehicles,1,1
+2022/23,Q1,Staffordshire,dwellings,1,1
+2022/23,Q1,Surrey,dwellings,2,2
+2022/23,Q1,Warwickshire,dwellings,1,1
+2022/23,Q1,Warwickshire,outdoors,1,1
+2022/23,Q1,West Midlands,dwellings,2,2
+2022/23,Q1,West Midlands,outdoors,2,2
+2022/23,Q1,West Sussex,dwellings,2,2
+2022/23,Q1,West Yorkshire,dwellings,2,2
+2022/23,Q2,Avon,dwellings,1,1
+2022/23,Q2,Bedfordshire,dwellings,1,1
+2022/23,Q2,Berkshire,other buildings,1,1
+2022/23,Q2,Buckinghamshire,dwellings,1,1
+2022/23,Q2,Cleveland,dwellings,1,1
+2022/23,Q2,Devon and Somerset,dwellings,2,2
+2022/23,Q2,Dorset and Wiltshire,dwellings,2,2
+2022/23,Q2,Dorset and Wiltshire,road vehicles,1,1
+2022/23,Q2,Essex,dwellings,2,2
+2022/23,Q2,Greater London,dwellings,7,7
+2022/23,Q2,Greater Manchester,dwellings,2,2
+2022/23,Q2,Hampshire and Isle of Wight,dwellings,3,3
+2022/23,Q2,Hereford and Worcester,outdoors,1,1
+2022/23,Q2,Humberside,dwellings,1,1
+2022/23,Q2,Kent,dwellings,1,1
+2022/23,Q2,Kent,outdoors,1,1
+2022/23,Q2,Lancashire,dwellings,2,2
+2022/23,Q2,Leicestershire,dwellings,1,1
+2022/23,Q2,Norfolk,dwellings,1,1
+2022/23,Q2,Nottinghamshire,dwellings,1,1
+2022/23,Q2,South Yorkshire,dwellings,1,1
+2022/23,Q2,South Yorkshire,outdoors,1,1
+2022/23,Q2,South Yorkshire,road vehicles,1,1
+2022/23,Q2,Staffordshire,dwellings,1,1
+2022/23,Q2,Suffolk,other buildings,1,1
+2022/23,Q2,Surrey,dwellings,1,1
+2022/23,Q2,Tyne and Wear,dwellings,2,2
+2022/23,Q2,West Midlands,dwellings,1,1
+2022/23,Q2,West Sussex,dwellings,1,1
+2022/23,Q2,West Yorkshire,dwellings,1,1
+2022/23,Q3,Avon,dwellings,1,1
+2022/23,Q3,Avon,other buildings,1,1
+2022/23,Q3,Berkshire,dwellings,1,1
+2022/23,Q3,Berkshire,other buildings,1,1
+2022/23,Q3,Berkshire,outdoors,1,1
+2022/23,Q3,Buckinghamshire,dwellings,1,2
+2022/23,Q3,Cheshire,dwellings,1,2
+2022/23,Q3,Cheshire,outdoors,1,1
+2022/23,Q3,Cleveland,dwellings,1,1
+2022/23,Q3,Cumbria,dwellings,2,2
+2022/23,Q3,Cumbria,outdoors,1,1
+2022/23,Q3,Derbyshire,dwellings,2,2
+2022/23,Q3,Devon and Somerset,dwellings,2,2
+2022/23,Q3,Durham,dwellings,1,1
+2022/23,Q3,East Sussex,other buildings,1,1
+2022/23,Q3,Essex,dwellings,1,1
+2022/23,Q3,Essex,outdoors,1,1
+2022/23,Q3,Greater London,dwellings,9,9
+2022/23,Q3,Greater London,outdoors,1,1
+2022/23,Q3,Greater London,road vehicles,1,1
+2022/23,Q3,Greater Manchester,dwellings,1,1
+2022/23,Q3,Hampshire and Isle of Wight,dwellings,1,1
+2022/23,Q3,Hereford and Worcester,dwellings,1,1
+2022/23,Q3,Hertfordshire,dwellings,1,1
+2022/23,Q3,Humberside,dwellings,4,4
+2022/23,Q3,Kent,dwellings,1,1
+2022/23,Q3,Kent,other buildings,1,1
+2022/23,Q3,Lancashire,dwellings,1,1
+2022/23,Q3,Lancashire,other buildings,1,1
+2022/23,Q3,Lancashire,road vehicles,1,1
+2022/23,Q3,Leicestershire,dwellings,1,1
+2022/23,Q3,Leicestershire,road vehicles,1,1
+2022/23,Q3,Lincolnshire,dwellings,1,1
+2022/23,Q3,Lincolnshire,road vehicles,1,1
+2022/23,Q3,Merseyside,dwellings,5,5
+2022/23,Q3,Norfolk,dwellings,2,2
+2022/23,Q3,North Yorkshire,dwellings,1,1
+2022/23,Q3,Northumberland,road vehicles,1,1
+2022/23,Q3,Nottinghamshire,dwellings,3,5
+2022/23,Q3,Shropshire,dwellings,1,2
+2022/23,Q3,South Yorkshire,dwellings,2,2
+2022/23,Q3,Suffolk,dwellings,1,1
+2022/23,Q3,Surrey,dwellings,2,2
+2022/23,Q3,Tyne and Wear,dwellings,3,4
+2022/23,Q3,Warwickshire,dwellings,1,1
+2022/23,Q3,West Midlands,dwellings,3,3
+2022/23,Q3,West Yorkshire,dwellings,1,1
+2022/23,Q3,West Yorkshire,outdoors,1,1
+2022/23,Q4,Avon,dwellings,1,1
+2022/23,Q4,Avon,outdoors,1,1
+2022/23,Q4,Cambridgeshire,dwellings,1,1
+2022/23,Q4,Cheshire,dwellings,1,1
+2022/23,Q4,Cleveland,dwellings,2,2
+2022/23,Q4,Cornwall,dwellings,1,1
+2022/23,Q4,Cornwall,road vehicles,1,1
+2022/23,Q4,Cumbria,dwellings,1,1
+2022/23,Q4,Derbyshire,dwellings,3,3
+2022/23,Q4,Derbyshire,other buildings,1,1
+2022/23,Q4,Devon and Somerset,dwellings,1,1
+2022/23,Q4,Dorset and Wiltshire,dwellings,3,3
+2022/23,Q4,Essex,dwellings,1,1
+2022/23,Q4,Essex,road vehicles,1,1
+2022/23,Q4,Gloucestershire,dwellings,1,1
+2022/23,Q4,Gloucestershire,road vehicles,1,1
+2022/23,Q4,Greater London,dwellings,14,15
+2022/23,Q4,Greater London,other buildings,1,1
+2022/23,Q4,Greater London,road vehicles,1,1
+2022/23,Q4,Greater Manchester,dwellings,2,2
+2022/23,Q4,Greater Manchester,other buildings,1,1
+2022/23,Q4,Humberside,dwellings,2,2
+2022/23,Q4,Lancashire,dwellings,3,3
+2022/23,Q4,Lincolnshire,dwellings,1,1
+2022/23,Q4,Lincolnshire,road vehicles,1,1
+2022/23,Q4,Merseyside,dwellings,4,5
+2022/23,Q4,Norfolk,dwellings,1,1
+2022/23,Q4,Norfolk,other buildings,2,2
+2022/23,Q4,Northumberland,dwellings,1,1
+2022/23,Q4,Nottinghamshire,dwellings,1,1
+2022/23,Q4,Oxfordshire,dwellings,1,1
+2022/23,Q4,Shropshire,dwellings,3,3
+2022/23,Q4,South Yorkshire,dwellings,1,1
+2022/23,Q4,Staffordshire,dwellings,3,3
+2022/23,Q4,Staffordshire,other buildings,1,1
+2022/23,Q4,Staffordshire,outdoors,1,1
+2022/23,Q4,Surrey,dwellings,1,1
+2022/23,Q4,Surrey,other buildings,1,1
+2022/23,Q4,Tyne and Wear,dwellings,4,4
+2022/23,Q4,Warwickshire,road vehicles,1,1
+2022/23,Q4,West Midlands,dwellings,4,4
+2022/23,Q4,West Yorkshire,dwellings,2,2
+2023/24,Q1,Avon,dwellings,1,1
+2023/24,Q1,Avon,road vehicles,1,1
+2023/24,Q1,Bedfordshire,dwellings,1,1
+2023/24,Q1,Berkshire,dwellings,1,2
+2023/24,Q1,Cambridgeshire,dwellings,2,5
+2023/24,Q1,Cambridgeshire,outdoors,1,1
+2023/24,Q1,Cheshire,dwellings,3,3
+2023/24,Q1,Cornwall,dwellings,1,1
+2023/24,Q1,Cornwall,road vehicles,1,3
+2023/24,Q1,Devon and Somerset,other buildings,1,1
+2023/24,Q1,Dorset and Wiltshire,other buildings,1,1
+2023/24,Q1,Durham,dwellings,1,2
+2023/24,Q1,East Sussex,dwellings,3,3
+2023/24,Q1,East Sussex,road vehicles,1,1
+2023/24,Q1,Essex,dwellings,2,2
+2023/24,Q1,Essex,road vehicles,1,1
+2023/24,Q1,Greater London,dwellings,5,5
+2023/24,Q1,Greater London,outdoors,1,1
+2023/24,Q1,Greater Manchester,dwellings,6,6
+2023/24,Q1,Hampshire and Isle of Wight,outdoors,1,1
+2023/24,Q1,Hereford and Worcester,dwellings,2,2
+2023/24,Q1,Hereford and Worcester,road vehicles,1,2
+2023/24,Q1,Hertfordshire,dwellings,1,1
+2023/24,Q1,Kent,outdoors,1,1
+2023/24,Q1,Leicestershire,outdoors,1,1
+2023/24,Q1,Lincolnshire,dwellings,2,2
+2023/24,Q1,Merseyside,dwellings,1,1
+2023/24,Q1,Norfolk,dwellings,2,2
+2023/24,Q1,North Yorkshire,dwellings,1,1
+2023/24,Q1,North Yorkshire,road vehicles,1,1
+2023/24,Q1,Northumberland,outdoors,1,1
+2023/24,Q1,Nottinghamshire,dwellings,1,1
+2023/24,Q1,Nottinghamshire,road vehicles,1,1
+2023/24,Q1,South Yorkshire,dwellings,2,2
+2023/24,Q1,Staffordshire,dwellings,1,1
+2023/24,Q1,Staffordshire,outdoors,1,2
+2023/24,Q1,Suffolk,outdoors,1,1
+2023/24,Q1,Suffolk,road vehicles,2,3
+2023/24,Q1,Tyne and Wear,dwellings,2,2
+2023/24,Q1,Tyne and Wear,road vehicles,1,1
+2023/24,Q1,Warwickshire,dwellings,1,1
+2023/24,Q1,West Midlands,dwellings,3,4
+2023/24,Q1,West Sussex,road vehicles,1,1
+2023/24,Q1,West Yorkshire,dwellings,2,2
+2023/24,Q1,West Yorkshire,outdoors,1,1
+2023/24,Q2,Bedfordshire,other buildings,1,1
+2023/24,Q2,Berkshire,dwellings,1,1
+2023/24,Q2,Cheshire,road vehicles,1,1
+2023/24,Q2,Cornwall,dwellings,1,1
+2023/24,Q2,Cumbria,dwellings,1,1
+2023/24,Q2,Derbyshire,dwellings,2,2
+2023/24,Q2,Devon and Somerset,dwellings,1,1
+2023/24,Q2,Dorset and Wiltshire,dwellings,3,3
+2023/24,Q2,Essex,dwellings,1,1
+2023/24,Q2,Essex,outdoors,1,1
+2023/24,Q2,Greater London,dwellings,6,6
+2023/24,Q2,Greater Manchester,dwellings,3,3
+2023/24,Q2,Greater Manchester,other buildings,1,1
+2023/24,Q2,Lancashire,dwellings,1,1
+2023/24,Q2,Lancashire,road vehicles,1,1
+2023/24,Q2,Leicestershire,other buildings,1,1
+2023/24,Q2,Leicestershire,road vehicles,1,1
+2023/24,Q2,Norfolk,dwellings,1,1
+2023/24,Q2,Nottinghamshire,other buildings,1,1
+2023/24,Q2,Oxfordshire,dwellings,1,1
+2023/24,Q2,Staffordshire,road vehicles,1,1
+2023/24,Q2,Suffolk,dwellings,1,1
+2023/24,Q2,Warwickshire,other buildings,1,1
+2023/24,Q2,West Midlands,dwellings,2,2
+2023/24,Q3,Bedfordshire,other buildings,1,1
+2023/24,Q3,Buckinghamshire,dwellings,1,1
+2023/24,Q3,Cambridgeshire,dwellings,2,2
+2023/24,Q3,Cheshire,dwellings,2,2
+2023/24,Q3,Cheshire,other buildings,1,1
+2023/24,Q3,Cleveland,dwellings,1,1
+2023/24,Q3,Cumbria,dwellings,1,1
+2023/24,Q3,Cumbria,road vehicles,1,1
+2023/24,Q3,Derbyshire,dwellings,3,3
+2023/24,Q3,Derbyshire,outdoors,1,1
+2023/24,Q3,Devon and Somerset,dwellings,1,1
+2023/24,Q3,Devon and Somerset,road vehicles,1,1
+2023/24,Q3,Durham,dwellings,2,2
+2023/24,Q3,East Sussex,dwellings,1,1
+2023/24,Q3,Essex,dwellings,1,1
+2023/24,Q3,Essex,road vehicles,1,1
+2023/24,Q3,Gloucestershire,other buildings,1,1
+2023/24,Q3,Greater London,dwellings,8,15
+2023/24,Q3,Greater London,outdoors,1,1
+2023/24,Q3,Greater Manchester,dwellings,1,1
+2023/24,Q3,Greater Manchester,other buildings,1,1
+2023/24,Q3,Greater Manchester,road vehicles,1,1
+2023/24,Q3,Hampshire and Isle of Wight,dwellings,1,1
+2023/24,Q3,Hampshire and Isle of Wight,other buildings,1,1
+2023/24,Q3,Hampshire and Isle of Wight,road vehicles,1,1
+2023/24,Q3,Humberside,dwellings,4,4
+2023/24,Q3,Kent,road vehicles,1,1
+2023/24,Q3,Lancashire,dwellings,2,2
+2023/24,Q3,Lancashire,other buildings,1,1
+2023/24,Q3,Leicestershire,outdoors,1,1
+2023/24,Q3,North Yorkshire,dwellings,1,1
+2023/24,Q3,Northamptonshire,dwellings,3,3
+2023/24,Q3,Nottinghamshire,dwellings,1,1
+2023/24,Q3,Oxfordshire,dwellings,1,1
+2023/24,Q3,South Yorkshire,road vehicles,1,1
+2023/24,Q3,Staffordshire,dwellings,1,1
+2023/24,Q3,Staffordshire,other buildings,1,1
+2023/24,Q3,Staffordshire,road vehicles,1,1
+2023/24,Q3,Suffolk,dwellings,1,1
+2023/24,Q3,Tyne and Wear,dwellings,2,2
+2023/24,Q3,Warwickshire,dwellings,1,1
+2023/24,Q3,West Midlands,dwellings,1,1
+2023/24,Q3,West Midlands,other buildings,1,1
+2023/24,Q3,West Midlands,outdoors,1,1
+2023/24,Q3,West Sussex,road vehicles,1,1
+2023/24,Q3,West Yorkshire,dwellings,5,5
+2023/24,Q3,West Yorkshire,other buildings,1,1
+2023/24,Q4,Bedfordshire,dwellings,1,1
+2023/24,Q4,Berkshire,road vehicles,1,1
+2023/24,Q4,Buckinghamshire,dwellings,2,2
+2023/24,Q4,Cambridgeshire,dwellings,2,2
+2023/24,Q4,Cheshire,dwellings,1,1
+2023/24,Q4,Cheshire,outdoors,1,1
+2023/24,Q4,Cleveland,road vehicles,1,1
+2023/24,Q4,Cumbria,dwellings,1,1
+2023/24,Q4,Durham,dwellings,3,3
+2023/24,Q4,East Sussex,dwellings,1,1
+2023/24,Q4,Essex,dwellings,1,1
+2023/24,Q4,Gloucestershire,other buildings,1,1
+2023/24,Q4,Greater London,dwellings,11,11
+2023/24,Q4,Greater Manchester,dwellings,1,2
+2023/24,Q4,Hertfordshire,dwellings,3,3
+2023/24,Q4,Humberside,dwellings,3,3
+2023/24,Q4,Humberside,road vehicles,1,1
+2023/24,Q4,Kent,dwellings,2,2
+2023/24,Q4,Lancashire,outdoors,1,1
+2023/24,Q4,Leicestershire,road vehicles,1,1
+2023/24,Q4,Norfolk,dwellings,1,1
+2023/24,Q4,Nottinghamshire,dwellings,2,3
+2023/24,Q4,Staffordshire,dwellings,2,2
+2023/24,Q4,Staffordshire,other buildings,1,1
+2023/24,Q4,Suffolk,dwellings,1,1
+2023/24,Q4,Tyne and Wear,dwellings,1,1
+2023/24,Q4,West Midlands,dwellings,3,3
+2023/24,Q4,West Yorkshire,dwellings,5,5
+2023/24,Q4,West Yorkshire,road vehicles,1,1
+2024/25,Q1,Avon,dwellings,1,1
+2024/25,Q1,Bedfordshire,outdoors,1,1
+2024/25,Q1,Buckinghamshire,dwellings,1,1
+2024/25,Q1,Derbyshire,dwellings,2,3
+2024/25,Q1,Durham,dwellings,1,1
+2024/25,Q1,East Sussex,dwellings,1,1
+2024/25,Q1,Essex,dwellings,1,1
+2024/25,Q1,Essex,outdoors,1,1
+2024/25,Q1,Gloucestershire,dwellings,2,2
+2024/25,Q1,Greater London,dwellings,6,7
+2024/25,Q1,Greater London,other buildings,1,1
+2024/25,Q1,Greater London,outdoors,1,1
+2024/25,Q1,Greater Manchester,dwellings,3,4
+2024/25,Q1,Hampshire and Isle of Wight,dwellings,3,3
+2024/25,Q1,Hampshire and Isle of Wight,other buildings,1,1
+2024/25,Q1,Humberside,dwellings,1,1
+2024/25,Q1,Humberside,outdoors,1,1
+2024/25,Q1,Kent,dwellings,2,2
+2024/25,Q1,Lancashire,dwellings,2,2
+2024/25,Q1,Lancashire,road vehicles,1,1
+2024/25,Q1,Leicestershire,dwellings,1,1
+2024/25,Q1,Lincolnshire,dwellings,1,1
+2024/25,Q1,Merseyside,dwellings,1,1
+2024/25,Q1,Northamptonshire,outdoors,1,1
+2024/25,Q1,Nottinghamshire,dwellings,2,2
+2024/25,Q1,Oxfordshire,dwellings,1,1
+2024/25,Q1,Oxfordshire,road vehicles,1,1
+2024/25,Q1,South Yorkshire,dwellings,3,3
+2024/25,Q1,South Yorkshire,road vehicles,1,1
+2024/25,Q1,Surrey,road vehicles,1,1
+2024/25,Q1,West Midlands,dwellings,9,10
+2024/25,Q1,West Sussex,outdoors,1,1
+2024/25,Q1,West Yorkshire,dwellings,2,2
+2024/25,Q2,Avon,other buildings,1,1
+2024/25,Q2,Berkshire,dwellings,1,1
+2024/25,Q2,Buckinghamshire,dwellings,1,1
+2024/25,Q2,Cumbria,dwellings,1,1
+2024/25,Q2,Cumbria,road vehicles,1,1
+2024/25,Q2,Derbyshire,dwellings,2,2
+2024/25,Q2,Dorset and Wiltshire,dwellings,2,2
+2024/25,Q2,Greater London,dwellings,6,8
+2024/25,Q2,Greater London,outdoors,2,2
+2024/25,Q2,Greater London,road vehicles,1,1
+2024/25,Q2,Greater Manchester,dwellings,3,3
+2024/25,Q2,Greater Manchester,other buildings,1,1
+2024/25,Q2,Greater Manchester,outdoors,1,1
+2024/25,Q2,Hereford and Worcester,dwellings,2,2
+2024/25,Q2,Hereford and Worcester,outdoors,1,1
+2024/25,Q2,Hertfordshire,dwellings,1,1
+2024/25,Q2,Humberside,dwellings,3,3
+2024/25,Q2,Kent,dwellings,4,4
+2024/25,Q2,Lancashire,dwellings,3,4
+2024/25,Q2,Lancashire,outdoors,1,1
+2024/25,Q2,Leicestershire,dwellings,1,1
+2024/25,Q2,Leicestershire,road vehicles,1,1
+2024/25,Q2,Lincolnshire,dwellings,1,1
+2024/25,Q2,Merseyside,dwellings,3,3
+2024/25,Q2,Norfolk,dwellings,1,1
+2024/25,Q2,Northamptonshire,dwellings,1,1
+2024/25,Q2,Northamptonshire,outdoors,1,1
+2024/25,Q2,Nottinghamshire,dwellings,2,2
+2024/25,Q2,Oxfordshire,outdoors,1,1
+2024/25,Q2,Shropshire,road vehicles,1,1
+2024/25,Q2,Tyne and Wear,dwellings,1,1
+2024/25,Q2,West Yorkshire,dwellings,5,9
+2024/25,Q2,West Yorkshire,road vehicles,1,3
+2024/25,Q3,Bedfordshire,dwellings,1,2
+2024/25,Q3,Cambridgeshire,dwellings,1,1
+2024/25,Q3,Cambridgeshire,other buildings,1,1
+2024/25,Q3,Cambridgeshire,road vehicles,2,2
+2024/25,Q3,Cleveland,dwellings,1,1
+2024/25,Q3,Cumbria,dwellings,1,1
+2024/25,Q3,Cumbria,road vehicles,1,4
+2024/25,Q3,Devon and Somerset,dwellings,1,1
+2024/25,Q3,Dorset and Wiltshire,dwellings,1,1
+2024/25,Q3,Dorset and Wiltshire,other buildings,1,1
+2024/25,Q3,Durham,dwellings,1,1
+2024/25,Q3,Gloucestershire,dwellings,1,1
+2024/25,Q3,Greater London,dwellings,5,5
+2024/25,Q3,Greater London,other buildings,2,3
+2024/25,Q3,Greater Manchester,dwellings,4,4
+2024/25,Q3,Hampshire and Isle of Wight,dwellings,4,4
+2024/25,Q3,Hereford and Worcester,outdoors,1,1
+2024/25,Q3,Hereford and Worcester,road vehicles,1,1
+2024/25,Q3,Humberside,dwellings,2,2
+2024/25,Q3,Humberside,outdoors,1,1
+2024/25,Q3,Kent,dwellings,2,2
+2024/25,Q3,Kent,other buildings,1,1
+2024/25,Q3,Kent,outdoors,1,1
+2024/25,Q3,Lancashire,dwellings,4,4
+2024/25,Q3,Leicestershire,dwellings,1,1
+2024/25,Q3,Lincolnshire,dwellings,2,2
+2024/25,Q3,Merseyside,dwellings,1,1
+2024/25,Q3,Norfolk,dwellings,1,1
+2024/25,Q3,Northamptonshire,dwellings,2,2
+2024/25,Q3,Nottinghamshire,dwellings,1,1
+2024/25,Q3,South Yorkshire,dwellings,1,1
+2024/25,Q3,Staffordshire,dwellings,1,1
+2024/25,Q3,Suffolk,dwellings,1,1
+2024/25,Q3,Surrey,dwellings,1,1
+2024/25,Q3,Surrey,road vehicles,1,1
+2024/25,Q3,Tyne and Wear,dwellings,2,3
+2024/25,Q3,Warwickshire,dwellings,1,1
+2024/25,Q3,West Midlands,dwellings,3,4
+2024/25,Q3,West Yorkshire,dwellings,3,3
+2024/25,Q3,West Yorkshire,outdoors,1,1
+2024/25,Q4,Avon,dwellings,1,1
+2024/25,Q4,Bedfordshire,road vehicles,1,1
+2024/25,Q4,Berkshire,dwellings,1,1
+2024/25,Q4,Buckinghamshire,dwellings,1,1
+2024/25,Q4,Cheshire,dwellings,1,1
+2024/25,Q4,Cleveland,dwellings,1,1
+2024/25,Q4,Cornwall,dwellings,1,1
+2024/25,Q4,Derbyshire,dwellings,2,2
+2024/25,Q4,Devon and Somerset,dwellings,2,2
+2024/25,Q4,Devon and Somerset,outdoors,1,1
+2024/25,Q4,Dorset and Wiltshire,dwellings,1,1
+2024/25,Q4,Durham,dwellings,1,1
+2024/25,Q4,Essex,dwellings,6,6
+2024/25,Q4,Gloucestershire,road vehicles,1,1
+2024/25,Q4,Greater London,dwellings,7,7
+2024/25,Q4,Greater London,other buildings,1,1
+2024/25,Q4,Greater London,road vehicles,1,3
+2024/25,Q4,Greater Manchester,dwellings,6,6
+2024/25,Q4,Greater Manchester,outdoors,1,1
+2024/25,Q4,Greater Manchester,road vehicles,2,2
+2024/25,Q4,Hampshire and Isle of Wight,dwellings,1,1
+2024/25,Q4,Hereford and Worcester,other buildings,1,1
+2024/25,Q4,Hertfordshire,dwellings,2,2
+2024/25,Q4,Humberside,dwellings,1,1
+2024/25,Q4,Humberside,other buildings,2,2
+2024/25,Q4,Kent,dwellings,3,3
+2024/25,Q4,Kent,outdoors,1,1
+2024/25,Q4,Leicestershire,road vehicles,1,1
+2024/25,Q4,North Yorkshire,road vehicles,1,1
+2024/25,Q4,Northamptonshire,dwellings,2,4
+2024/25,Q4,Northumberland,dwellings,1,1
+2024/25,Q4,Oxfordshire,dwellings,1,1
+2024/25,Q4,Oxfordshire,road vehicles,1,1
+2024/25,Q4,South Yorkshire,dwellings,1,1
+2024/25,Q4,South Yorkshire,outdoors,2,2
+2024/25,Q4,South Yorkshire,road vehicles,1,1
+2024/25,Q4,Surrey,dwellings,2,2
+2024/25,Q4,Tyne and Wear,dwellings,3,3
+2024/25,Q4,Warwickshire,dwellings,2,3
+2024/25,Q4,West Midlands,dwellings,6,6
+2024/25,Q4,West Yorkshire,dwellings,1,1
+2025/26,Q1,Avon,dwellings,1,1
+2025/26,Q1,Bedfordshire,dwellings,1,1
+2025/26,Q1,Berkshire,dwellings,1,1
+2025/26,Q1,Berkshire,outdoors,1,1
+2025/26,Q1,Buckinghamshire,dwellings,2,3
+2025/26,Q1,Cambridgeshire,dwellings,1,1
+2025/26,Q1,Cambridgeshire,road vehicles,1,1
+2025/26,Q1,Cornwall,dwellings,1,1
+2025/26,Q1,Cumbria,dwellings,1,1
+2025/26,Q1,Cumbria,other buildings,1,1
+2025/26,Q1,Derbyshire,dwellings,1,1
+2025/26,Q1,Devon and Somerset,dwellings,1,1
+2025/26,Q1,Dorset and Wiltshire,dwellings,1,1
+2025/26,Q1,Dorset and Wiltshire,other buildings,1,1
+2025/26,Q1,East Sussex,dwellings,2,2
+2025/26,Q1,Essex,dwellings,1,1
+2025/26,Q1,Essex,other buildings,1,1
+2025/26,Q1,Greater London,dwellings,11,14
+2025/26,Q1,Greater Manchester,dwellings,3,3
+2025/26,Q1,Greater Manchester,outdoors,1,1
+2025/26,Q1,Hampshire and Isle of Wight,dwellings,2,3
+2025/26,Q1,Hereford and Worcester,outdoors,2,2
+2025/26,Q1,Hereford and Worcester,road vehicles,1,1
+2025/26,Q1,Hertfordshire,dwellings,1,1
+2025/26,Q1,Kent,dwellings,1,1
+2025/26,Q1,Lancashire,dwellings,2,2
+2025/26,Q1,Lancashire,outdoors,1,1
+2025/26,Q1,Lancashire,road vehicles,1,1
+2025/26,Q1,Leicestershire,outdoors,1,1
+2025/26,Q1,Leicestershire,road vehicles,1,1
+2025/26,Q1,Lincolnshire,other buildings,1,2
+2025/26,Q1,Merseyside,dwellings,1,1
+2025/26,Q1,Norfolk,dwellings,1,1
+2025/26,Q1,North Yorkshire,dwellings,1,1
+2025/26,Q1,North Yorkshire,road vehicles,1,1
+2025/26,Q1,Northamptonshire,dwellings,2,2
+2025/26,Q1,Nottinghamshire,dwellings,1,1
+2025/26,Q1,Shropshire,dwellings,1,1
+2025/26,Q1,South Yorkshire,dwellings,1,1
+2025/26,Q1,South Yorkshire,road vehicles,2,2
+2025/26,Q1,Staffordshire,dwellings,1,1
+2025/26,Q1,Tyne and Wear,other buildings,1,1
+2025/26,Q1,West Midlands,dwellings,3,3
+2025/26,Q1,West Yorkshire,dwellings,2,3
+2025/26,Q2,Avon,dwellings,1,1
+2025/26,Q2,Buckinghamshire,road vehicles,1,2
+2025/26,Q2,Cambridgeshire,dwellings,1,1
+2025/26,Q2,Cleveland,dwellings,1,1
+2025/26,Q2,Cornwall,other buildings,1,1
+2025/26,Q2,Derbyshire,dwellings,1,1
+2025/26,Q2,Derbyshire,road vehicles,1,1
+2025/26,Q2,Devon and Somerset,dwellings,1,1
+2025/26,Q2,Devon and Somerset,road vehicles,1,1
+2025/26,Q2,Dorset and Wiltshire,dwellings,1,1
+2025/26,Q2,Dorset and Wiltshire,road vehicles,1,1
+2025/26,Q2,East Sussex,dwellings,1,1
+2025/26,Q2,Essex,dwellings,1,1
+2025/26,Q2,Greater London,dwellings,4,4
+2025/26,Q2,Greater London,outdoors,2,2
+2025/26,Q2,Greater Manchester,dwellings,1,1
+2025/26,Q2,Greater Manchester,outdoors,1,1
+2025/26,Q2,Kent,road vehicles,1,1
+2025/26,Q2,Leicestershire,dwellings,1,1
+2025/26,Q2,Leicestershire,other buildings,1,1
+2025/26,Q2,Leicestershire,outdoors,1,1
+2025/26,Q2,Lincolnshire,dwellings,1,1
+2025/26,Q2,Merseyside,dwellings,3,4
+2025/26,Q2,Merseyside,road vehicles,1,1
+2025/26,Q2,Norfolk,dwellings,1,1
+2025/26,Q2,Nottinghamshire,dwellings,1,1
+2025/26,Q2,Nottinghamshire,outdoors,1,1
+2025/26,Q2,Nottinghamshire,road vehicles,1,1
+2025/26,Q2,Shropshire,other buildings,1,1
+2025/26,Q2,South Yorkshire,dwellings,2,2
+2025/26,Q2,Staffordshire,dwellings,1,1
+2025/26,Q2,Staffordshire,road vehicles,1,1
+2025/26,Q2,Suffolk,dwellings,1,1
+2025/26,Q2,Tyne and Wear,dwellings,1,1
+2025/26,Q2,Warwickshire,dwellings,1,1
+2025/26,Q2,West Midlands,dwellings,1,1
+2025/26,Q2,West Midlands,other buildings,1,1
+2025/26,Q2,West Midlands,road vehicles,1,1
+2025/26,Q2,West Sussex,dwellings,1,1
+2025/26,Q3,Avon,dwellings,1,2
+2025/26,Q3,Avon,road vehicles,1,1
+2025/26,Q3,Bedfordshire,dwellings,1,1
+2025/26,Q3,Bedfordshire,road vehicles,1,1
+2025/26,Q3,Buckinghamshire,road vehicles,1,1
+2025/26,Q3,Cambridgeshire,dwellings,1,1
+2025/26,Q3,Cheshire,dwellings,1,1
+2025/26,Q3,Derbyshire,dwellings,1,1
+2025/26,Q3,Devon and Somerset,dwellings,3,3
+2025/26,Q3,Dorset and Wiltshire,dwellings,1,1
+2025/26,Q3,Dorset and Wiltshire,other buildings,1,1
+2025/26,Q3,Durham,dwellings,1,1
+2025/26,Q3,Essex,dwellings,2,2
+2025/26,Q3,Essex,road vehicles,1,1
+2025/26,Q3,Gloucestershire,dwellings,2,4
+2025/26,Q3,Greater London,dwellings,9,9
+2025/26,Q3,Greater London,other buildings,1,1
+2025/26,Q3,Greater London,outdoors,1,1
+2025/26,Q3,Greater Manchester,dwellings,5,5
+2025/26,Q3,Greater Manchester,outdoors,1,1
+2025/26,Q3,Hampshire and Isle of Wight,dwellings,1,1
+2025/26,Q3,Hereford and Worcester,dwellings,1,1
+2025/26,Q3,Humberside,dwellings,1,1
+2025/26,Q3,Humberside,road vehicles,2,2
+2025/26,Q3,Kent,dwellings,2,2
+2025/26,Q3,Kent,other buildings,1,1
+2025/26,Q3,Kent,road vehicles,1,1
+2025/26,Q3,Lancashire,dwellings,2,2
+2025/26,Q3,Lancashire,other buildings,1,1
+2025/26,Q3,Lancashire,road vehicles,1,1
+2025/26,Q3,Leicestershire,road vehicles,1,1
+2025/26,Q3,Lincolnshire,dwellings,1,1
+2025/26,Q3,Lincolnshire,road vehicles,1,1
+2025/26,Q3,Norfolk,dwellings,3,3
+2025/26,Q3,North Yorkshire,road vehicles,1,1
+2025/26,Q3,Northamptonshire,dwellings,1,1
+2025/26,Q3,Oxfordshire,dwellings,1,1
+2025/26,Q3,South Yorkshire,dwellings,4,4
+2025/26,Q3,South Yorkshire,road vehicles,1,1
+2025/26,Q3,Staffordshire,dwellings,1,1
+2025/26,Q3,Surrey,road vehicles,1,1
+2025/26,Q3,Tyne and Wear,dwellings,2,2
+2025/26,Q3,Warwickshire,road vehicles,1,1
+2025/26,Q3,West Midlands,dwellings,1,1
+2025/26,Q3,West Midlands,outdoors,1,1
+2025/26,Q3,West Yorkshire,dwellings,6,6
+2025/26,Q3,West Yorkshire,other buildings,1,1
+2025/26,Q3,West Yorkshire,road vehicles,1,1
+2025/26,Q4,Bedfordshire,road vehicles,1,1
+2025/26,Q4,Berkshire,dwellings,1,1
+2025/26,Q4,Cambridgeshire,dwellings,1,1
+2025/26,Q4,Cheshire,dwellings,1,1
+2025/26,Q4,Cheshire,other buildings,1,1
+2025/26,Q4,Cleveland,dwellings,2,2
+2025/26,Q4,Devon and Somerset,dwellings,1,1
+2025/26,Q4,Devon and Somerset,road vehicles,1,1
+2025/26,Q4,Dorset and Wiltshire,outdoors,1,1
+2025/26,Q4,Essex,dwellings,2,2
+2025/26,Q4,Greater London,dwellings,7,9
+2025/26,Q4,Greater London,road vehicles,1,1
+2025/26,Q4,Greater Manchester,dwellings,2,2
+2025/26,Q4,Hampshire and Isle of Wight,dwellings,1,1
+2025/26,Q4,Hereford and Worcester,other buildings,1,1
+2025/26,Q4,Hertfordshire,dwellings,1,1
+2025/26,Q4,Humberside,dwellings,1,1
+2025/26,Q4,Lancashire,dwellings,2,2
+2025/26,Q4,Lincolnshire,dwellings,4,5
+2025/26,Q4,North Yorkshire,dwellings,1,1
+2025/26,Q4,Nottinghamshire,road vehicles,1,1
+2025/26,Q4,Shropshire,dwellings,1,1
+2025/26,Q4,South Yorkshire,dwellings,1,1
+2025/26,Q4,South Yorkshire,outdoors,1,1
+2025/26,Q4,Suffolk,dwellings,1,1
+2025/26,Q4,Surrey,dwellings,1,1
+2025/26,Q4,West Midlands,dwellings,4,4
+2025/26,Q4,West Yorkshire,dwellings,5,5
+2025/26,Q4,West Yorkshire,road vehicles,1,1

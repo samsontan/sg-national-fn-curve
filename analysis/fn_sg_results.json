@@ -4,7 +4,7 @@
     2025
   ],
   "T_years": 14,
-  "n_events": 47,
+  "n_events": 50,
   "bootstrap_draws": 10000,
   "seeds": {
     "fatalities_national": 20260721,
@@ -14,10 +14,10 @@
   },
   "register_source": "fatal_incident_register.csv",
   "geylang_primary_classification": "residential (occupancy basis, E1)",
-  "n_blank_injury_rows": 20,
+  "n_blank_injury_rows": 23,
   "premises_breakdown": {
-    "HDB_RESIDENTIAL": 31,
-    "PRIVATE_RESIDENTIAL": 10,
+    "HDB_RESIDENTIAL": 33,
+    "PRIVATE_RESIDENTIAL": 11,
     "INDUSTRIAL": 5,
     "COMMERCIAL": 1
   },
@@ -29,25 +29,25 @@
       4
     ],
     "F": [
-      3.357142857142857,
+      3.5714285714285716,
       0.8571428571428571,
       0.2857142857142857,
-      0.07142857142857142
+      0.14285714285714285
     ],
     "ci_lo": [
-      2.4285714285714284,
+      2.5714285714285716,
       0.42857142857142855,
       0.07142857142857142,
       0.0
     ],
     "ci_hi": [
-      4.357142857142857,
+      4.571428571428571,
       1.3571428571428572,
       0.5714285714285714,
-      0.21428571428571427
+      0.35714285714285715
     ],
-    "n_fatal_events": 47,
-    "total_fatalities": 64
+    "n_fatal_events": 50,
+    "total_fatalities": 68
   },
   "FN_fatalities_residential": {
     "N": [
@@ -57,25 +57,25 @@
       4
     ],
     "F": [
-      2.9285714285714284,
+      3.142857142857143,
       0.7142857142857143,
       0.21428571428571427,
-      0.07142857142857142
+      0.14285714285714285
     ],
     "ci_lo": [
-      2.0714285714285716,
+      2.2142857142857144,
       0.2857142857142857,
       0.0,
       0.0
     ],
     "ci_hi": [
-      3.857142857142857,
+      4.071428571428571,
       1.2142857142857142,
       0.5,
-      0.21428571428571427
+      0.35714285714285715
     ],
-    "n_fatal_events": 41,
-    "total_fatalities": 55
+    "n_fatal_events": 44,
+    "total_fatalities": 59
   },
   "FN_fatalities_non_residential": {
     "N": [
@@ -109,25 +109,25 @@
       4
     ],
     "F_per_dwelling_yr": [
-      2.0417455290877274e-06,
+      2.1911415434112198e-06,
       4.979867144116409e-07,
       1.4939601432349225e-07,
-      4.9798671441164087e-08
+      9.959734288232817e-08
     ],
     "mean_dwellings": 1434346.9285714286
   },
   "reconciliation": {
-    "factor_scdf_over_register": 0.8939393939393939,
+    "factor_scdf_over_register": 0.8428571428571429,
     "scdf_total_deaths": 59,
-    "register_deaths": 66,
+    "register_deaths": 70,
     "years_missing_scdf_total": []
   },
   "normalisations": {
     "mean_national_dwellings": 1434346.9285714286,
     "mean_total_population": 5651441.714285715,
-    "fatal_event_freq_per_dwelling_yr": 2.340537557734712e-06,
-    "residential_fatal_event_freq_per_dwelling_yr": 2.0417455290877274e-06,
-    "n_residential_fatal_events": 41,
+    "fatal_event_freq_per_dwelling_yr": 2.4899335720582046e-06,
+    "residential_fatal_event_freq_per_dwelling_yr": 2.1911415434112198e-06,
+    "n_residential_fatal_events": 44,
     "mean_national_gfa": null,
     "fatal_event_freq_per_gfa_yr": null
   },
@@ -138,8 +138,8 @@
         2018
       ],
       "T_years": 7,
-      "n_fatal_events": 21,
-      "F_ge1_per_yr": 3.0,
+      "n_fatal_events": 22,
+      "F_ge1_per_yr": 3.1429,
       "F_ge2_per_yr": 0.7143
     },
     "second_half": {
@@ -148,8 +148,8 @@
         2025
       ],
       "T_years": 7,
-      "n_fatal_events": 26,
-      "F_ge1_per_yr": 3.7143,
+      "n_fatal_events": 28,
+      "F_ge1_per_yr": 4.0,
       "F_ge2_per_yr": 1.0
     },
     "extended_register_2005": {
@@ -158,26 +158,28 @@
         2025
       ],
       "T_years": 21,
-      "n_fatal_events": 55,
-      "F_ge1_per_yr": 2.619,
+      "n_fatal_events": 59,
+      "F_ge1_per_yr": 2.8095,
       "F_ge2_per_yr": 0.6667
     }
   },
-  "expected_annual_fatalities": 4.571428571428571,
+  "expected_annual_fatalities": 4.857142857142857,
   "classification_sensitivities": {
     "geylang_premises_class_commercial": {
       "residential": {
         "N": [
           1,
           2,
-          3
+          3,
+          4
         ],
         "F": [
-          2.8571,
+          3.0714,
           0.6429,
-          0.1429
+          0.1429,
+          0.0714
         ],
-        "n_fatal_events": 40
+        "n_fatal_events": 43
       },
       "non_residential": {
         "N": [
@@ -204,12 +206,12 @@
           4
         ],
         "F": [
-          3.2857,
+          3.5,
           0.7857,
           0.2143,
-          0.0714
+          0.1429
         ],
-        "n_fatal_events": 46
+        "n_fatal_events": 49
       },
       "non_residential": {
         "N": [
@@ -223,7 +225,7 @@
         "n_fatal_events": 5
       }
     },
-    "bedok_delayed_death": {
+    "bedok_toll_of_three_at_the_time": {
       "national": {
         "N": [
           1,
@@ -232,12 +234,12 @@
           4
         ],
         "F": [
-          3.3571,
+          3.5714,
           0.8571,
           0.2857,
-          0.1429
+          0.0714
         ],
-        "n_fatal_events": 47
+        "n_fatal_events": 50
       }
     },
     "condo_commonarea_occupancy_nonres": {
@@ -249,12 +251,12 @@
           4
         ],
         "F": [
-          2.8571,
+          3.0714,
           0.6429,
           0.2143,
-          0.0714
+          0.1429
         ],
-        "n_fatal_events": 40
+        "n_fatal_events": 43
       },
       "non_residential": {
         "N": [
@@ -275,14 +277,16 @@
     "N": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "F_per_dwelling_yr": [
-      1.9421481862053992e-06,
+      2.0915442005288916e-06,
       3.983893715293127e-07,
-      9.959734288232817e-08
+      9.959734288232817e-08,
+      4.9798671441164087e-08
     ],
-    "n_events": 39,
+    "n_events": 42,
     "excluded_ids": [
       "SGF-2014-04",
       "SGF-2015-01"
@@ -297,10 +301,10 @@
       4
     ],
     "F_per_million_residents": [
-      0.8393582738107772,
+      0.8929343338412523,
       0.21430424012190052,
       0.07143474670730018,
-      0.017858686676825046
+      0.03571737335365009
     ]
   },
   "FN_fat_plus_inj_national": {
@@ -328,7 +332,7 @@
       21
     ],
     "F": [
-      3.357142857142857,
+      3.5714285714285716,
       1.3571428571428572,
       0.7142857142857143,
       0.5,
@@ -351,7 +355,7 @@
       0.07142857142857142
     ],
     "ci_lo": [
-      2.4285714285714284,
+      2.642857142857143,
       0.7857142857142857,
       0.2857142857142857,
       0.14285714285714285,
@@ -374,9 +378,9 @@
       0.0
     ],
     "ci_hi": [
-      4.357142857142857,
+      4.571428571428571,
       2.0,
-      1.2142857142857142,
+      1.1428571428571428,
       0.9285714285714286,
       0.5714285714285714,
       0.5,
@@ -401,12 +405,12 @@
     "leave_one_out": [
       {
         "N": 1,
-        "count": 47,
-        "F": 3.357142857142857,
-        "F_loo_min": 3.2857142857142856,
-        "F_loo_max": 3.357142857142857,
-        "relative_swing_pct": 2.1,
-        "events_supporting": 47
+        "count": 50,
+        "F": 3.5714285714285716,
+        "F_loo_min": 3.5,
+        "F_loo_max": 3.5714285714285716,
+        "relative_swing_pct": 2.0,
+        "events_supporting": 50
       },
       {
         "N": 2,
@@ -428,18 +432,18 @@
       },
       {
         "N": 4,
-        "count": 1,
-        "F": 0.07142857142857142,
-        "F_loo_min": 0.0,
-        "F_loo_max": 0.07142857142857142,
-        "relative_swing_pct": 100.0,
-        "events_supporting": 1
+        "count": 2,
+        "F": 0.14285714285714285,
+        "F_loo_min": 0.07142857142857142,
+        "F_loo_max": 0.14285714285714285,
+        "relative_swing_pct": 50.0,
+        "events_supporting": 2
       }
     ],
     "one_more_event": {
       "add_N4": {
-        "F_ge4": 0.14285714285714285,
-        "note": "one additional four-death event doubles F(>=4)"
+        "F_ge4": 0.21428571428571427,
+        "note": "one additional four-death event raises F(>=4) by half (two such events are on record)"
       },
       "add_N5": {
         "F_ge5": 0.07142857142857142,
@@ -453,7 +457,7 @@
           2005,
           2014
         ],
-        "F_ge1": 1.5,
+        "F_ge1": 1.7,
         "F_ge2": 0.5,
         "F_ge3": 0.1
       },
@@ -462,7 +466,7 @@
           2006,
           2015
         ],
-        "F_ge1": 1.9,
+        "F_ge1": 2.1,
         "F_ge2": 0.7,
         "F_ge3": 0.1
       },
@@ -471,7 +475,7 @@
           2007,
           2016
         ],
-        "F_ge1": 1.8,
+        "F_ge1": 2.0,
         "F_ge2": 0.7,
         "F_ge3": 0.1
       },
@@ -480,7 +484,7 @@
           2008,
           2017
         ],
-        "F_ge1": 2.0,
+        "F_ge1": 2.2,
         "F_ge2": 0.6,
         "F_ge3": 0.1
       },
@@ -489,7 +493,7 @@
           2009,
           2018
         ],
-        "F_ge1": 2.4,
+        "F_ge1": 2.6,
         "F_ge2": 0.6,
         "F_ge3": 0.1
       },
@@ -498,7 +502,7 @@
           2010,
           2019
         ],
-        "F_ge1": 2.6,
+        "F_ge1": 2.8,
         "F_ge2": 0.6,
         "F_ge3": 0.1
       },
@@ -507,7 +511,7 @@
           2011,
           2020
         ],
-        "F_ge1": 2.7,
+        "F_ge1": 2.9,
         "F_ge2": 0.6,
         "F_ge3": 0.1
       },
@@ -516,7 +520,7 @@
           2012,
           2021
         ],
-        "F_ge1": 2.9,
+        "F_ge1": 3.1,
         "F_ge2": 0.6,
         "F_ge3": 0.2
       },
@@ -525,7 +529,7 @@
           2013,
           2022
         ],
-        "F_ge1": 3.3,
+        "F_ge1": 3.5,
         "F_ge2": 0.8,
         "F_ge3": 0.3
       },
@@ -534,7 +538,7 @@
           2014,
           2023
         ],
-        "F_ge1": 3.4,
+        "F_ge1": 3.6,
         "F_ge2": 0.7,
         "F_ge3": 0.3
       },
@@ -543,7 +547,7 @@
           2015,
           2024
         ],
-        "F_ge1": 3.6,
+        "F_ge1": 3.8,
         "F_ge2": 0.6,
         "F_ge3": 0.2
       },
@@ -552,14 +556,14 @@
           2016,
           2025
         ],
-        "F_ge1": 3.5,
+        "F_ge1": 3.7,
         "F_ge2": 0.7,
         "F_ge3": 0.3
       }
     ],
     "rolling_F_ge1_range": [
-      1.5,
-      3.6
+      1.7,
+      3.8
     ],
     "rolling_F_ge2_range": [
       0.5,
@@ -575,8 +579,8 @@
           "N": 1,
           "line_per_dwelling_yr": 0.01,
           "events_needed": 200808.57000000004,
-          "events_observed": 47,
-          "shortfall_events": 200761.57000000004
+          "events_observed": 50,
+          "shortfall_events": 200758.57000000004
         },
         {
           "N": 2,
@@ -596,8 +600,8 @@
           "N": 4,
           "line_per_dwelling_yr": 0.0025,
           "events_needed": 50202.14250000001,
-          "events_observed": 1,
-          "shortfall_events": 50201.14250000001
+          "events_observed": 2,
+          "shortfall_events": 50200.14250000001
         }
       ],
       "HSE broadly acceptable (1e-4/N)": [
@@ -605,8 +609,8 @@
           "N": 1,
           "line_per_dwelling_yr": 0.0001,
           "events_needed": 2008.0857,
-          "events_observed": 47,
-          "shortfall_events": 1961.0857
+          "events_observed": 50,
+          "shortfall_events": 1958.0857
         },
         {
           "N": 2,
@@ -626,8 +630,8 @@
           "N": 4,
           "line_per_dwelling_yr": 2.5e-05,
           "events_needed": 502.021425,
-          "events_observed": 1,
-          "shortfall_events": 501.021425
+          "events_observed": 2,
+          "shortfall_events": 500.021425
         }
       ],
       "HK PHI unacceptable (1e-3/N)": [
@@ -635,8 +639,8 @@
           "N": 1,
           "line_per_dwelling_yr": 0.001,
           "events_needed": 20080.857,
-          "events_observed": 47,
-          "shortfall_events": 20033.857
+          "events_observed": 50,
+          "shortfall_events": 20030.857
         },
         {
           "N": 2,
@@ -656,8 +660,8 @@
           "N": 4,
           "line_per_dwelling_yr": 0.00025,
           "events_needed": 5020.21425,
-          "events_observed": 1,
-          "shortfall_events": 5019.21425
+          "events_observed": 2,
+          "shortfall_events": 5018.21425
         }
       ],
       "HK PHI acceptable (1e-5/N)": [
@@ -665,8 +669,8 @@
           "N": 1,
           "line_per_dwelling_yr": 1e-05,
           "events_needed": 200.80857000000003,
-          "events_observed": 47,
-          "shortfall_events": 153.80857000000003
+          "events_observed": 50,
+          "shortfall_events": 150.80857000000003
         },
         {
           "N": 2,
@@ -686,8 +690,8 @@
           "N": 4,
           "line_per_dwelling_yr": 2.5e-06,
           "events_needed": 50.20214250000001,
-          "events_observed": 1,
-          "shortfall_events": 49.20214250000001
+          "events_observed": 2,
+          "shortfall_events": 48.20214250000001
         }
       ]
     },
@@ -699,107 +703,5 @@
     },
     "note": "LOO envelope is exact (analytic). Per-dwelling decisiveness: number of size->=N events the 14-yr window would need for the per-dwelling curve to reach each line, vs the number observed. single_event_crossing_threshold_N: event size above which ONE event crosses the line at its own N (bounds the no-single-event claim)."
   },
-  "international_curves_plotted": [
-    "China 1998-2002, all fires (Wang et al. 2005)",
-    "Australia FY2004-2017, preventable residential fires (Coates et al. 2019)",
-    "New Zealand 2007-2014, unintentional domestic fires (Lilley & McNoe 2018)"
-  ],
-  "international_per_million": {
-    "Singapore (this study)": {
-      "N": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "F_per_million": [
-        0.5940329966876721,
-        0.15166799915429924,
-        0.050555999718099744,
-        0.012638999929524936
-      ],
-      "pop_millions": 5.651441714285714
-    },
-    "China 1998-2002, all fires (Wang et al. 2005)": {
-      "N": [
-        1,
-        2,
-        3,
-        4,
-        6,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        24,
-        25,
-        38,
-        74,
-        309
-      ],
-      "F_per_million": [
-        1.4145339652448656,
-        0.3145339652448657,
-        0.12243285939968404,
-        0.06271721958925751,
-        0.02890995260663507,
-        0.005529225908372828,
-        0.004423380726698262,
-        0.004107424960505529,
-        0.003791469194312796,
-        0.0030015797788309636,
-        0.0025276461295418644,
-        0.002211690363349131,
-        0.0020537124802527647,
-        0.0017377567140600318,
-        0.0017377567140600318,
-        0.0014218009478672985,
-        0.0012638230647709322,
-        0.0007898894154818325,
-        0.0004739336492890995,
-        0.00031595576619273305,
-        0.00015797788309636652
-      ],
-      "pop_millions": 1266
-    },
-    "Australia FY2004-2017, preventable residential fires (Coates et al. 2019)": {
-      "N": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "F_per_million": [
-        2.607820247002614,
-        0.18351212476336426,
-        0.05151446858379158,
-        0.028977733705940683,
-        0.006440998828089787
-      ],
-      "pop_millions": 22.186
-    },
-    "New Zealand 2007-2014, unintentional domestic fires (Lilley & McNoe 2018)": {
-      "N": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "F_per_million": [
-        3.062743302038012,
-        0.25761392260132815,
-        0.08587130753377605,
-        0.02862376917792535
-      ],
-      "pop_millions": 4.367
-    }
-  }
+  "international_curves_plotted": null
 }

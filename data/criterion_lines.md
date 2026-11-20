@@ -274,9 +274,9 @@ in the Discussion section, not implied to be supported by precedent.
    citation link, rather than relying solely on the Vince (2011) secondary quotation.
 
 
-## HK Risk Guidelines primary source - 2026-07-11 (written by MIES after verifier-agent report; resolves Open Item 1; F161)
+## HK Risk Guidelines primary source - 2026-07-11 (resolves Open Item 1)
 
-PRIMARY DOCUMENT (fetched and read in full by the verification agent, 2026-07-11):
+PRIMARY DOCUMENT (fetched and read in full, 2026-07-11):
 Planning Department, HKSAR Government. Hong Kong Planning Standards and Guidelines,
 Chapter 12 (Miscellaneous), Section 4: Potentially Hazardous Installations, paras 4.1-4.9
 and Figure 4.2 (Societal Risk Guidelines for Acceptable Risk Levels).

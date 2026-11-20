@@ -205,7 +205,7 @@ def plot_fn(series, title, outstem, xlabel, ylabel, criteria=CRITERIA, legend_lo
                     lw=1.0, label=name)
         ax.text(0.02, 0.03,
                 "Criterion lines are single-installation criteria,\n"
-                "shown for scale reference only (Section 5.2)",
+                "shown for scale reference only (Section 4.18)",
                 transform=ax.transAxes, fontsize=6.5, color="0.25", va="bottom",
                 zorder=20, clip_on=False,
                 bbox=dict(facecolor="white", edgecolor="0.7", lw=0.5, alpha=0.85))
@@ -300,7 +300,7 @@ def tail_stability(events, events_all, T, dwell, criteria=CRITERIA):
     add5 = np.append(sizes, 5)
     out["one_more_event"] = {
         "add_N4": {"F_ge4": float((add4 >= 4).sum() / T),
-                   "note": "one additional four-death event doubles F(>=4)"},
+                   "note": "one additional four-death event raises F(>=4) by half (two such events are on record)"},
         "add_N5": {"F_ge5": float((add5 >= 5).sum() / T),
                    "note": "one five-death event would extend the curve to N=5 at 1/T"},
         "one_over_T": 1.0 / T,
@@ -390,10 +390,10 @@ def plot_tail_stability(curves_national, tail, T, outstem="FN_sg_tailstability_v
     # one-more-event markers
     ome = tail["one_more_event"]
     ax.plot(4, ome["add_N4"]["F_ge4"], marker="s", mfc="none", mec="tab:red", ms=7, ls="none",
-            label="One added 4-death event (F(>=4) doubles)")
+            label="One added 4-death event (F(>=4) rises by half)")
     ax.plot(5, ome["add_N5"]["F_ge5"], marker="o", mfc="none", mec="tab:red", ms=7, ls="none",
             label="One hypothetical 5-death event (curve extends)")
-    ax.annotate("entire N=4 point rests\non a single event", xy=(4, loo[3]["F"]),
+    ax.annotate("N=4 point rests\non two events", xy=(4, loo[3]["F"]),
                 xytext=(4.6, loo[3]["F"] * 3.2), fontsize=6.5, color="0.2",
                 arrowprops=dict(arrowstyle="-", lw=0.6, color="0.4"))
     ax.set_xscale("log")
@@ -415,9 +415,9 @@ def plot_event_strip(events_all, outstem="FN_sg_eventstrip_v4"):
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
 
-    fig, ax = plt.subplots(figsize=(7.5, 3.4), dpi=300)
+    fig, ax = plt.subplots(figsize=(7.5, 3.4), dpi=600)
     ax.axvspan(PRIMARY_START_YEAR - 0.5, PRIMARY_END_YEAR + 0.5, color="0.92", zorder=0,
-               label="Primary window 2012-2025")
+               label="Primary window 2012–2025")
     # jitter events sharing (year, N) horizontally so all dots stay visible
     seen = {}
     for e in sorted(events_all, key=lambda x: (x["year"], -x["fatalities"])):
@@ -435,18 +435,19 @@ def plot_event_strip(events_all, outstem="FN_sg_eventstrip_v4"):
     ax.scatter([], [], color="tab:red", label="Non-residential")
     for yr, n, txt, dx, dy in [(2014, 4, "Geylang shophouse-lodging (4)", -6.2, 0.25),
                                (2021, 3, "Tuas dust explosion (3)", -7.8, 0.45),
-                               (2022, 3, "Bedok North (3)", -1.6, 0.62),
+                               (2022, 4, "Bedok North (4)", -1.6, 0.5),
                                (2025, 3, "Hougang (3)", 0.4, 0.45)]:
         ax.annotate(txt, xy=(yr, n), xytext=(yr + dx, n + dy), fontsize=6.5, color="0.25",
+                    ha="right" if yr == 2025 else "left",
                     arrowprops=dict(arrowstyle="-", lw=0.6, color="0.5"))
     ax.set_xlim(2004, 2026.5)
-    ax.set_ylim(0.4, 4.9)
+    ax.set_ylim(0.4, 5.4)
     ax.set_yticks([1, 2, 3, 4])
     ax.set_xticks(range(2005, 2026, 5))
     ax.xaxis.set_minor_locator(__import__("matplotlib.ticker", fromlist=["MultipleLocator"]).MultipleLocator(1))
     ax.set_xlabel("Year")
     ax.set_ylabel("N, deaths in event")
-    ax.set_title("Every fatal building-envelope fire event, Singapore 2005-2025", fontsize=10)
+    ax.set_title("Every fatal building-envelope fire event, Singapore 2005–2025", fontsize=10)
     ax.grid(True, axis="y", ls=":", lw=0.4, color="0.85")
     ax.legend(fontsize=6.5, frameon=True, loc="upper left", ncol=3)
     for ext in ("png", "pdf"):
@@ -653,8 +654,12 @@ def main():
         "non_residential": fn_points([e for e in excl if not is_residential(e)
                                       and e["premises"] != "UNKNOWN"]),
     }
-    delayed = [dict(e, fatalities=4) if e["id"] == "SGF-2022-02" else e for e in events]
-    sens["bedok_delayed_death"] = {"national": fn_points(delayed)}
+    # The register counts the 2022 Bedok North fire with four deaths: three on the day and a fourth
+    # occupant who died of her injuries in March 2024. The sensitivity is the toll of three that
+    # the official release itemised at the time.
+    assert [e["fatalities"] for e in events if e["id"] == "SGF-2022-02"] == [4]
+    at_the_time = [dict(e, fatalities=3) if e["id"] == "SGF-2022-02" else e for e in events]
+    sens["bedok_toll_of_three_at_the_time"] = {"national": fn_points(at_the_time)}
     # (d) Round-3 A-m3: the occupancy rule applied in the REVERSE direction. SGF-2014-01
     # (condominium common-area fire; both victims were on-duty security officers, a
     # working occupancy) moves to non-residential on the same occupancy basis that moves

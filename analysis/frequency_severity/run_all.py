@@ -1,11 +1,11 @@
 """Reproduce every model-based quantity in the paper (Sections 4.9-4.15).
 
 Outputs to results/: fits_per_jurisdiction.json, common_basis.json,
-universality_lrt.json, hierarchical_posterior.json, singapore_tail.json,
-grenfell_dragon_king.json, catastrophic_pooling.json, derived_indices.json.
+singapore_tail.json, grenfell_dragon_king.json, derived_indices.json.
+The residential-basis comparison and the England bounds are in run_revision.py.
 
 Run:  python analysis/frequency_severity/run_all.py
-Runtime a few minutes (hierarchical MCMC and bootstrap fit tests dominate).
+Runtime under a minute (bootstrap fit tests dominate).
 """
 import io
 import json
@@ -15,8 +15,8 @@ import numpy as np
 from scipy.optimize import brentq
 from scipy.stats import chi2
 
-from fs_model import (DATA_CSV, RESULTS, fit_b, gof_pboot, load_data, lrt_common_b,
-                      nll, profile_ci, survival, within_regime_bins, zsum)
+from fs_model import (RESULTS, fit_b, gof_pboot, load_data,
+                      profile_ci, survival, within_regime_bins, zsum)
 
 os.makedirs(RESULTS, exist_ok=True)
 rng = np.random.default_rng(42)
@@ -55,60 +55,15 @@ for j, bins in wr.items():
                      mfi_within_regime=round(sum(c for lo, _, c in bins if lo >= 2) / n_ev, 4))
 save("common_basis.json", common)
 
-# ---------------- 3. universality ----------------
-lrt = {
-    "all_seven": lrt_common_b(data, names),
-    "five_western": lrt_common_b(data, ["USA", "Sweden", "Australia", "NewZealand", "England"]),
-    "singapore_china": lrt_common_b(data, ["Singapore", "China"]),
-    "note": "Reported in the supplement only; at these sample sizes with residual "
-            "misspecification the p-values overstate crispness (paper Section 4.11).",
-}
-save("universality_lrt.json", lrt)
-
-# ---------------- 4. hierarchical pooling ----------------
-J = len(names)
+# ---------------- 3-4. (removed in revision) ----------------
+# The common-exponent likelihood-ratio tests and the hierarchical pooling of the
+# original analysis are not reported: the datasets differ in incident scope,
+# treatment of deliberate fires and collection method (paper Sections 3.3, 4.11).
 obs_nmax = {j: max(hi for _, hi, _ in data[j]["bins"]) for j in names}
-
-
-def loglik_j(j, b):
-    return -nll(b, data[j]["bins"], obs_nmax[j])
-
-
-def logpost(th):
-    logb, mu, lsig = th[:J], th[J], th[J + 1]
-    sig = np.exp(lsig)
-    lp = -0.5 * ((mu - np.log(3)) / 1.0) ** 2
-    lp += -0.5 * (sig / 0.5) ** 2 + lsig
-    lp += np.sum(-0.5 * ((logb - mu) / sig) ** 2 - lsig)
-    for k in range(J):
-        lp += loglik_j(names[k], np.exp(logb[k]))
-    return lp
-
-
-th = np.concatenate([np.log([fits[j]["b_obs_support"] for j in names]), [np.log(3.0), np.log(0.3)]])
-cur = logpost(th)
-step = np.concatenate([np.full(J, 0.05), [0.08, 0.15]])
-step[names.index("Singapore")] = 0.15
-step[names.index("NewZealand")] = 0.08
-chain = []
-for it in range(40000):
-    prop = th + rng.normal(0, step)
-    lp = logpost(prop)
-    if np.log(rng.random()) < lp - cur:
-        th, cur = prop, lp
-    if it >= 10000 and it % 10 == 0:
-        chain.append(th.copy())
-chain = np.array(chain)
-b_post = np.exp(chain[:, :J])
-hier = {names[k]: [round(x, 3) for x in np.percentile(b_post[:, k], [2.5, 50, 97.5])]
-        for k in range(J)}
-hier["sd_log_b"] = [round(x, 3) for x in np.percentile(np.exp(chain[:, J + 1]), [2.5, 50, 97.5])]
-hier["note"] = "Used only as a stated sensitivity (paper Section 3.4)."
-save("hierarchical_posterior.json", hier)
 
 # ---------------- 5. Singapore tail scenarios + monitoring ----------------
 sg = data["Singapore"]["bins"]
-lam_sg = 47 / 14
+lam_sg = sum(c for _, _, c in sg) / data["Singapore"]["T"]
 scen = {}
 for nmax, label in [(8, "Nmax8_large_household"), (17, "Nmax17_dormitory"),
                     (10 ** 4, "untruncated_bounding")]:
@@ -123,9 +78,12 @@ for nmax, label in [(8, "Nmax8_large_household"), (17, "Nmax17_dormitory"),
 bu, _ = fit_b(sg, 10 ** 4)
 ci_u = profile_ci(sg, 10 ** 4, grid=np.linspace(1.2, 6, 2000))
 sd = (np.log(ci_u[1]) - np.log(ci_u[0])) / (2 * 1.96)
-bd = np.exp(rng.normal(np.log(bu), sd, 4000))
-s5 = np.array([survival(b, 10 ** 4, 5) for b in bd])
-bf = {f"after_{y}yr": round(1 / np.mean((1 - s5) ** (lam_sg * y)), 1) for y in (10, 20, 30)}
+# Deterministic quadrature over the lognormal posterior (revision: replaces a
+# 4,000-draw Monte Carlo estimate whose last digit depended on the random stream).
+zq = np.linspace(-6, 6, 2001)
+wq = np.exp(-zq ** 2 / 2); wq /= wq.sum()
+s5 = np.array([survival(b, 10 ** 4, 5) for b in np.exp(np.log(bu) + sd * zq)])
+bf = {f"after_{y}yr": round(1 / float(np.sum(wq * (1 - s5) ** (lam_sg * y))), 1) for y in (10, 20, 30)}
 scen["monitoring_bayes_factors_sharp_cap_vs_uncapped"] = bf
 save("singapore_tail.json", scen)
 
@@ -143,26 +101,10 @@ gren = dict(b_within_regime=round(b_e, 3),
                  "at p about 6e-4 across the window (paper Section 4.12).")
 save("grenfell_dragon_king.json", gren)
 
-# ---------------- 7. catastrophic pooling ----------------
-expo = {j: data[j]["pop"] * data[j]["T"] for j in names}
-tot = sum(expo.values())
-k = 4  # China 38, 74, 309; England 71
-rate = k / tot
-lo = chi2.ppf(0.025, 2 * k) / 2 / tot
-hi = chi2.ppf(0.975, 2 * (k + 1)) / 2 / tot
-cat = dict(events=k, exposure_M_person_yr=round(tot),
-           pooled_rate_per_M_person_yr=float(f"{rate:.2e}"),
-           ci=[float(f"{lo:.2e}"), float(f"{hi:.2e}")],
-           singapore_RP_yr=round(1 / (rate * 5.65)),
-           leave_one_out_RP_yr={j: round(1 / (((k - (3 if j == "China" else 1 if j == "England" else 0))
-                                               / (tot - expo[j])) * 5.65))
-                                for j in ("China", "England", "USA")
-                                if (k - (3 if j == "China" else 1 if j == "England" else 0)) > 0},
-           note="Any-cause reference class; size N>=30 as proxy for regime failure; "
-                "assumptions per paper Section 4.13.")
-save("catastrophic_pooling.json", cat)
+# ---------------- 7. (removed in revision) ----------------
+# No pooled catastrophic-fire rate is estimated (paper Section 4.13).
 
-# ---------------- 8. derived indices + two-number estimator ----------------
+# ---------------- 8. derived indices of the single law, and its exponent from the share ----------------
 idx = {}
 for j in names:
     b_c = common[j]["b"]

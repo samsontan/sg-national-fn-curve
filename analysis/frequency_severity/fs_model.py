@@ -23,6 +23,39 @@ DATA_CSV = os.path.join(REPO, "data", "international_severity_bins.csv")
 RESULTS = os.path.join(REPO, "results")
 
 
+REGISTER_CSV = os.path.join(REPO, "data", "fatal_incident_register.csv")
+PRIMARY_YEARS = (2012, 2025)
+
+
+def singapore_events(basis="buildings", years=PRIMARY_YEARS):
+    """Register rows of the Singapore fatal-fire register for a basis and a window.
+
+    basis: 'buildings' (all fires in enclosed buildings) or 'residential' (residential premises,
+    with the 2014 lodging-house fire counted residential on the occupancy basis of the paper).
+    The register is the single source of the Singapore counts used by every script.
+    """
+    rows = []
+    for r in csv.DictReader(io.open(REGISTER_CSV, encoding="utf-8-sig")):
+        if r["building_scope"].strip().lower() != "building":
+            continue
+        if not (years[0] <= int(r["year"]) <= years[1]):
+            continue
+        p = r["premises_type"].lower()
+        res = ("hdb" in p or "residen" in p or "condo" in p) or r["incident_id"] == "SGF-2014-04"
+        if basis == "residential" and not res:
+            continue
+        rows.append(r)
+    return rows
+
+
+def singapore_bins(basis="buildings", years=PRIMARY_YEARS):
+    c = {}
+    for r in singapore_events(basis, years):
+        n = int(r["fatalities"])
+        c[n] = c.get(n, 0) + 1
+    return [(n, n, k) for n, k in sorted(c.items())]
+
+
 def load_data(path=DATA_CSV):
     """CSV -> {jurisdiction: {bins: [(lo, hi, count)], T, pop, scope, grade}}"""
     data = {}
@@ -32,6 +65,8 @@ def load_data(path=DATA_CSV):
                                     pop=float(r["pop_millions"]),
                                     scope=r["scope"], grade=r["provenance_grade"]))
         d["bins"].append((int(r["bin_lo"]), int(r["bin_hi"]), int(r["events"])))
+    reg = singapore_bins("buildings")
+    assert data["Singapore"]["bins"] == reg, "Singapore rows of the bins file differ from the register: run sync_singapore_bins.py"
     return data
 
 

@@ -1,12 +1,12 @@
 {
  "Singapore": {
-  "b": 2.743,
+  "b": 2.774,
   "ci": [
-   2.24,
-   3.41
+   2.27,
+   3.43
   ],
-  "n_within_regime": 47,
-  "mfi_within_regime": 0.2553
+  "n_within_regime": 50,
+  "mfi_within_regime": 0.24
  },
  "England": {
   "b": 4.275,
@@ -25,15 +25,6 @@
   ],
   "n_within_regime": 11400,
   "mfi_within_regime": 0.13
- },
- "Sweden": {
-  "b": 4.134,
-  "ci": [
-   3.89,
-   4.4
-  ],
-  "n_within_regime": 1183,
-  "mfi_within_regime": 0.0702
  },
  "Australia": {
   "b": 4.052,

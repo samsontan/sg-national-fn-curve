@@ -1,94 +1,77 @@
 # sg-national-fn-curve
 
-Data, model code and reproduction package for:
+Data, code and committed results for a study of societal fire risk in Singapore: a national F-N curve for building fires, 2012 to 2025, and a comparison with England on a matched basis.
 
-> **A frequency-severity decomposition of national building-fire societal risk: evidence from seven jurisdictions**
 > Samson Tan, Teoh Teik Toe, Paul Joseph, Khalid A. M. Moinuddin
-> Manuscript in preparation, August 2026. Citation to be updated on acceptance.
+> Manuscript in revision, November 2026. Title and citation to be added on acceptance.
 
-National building-fire F-N curves have been drawn descriptively but never modelled. This
-repository holds everything behind a paper that changes that: a decomposition of a
-jurisdiction's societal fire risk into a Poisson fatal-fire rate and a conditional severity
-distribution (a discrete power law with upper limit), estimated by maximum likelihood with
-goodness-of-fit testing across seven jurisdictions, about 25,000 fatal fires in all. The
-Singapore per-incident register that anchors the study, its reconciliation against official
-totals, the international severity dataset, the model code, and every committed result are
-here, so any reported number can be checked or extended without asking us.
+## Version 3.0 replaces version 2.0
 
-**Version 2.0 supersedes the v1.0 package** (tagged `v1.0-descriptive`), which accompanied an
-earlier descriptive version of the paper. Everything in v1.0 is retained; v2.0 adds the
-seven-jurisdiction severity dataset and the frequency-severity model layer.
+Version 2.0 (tag `v2.0-frequency-severity`) compared seven national datasets as if they covered the same incidents and populations. They do not. Version 3.0 withdraws that comparison and what was built on it:
 
-## What the model finds
+- the seven-jurisdiction comparison matrix and the ranking drawn from it;
+- the reading that Singapore has "the heaviest severity distribution";
+- the test of a universal severity law and the hierarchical model;
+- the pooled rate of catastrophic fires;
+- the Swedish distribution by number of deaths, which no source publishes (the totals quoted in version 2.0 are from a report of the SP Technical Research Institute).
 
-- **Rate and severity are uncoupled.** Fatal-fire rates per million population span a
-  fourteen-fold range while the scalar deaths-per-fire ratio is nearly flat; conditional on a
-  fatal fire, the probability of two or more deaths is 0.255 in Singapore against 0.060 in
-  England (ratio 4.2, 95% CI 2.3-6.7). The lowest-rate jurisdiction carries the heaviest
-  severity distribution.
-- **A universal severity law is rejected** as an estimated spread, sd(log b) = 0.23
-  (0.13-0.48), with exponents spanning about 2.7 to 4.3 on a common within-regime basis.
-- **Catastrophic fires are regime failures, not tail draws.** Under England's own severity
-  law fitted to its 2,354 ordinary fatal fires, Grenfell Tower was a 5,000-to-14,000-year
-  event; pooling the four such regime failures across the seven jurisdictions' 9,379 million
-  person-years gives an order-of-magnitude anchor for jurisdictions with no catastrophe in
-  their record (Singapore: roughly 400 years, with all assumptions stated).
-- **A two-number estimator**: the severity exponent is recoverable from the multi-fatality
-  share alone (cap-insensitive above Nmax = 10), so any national table publishing fatal-fire
-  and multi-fatality event frequencies can be converted into model parameters without
-  per-incident microdata.
+Versions 1.0 and 2.0 remain available under their tags.
+
+## What version 3.0 does
+
+- **Singapore register.** 62 fatal fires, 2005 to 2025, one row per fire, each with public source addresses and access dates. The primary window 2012 to 2025 holds 50 fatal building fires and 68 deaths. A death is counted with the fire that caused it, in the year of the fire.
+- **Each published dataset is compared only with English record-level data re-cut to the same scope**, on matched windows and denominators. Singapore and three published datasets (United States, Australia, New Zealand) are compared with England. China and Sweden enter no comparison. Nothing is pooled and no ranking is drawn.
+- **Rates are compared by number of deaths.** Over fourteen matched years Singapore's rate of single-death dwelling fires is 0.23 of England's per dwelling (95% interval 0.16 to 0.32). Its rate of fires with two or more deaths is not distinguishable from England's: 1.00 per dwelling (0.42 to 2.02).
+- **The share of fatal fires with two or more deaths is a ratio of those two rates.** It is not a measure of severity. After allowances for age, household composition and death definition the single-death ratio is 0.6 to 0.7 and the two rates no longer differ significantly.
+- **The curve is written two ways**: as a single power law of deaths per fire, and as two rates with a shape above one death. The data do not choose between them, and the results are reported for both.
+
+Every number above is in `results/r2_comparison.json`.
 
 ## Contents
 
-| Path | What |
-|---|---|
-| `data/fatal_incident_register.csv` | The Singapore register. 58 incidents, 2005-2025, one row per fatal fire, each with a public source URL and access date |
-| `data/scdf_fatality_reconciliation.csv` | Year-by-year register-to-SCDF reconciliation, including the years where the register exceeds the official total |
-| `data/international_severity_bins.csv` | **New in v2.0.** Per-incident severity bins for seven jurisdictions (Singapore, China, England, USA, Sweden, Australia, New Zealand) with scope, provenance grade and source per row |
-| `data/international_fn_curves_v2.json` | **New in v2.0.** The seven per-capita F-N curves with full derivation notes |
-| `data/exposure_national.csv`, `data/frequency_series.csv` | Singapore dwelling-stock, population and fire-occurrence series |
-| `data/register_provenance.md`, `data/frequency_provenance.md`, `data/criterion_lines.md` | Provenance and reference-line documentation |
-| `analysis/fn_sg_national.py` | v1.0 descriptive analysis: stepped curves, bootstrap bands, leave-one-out envelope, normalisations |
-| `analysis/frequency_severity/fs_model.py` | **New in v2.0.** The model: DPLDwUL severity (interval likelihoods, profile CIs, bootstrap GoF), common-basis rule, LRT machinery |
-| `analysis/frequency_severity/run_all.py` | **New in v2.0.** One command reproduces every model-based quantity in the paper |
-| `results/` | **New in v2.0.** Committed outputs: per-jurisdiction fits, common basis, universality tests, hierarchical posterior, Singapore tail scenarios and monitoring Bayes factors, Grenfell dragon-king test, catastrophic pooling, derived indices |
-| `figures/` | All paper figures: the v1.0 descriptive set and the v2.0 model set (framework, worked example, risk map, fitted overlays, Grenfell, tail scenarios, monitoring, placement chart) |
-| `supplementary/SUPPLEMENTARY.md` | Supplementary material S1-S5: search log, sensitivity tests, reconciliation notes, severity-model supplement, international dataset derivations |
+Data (`data/`)
+
+- `fatal_incident_register.csv`: the Singapore register, released without the free-text description and notes fields. `fatal_incident_register_draft.csv` and `fatal_incident_register_redacted.csv` are identical copies kept so that every path cited in the manuscript resolves.
+- `scdf_fatality_reconciliation.csv`: year-by-year reconciliation against the published official totals.
+- `frequency_series.csv`, `exposure_national.csv`: national fire-occurrence and dwelling series for Singapore (`_draft` copies are identical).
+- `home_office_fire_related_fatalities.csv`: the record-level fire-related fatalities dataset for England, year ending March 2026 edition, one row per fatality, converted from the published ODS file without change. Contains public sector information licensed under the Open Government Licence v3.0.
+- `england_fatal_fires_official.csv`, `england_fire0502_cells.csv`: official numbers of fatal fires and deaths for England from table FIRE0502 (edition of 22 July 2026), summed by year and location, and at the published resolution. Contains public sector information licensed under the Open Government Licence v3.0.
+- `england_fatal_dwelling_fires_by_household.csv`: fatal dwelling fires by type of household, 2010/11 to 2018/19, from Table 38 of the Home Office in-depth review.
+- `exposure_comparison.csv`, `population_by_age.csv`: dwellings, households and population for the jurisdictions compared, each row with its official source.
+- `revision_bases.csv`, `international_severity_bins.csv`: the published deaths-per-fire distributions of the audited datasets, one row per bin, with the audited scope and source of every row.
+- `criterion_lines.md`, `register_provenance.md`, `frequency_provenance.md`, `claw_xlsx_verification.md`: sources and provenance notes.
+
+Code (`analysis/`)
+
+- `fn_sg_national.py`: stepped F-N curves, bootstrap bands, normalisations and sensitivity analyses for Singapore.
+- `frequency_severity/fs_model.py`: the single power law (likelihood, profile intervals, fit test).
+- `frequency_severity/run_all.py`, `run_revision.py`, `england_incident_level.py`: fits of the single law, Singapore tail scenarios, and England's distribution from the record-level data.
+- `frequency_severity/run_r2.py`: the matched comparison by number of deaths, standardisations, capture bounds, the shape above one death, bounds on English fire sizes from official counts, and the test of the two forms where the number of large fires is known.
+- `frequency_severity/r2_figs.py`: the model figures.
+- `frequency_severity/sync_singapore_bins.py`: refreshes the Singapore rows of the two bins files from the register.
+
+Results and figures: `analysis/fn_sg_results.json`, `results/*.json`, `figures/`, `figures_revision/`.
 
 ## Reproduce
 
+Tested with Python 3.13, NumPy 2.4.3, SciPy 1.17.1 and Matplotlib 3.10.8. Install the packages in `requirements.txt`, then run from this directory:
+
+```text
+python analysis/fn_sg_national.py
+python analysis/frequency_severity/sync_singapore_bins.py
+python analysis/frequency_severity/run_all.py
+python analysis/frequency_severity/run_revision.py
+python analysis/frequency_severity/england_incident_level.py
+python analysis/frequency_severity/run_r2.py
+python analysis/frequency_severity/r2_figs.py
 ```
-pip install numpy scipy matplotlib
-python analysis/fn_sg_national.py                     # v1 descriptive layer
-python analysis/frequency_severity/run_all.py         # v2 model layer -> results/
-```
 
-Both read only committed files and write only into `results/`. No number in the paper is
-entered by hand.
-
-## Use the estimator on your own jurisdiction
-
-If your national statistics publish (a) the annual frequency of fatal fires and (b) the
-annual frequency of fatal fires killing two or more people, the ratio (b)/(a) is the
-multi-fatality index MFI, and the severity exponent solves
-`1 - 1/sum(i^-b, i=1..Nmax) = MFI` (insensitive to Nmax above 10). See
-`results/derived_indices.json` for worked values and the standard-error formula, and the
-paper's placement chart for where your jurisdiction lands. Sources reporting only death
-totals (the CTIF World Fire Statistics format) cannot feed the estimator; publishing the
-two event frequencies would fix that, which is one of the paper's recommendations.
+The scripts read only committed files. All numerical outputs are deterministic: the bootstrap bands, fit tests and simulations use fixed seeds. No number in the paper is entered by hand.
 
 ## Provenance and limits
 
-The Singapore register was compiled entirely from public sources (SCDF annual releases,
-data.gov.sg datasets, MHA records, press reports) with per-row provenance, and is reconciled
-annually against SCDF's published totals; it meets or exceeds the official total in every
-year, so residual uncertainty is classificatory, not missing incidents. International
-severity data are graded per jurisdiction (per-incident, published counts, reconstructed, or
-percentage-derived) and every model claim in the paper carries the grade's consequences.
-The severity model is a working approximation: it fails formal goodness-of-fit in the two
-largest datasets and the paper says so.
+The Singapore register was compiled from public sources (SCDF annual releases, data.gov.sg, court judgments, coronial findings and press reports) and is reconciled each year against SCDF's published totals. It meets or exceeds the official total in every year. The Singapore side of the matched comparison holds 34 single-death and 8 multiple-death fires, so the intervals are wide. The record ends at four deaths: return periods above that are properties of the assumed form of the law, not of the record.
 
 ## License
 
-MIT for code. Data compiled from public sources; per-row source URLs retained. If you use
-the register, the international dataset or the model, please cite the paper above.
+MIT for code. Data are compiled from public sources and keep their source addresses. If you use the register or the code, please cite the paper once it is published.

@@ -1,0 +1,6104 @@
+{
+ "method": "rates by number of deaths on matched exposure; nothing pooled across datasets",
+ "england_reconstruction_check": {
+  "cells": 64,
+  "cells_agree": 63,
+  "by_location": {
+   "Dwellings": {
+    "official_multiple_fatality_fires": 165,
+    "reconstructed": 165,
+    "sum_abs_difference": 0
+   },
+   "Other Buildings": {
+    "official_multiple_fatality_fires": 17,
+    "reconstructed": 17,
+    "sum_abs_difference": 0
+   },
+   "Road Vehicles": {
+    "official_multiple_fatality_fires": 35,
+    "reconstructed": 34,
+    "sum_abs_difference": 1
+   },
+   "Other Outdoors": {
+    "official_multiple_fatality_fires": 16,
+    "reconstructed": 16,
+    "sum_abs_difference": 0
+   }
+  }
+ },
+ "singapore_vs_england": {
+  "primary": {
+   "england_dwellings": {
+    "fatal_fires": 2651,
+    "single": 2514,
+    "multi": 137,
+    "ge3": 32,
+    "ge4": 15,
+    "ge5": 6,
+    "deaths": 2910,
+    "deaths_in_multi": 396,
+    "distribution": {
+     "1": 2514,
+     "2": 105,
+     "3": 17,
+     "4": 9,
+     "5": 2,
+     "6": 3,
+     "71": 1
+    },
+    "window": "2012/13 to 2025/26",
+    "years": 14,
+    "exposure": {
+     "dwelling_years_M": 342.738,
+     "person_years_M": 785.17,
+     "household_years_M": 324.262,
+     "multi_person_household_years_M": 226.61
+    }
+   },
+   "singapore_residential": {
+    "fatal_fires": 44,
+    "single": 34,
+    "multi": 10,
+    "ge3": 3,
+    "ge4": 2,
+    "ge5": 0,
+    "deaths": 59,
+    "deaths_in_multi": 25,
+    "distribution": {
+     "1": 34,
+     "2": 7,
+     "3": 1,
+     "4": 2
+    },
+    "window": "2012-2025",
+    "years": 14,
+    "exposure": {
+     "dwelling_years_M": 20.081,
+     "person_years_M": 79.12,
+     "household_years_M": 18.541,
+     "multi_person_household_years_M": 15.947
+    }
+   },
+   "compare_residential": {
+    "dwelling_years_M": {
+     "single": {
+      "singapore": {
+       "events": 34,
+       "exposure_millions": 20.081,
+       "rate": 1.6931,
+       "ci95": [
+        1.1726,
+        2.366
+       ]
+      },
+      "england": {
+       "events": 2514,
+       "exposure_millions": 342.738,
+       "rate": 7.335,
+       "ci95": [
+        7.0511,
+        7.6275
+       ]
+      },
+      "ratio": {
+       "ratio": 0.230829,
+       "ci95": [
+        0.159493,
+        0.323426
+       ]
+      }
+     },
+     "multi": {
+      "singapore": {
+       "events": 10,
+       "exposure_millions": 20.081,
+       "rate": 0.498,
+       "ci95": [
+        0.2388,
+        0.9158
+       ]
+      },
+      "england": {
+       "events": 137,
+       "exposure_millions": 342.738,
+       "rate": 0.3997,
+       "ci95": [
+        0.3356,
+        0.4725
+       ]
+      },
+      "ratio": {
+       "ratio": 1.245823,
+       "ci95": [
+        0.584309,
+        2.361543
+       ]
+      }
+     },
+     "ge3": {
+      "singapore": {
+       "events": 3,
+       "exposure_millions": 20.081,
+       "rate": 0.1494,
+       "ci95": [
+        0.0308,
+        0.4366
+       ]
+      },
+      "england": {
+       "events": 32,
+       "exposure_millions": 342.738,
+       "rate": 0.0934,
+       "ci95": [
+        0.0639,
+        0.1318
+       ]
+      },
+      "ratio": {
+       "ratio": 1.600104,
+       "ci95": [
+        0.313518,
+        5.114732
+       ]
+      }
+     },
+     "ge4": {
+      "singapore": {
+       "events": 2,
+       "exposure_millions": 20.081,
+       "rate": 0.0996,
+       "ci95": [
+        0.0121,
+        0.3598
+       ]
+      },
+      "england": {
+       "events": 15,
+       "exposure_millions": 342.738,
+       "rate": 0.0438,
+       "ci95": [
+        0.0245,
+        0.0722
+       ]
+      },
+      "ratio": {
+       "ratio": 2.275703,
+       "ci95": [
+        0.252518,
+        9.785625
+       ]
+      }
+     },
+     "fatal_fires": {
+      "singapore": {
+       "events": 44,
+       "exposure_millions": 20.081,
+       "rate": 2.1911,
+       "ci95": [
+        1.5921,
+        2.9415
+       ]
+      },
+      "england": {
+       "events": 2651,
+       "exposure_millions": 342.738,
+       "rate": 7.7348,
+       "ci95": [
+        7.4431,
+        8.0349
+       ]
+      },
+      "ratio": {
+       "ratio": 0.283283,
+       "ci95": [
+        0.20533,
+        0.381372
+       ]
+      }
+     }
+    },
+    "person_years_M": {
+     "single": {
+      "singapore": {
+       "events": 34,
+       "exposure_millions": 79.12,
+       "rate": 0.4297,
+       "ci95": [
+        0.2976,
+        0.6005
+       ]
+      },
+      "england": {
+       "events": 2514,
+       "exposure_millions": 785.17,
+       "rate": 3.2019,
+       "ci95": [
+        3.0779,
+        3.3295
+       ]
+      },
+      "ratio": {
+       "ratio": 0.134212,
+       "ci95": [
+        0.092735,
+        0.188051
+       ]
+      }
+     },
+     "multi": {
+      "singapore": {
+       "events": 10,
+       "exposure_millions": 79.12,
+       "rate": 0.1264,
+       "ci95": [
+        0.0606,
+        0.2324
+       ]
+      },
+      "england": {
+       "events": 137,
+       "exposure_millions": 785.17,
+       "rate": 0.1745,
+       "ci95": [
+        0.1465,
+        0.2063
+       ]
+      },
+      "ratio": {
+       "ratio": 0.724364,
+       "ci95": [
+        0.339737,
+        1.373081
+       ]
+      }
+     },
+     "ge3": {
+      "singapore": {
+       "events": 3,
+       "exposure_millions": 79.12,
+       "rate": 0.0379,
+       "ci95": [
+        0.0078,
+        0.1108
+       ]
+      },
+      "england": {
+       "events": 32,
+       "exposure_millions": 785.17,
+       "rate": 0.0408,
+       "ci95": [
+        0.0279,
+        0.0575
+       ]
+      },
+      "ratio": {
+       "ratio": 0.930355,
+       "ci95": [
+        0.18229,
+        2.97388
+       ]
+      }
+     },
+     "ge4": {
+      "singapore": {
+       "events": 2,
+       "exposure_millions": 79.12,
+       "rate": 0.0253,
+       "ci95": [
+        0.0031,
+        0.0913
+       ]
+      },
+      "england": {
+       "events": 15,
+       "exposure_millions": 785.17,
+       "rate": 0.0191,
+       "ci95": [
+        0.0107,
+        0.0315
+       ]
+      },
+      "ratio": {
+       "ratio": 1.323172,
+       "ci95": [
+        0.146823,
+        5.689696
+       ]
+      }
+     },
+     "fatal_fires": {
+      "singapore": {
+       "events": 44,
+       "exposure_millions": 79.12,
+       "rate": 0.5561,
+       "ci95": [
+        0.4041,
+        0.7466
+       ]
+      },
+      "england": {
+       "events": 2651,
+       "exposure_millions": 785.17,
+       "rate": 3.3763,
+       "ci95": [
+        3.249,
+        3.5074
+       ]
+      },
+      "ratio": {
+       "ratio": 0.16471,
+       "ci95": [
+        0.119386,
+        0.221743
+       ]
+      }
+     }
+    },
+    "identity": {
+     "share_singapore": 0.2273,
+     "share_england": 0.0517,
+     "share_ci_singapore": [
+      0.115,
+      0.378
+     ],
+     "share_ci_england": [
+      0.044,
+      0.061
+     ],
+     "odds_ratio": 5.4,
+     "odds_ratio_ci95": [
+      2.33,
+      11.45
+     ],
+     "ratio_multi_over_ratio_single_dwellings": 5.4,
+     "fisher_p": 8.6e-05,
+     "p_central": 0.00017
+    }
+   },
+   "singapore_dwelling_stock": {
+    "fatal_fires": 42,
+    "single": 34,
+    "multi": 8,
+    "ge3": 2,
+    "ge4": 1,
+    "ge5": 0,
+    "deaths": 53,
+    "deaths_in_multi": 19,
+    "distribution": {
+     "1": 34,
+     "2": 6,
+     "3": 1,
+     "4": 1
+    },
+    "window": "2012-2025",
+    "years": 14,
+    "exposure": {
+     "dwelling_years_M": 20.081,
+     "person_years_M": 79.12,
+     "household_years_M": 18.541,
+     "multi_person_household_years_M": 15.947
+    }
+   },
+   "compare_dwelling_stock": {
+    "dwelling_years_M": {
+     "single": {
+      "singapore": {
+       "events": 34,
+       "exposure_millions": 20.081,
+       "rate": 1.6931,
+       "ci95": [
+        1.1726,
+        2.366
+       ]
+      },
+      "england": {
+       "events": 2514,
+       "exposure_millions": 342.738,
+       "rate": 7.335,
+       "ci95": [
+        7.0511,
+        7.6275
+       ]
+      },
+      "ratio": {
+       "ratio": 0.230829,
+       "ci95": [
+        0.159493,
+        0.323426
+       ]
+      }
+     },
+     "multi": {
+      "singapore": {
+       "events": 8,
+       "exposure_millions": 20.081,
+       "rate": 0.3984,
+       "ci95": [
+        0.172,
+        0.785
+       ]
+      },
+      "england": {
+       "events": 137,
+       "exposure_millions": 342.738,
+       "rate": 0.3997,
+       "ci95": [
+        0.3356,
+        0.4725
+       ]
+      },
+      "ratio": {
+       "ratio": 0.996658,
+       "ci95": [
+        0.421806,
+        2.019773
+       ]
+      }
+     },
+     "ge3": {
+      "singapore": {
+       "events": 2,
+       "exposure_millions": 20.081,
+       "rate": 0.0996,
+       "ci95": [
+        0.0121,
+        0.3598
+       ]
+      },
+      "england": {
+       "events": 32,
+       "exposure_millions": 342.738,
+       "rate": 0.0934,
+       "ci95": [
+        0.0639,
+        0.1318
+       ]
+      },
+      "ratio": {
+       "ratio": 1.066736,
+       "ci95": [
+        0.123864,
+        4.181236
+       ]
+      }
+     },
+     "ge4": {
+      "singapore": {
+       "events": 1,
+       "exposure_millions": 20.081,
+       "rate": 0.0498,
+       "ci95": [
+        0.0013,
+        0.2775
+       ]
+      },
+      "england": {
+       "events": 15,
+       "exposure_millions": 342.738,
+       "rate": 0.0438,
+       "ci95": [
+        0.0245,
+        0.0722
+       ]
+      },
+      "ratio": {
+       "ratio": 1.137852,
+       "ci95": [
+        0.027029,
+        7.395866
+       ]
+      }
+     },
+     "fatal_fires": {
+      "singapore": {
+       "events": 42,
+       "exposure_millions": 20.081,
+       "rate": 2.0915,
+       "ci95": [
+        1.5074,
+        2.8271
+       ]
+      },
+      "england": {
+       "events": 2651,
+       "exposure_millions": 342.738,
+       "rate": 7.7348,
+       "ci95": [
+        7.4431,
+        8.0349
+       ]
+      },
+      "ratio": {
+       "ratio": 0.270406,
+       "ci95": [
+        0.194419,
+        0.366527
+       ]
+      }
+     }
+    },
+    "person_years_M": {
+     "single": {
+      "singapore": {
+       "events": 34,
+       "exposure_millions": 79.12,
+       "rate": 0.4297,
+       "ci95": [
+        0.2976,
+        0.6005
+       ]
+      },
+      "england": {
+       "events": 2514,
+       "exposure_millions": 785.17,
+       "rate": 3.2019,
+       "ci95": [
+        3.0779,
+        3.3295
+       ]
+      },
+      "ratio": {
+       "ratio": 0.134212,
+       "ci95": [
+        0.092735,
+        0.188051
+       ]
+      }
+     },
+     "multi": {
+      "singapore": {
+       "events": 8,
+       "exposure_millions": 79.12,
+       "rate": 0.1011,
+       "ci95": [
+        0.0437,
+        0.1992
+       ]
+      },
+      "england": {
+       "events": 137,
+       "exposure_millions": 785.17,
+       "rate": 0.1745,
+       "ci95": [
+        0.1465,
+        0.2063
+       ]
+      },
+      "ratio": {
+       "ratio": 0.579491,
+       "ci95": [
+        0.245252,
+        1.174365
+       ]
+      }
+     },
+     "ge3": {
+      "singapore": {
+       "events": 2,
+       "exposure_millions": 79.12,
+       "rate": 0.0253,
+       "ci95": [
+        0.0031,
+        0.0913
+       ]
+      },
+      "england": {
+       "events": 32,
+       "exposure_millions": 785.17,
+       "rate": 0.0408,
+       "ci95": [
+        0.0279,
+        0.0575
+       ]
+      },
+      "ratio": {
+       "ratio": 0.620237,
+       "ci95": [
+        0.072019,
+        2.431113
+       ]
+      }
+     },
+     "ge4": {
+      "singapore": {
+       "events": 1,
+       "exposure_millions": 79.12,
+       "rate": 0.0126,
+       "ci95": [
+        0.0003,
+        0.0704
+       ]
+      },
+      "england": {
+       "events": 15,
+       "exposure_millions": 785.17,
+       "rate": 0.0191,
+       "ci95": [
+        0.0107,
+        0.0315
+       ]
+      },
+      "ratio": {
+       "ratio": 0.661586,
+       "ci95": [
+        0.015715,
+        4.300209
+       ]
+      }
+     },
+     "fatal_fires": {
+      "singapore": {
+       "events": 42,
+       "exposure_millions": 79.12,
+       "rate": 0.5308,
+       "ci95": [
+        0.3826,
+        0.7175
+       ]
+      },
+      "england": {
+       "events": 2651,
+       "exposure_millions": 785.17,
+       "rate": 3.3763,
+       "ci95": [
+        3.249,
+        3.5074
+       ]
+      },
+      "ratio": {
+       "ratio": 0.157223,
+       "ci95": [
+        0.113042,
+        0.213111
+       ]
+      }
+     }
+    },
+    "identity": {
+     "share_singapore": 0.1905,
+     "share_england": 0.0517,
+     "share_ci_singapore": [
+      0.086,
+      0.341
+     ],
+     "share_ci_england": [
+      0.044,
+      0.061
+     ],
+     "odds_ratio": 4.32,
+     "odds_ratio_ci95": [
+      1.69,
+      9.73
+     ],
+     "ratio_multi_over_ratio_single_dwellings": 4.32,
+     "fisher_p": 0.0014,
+     "p_central": 0.0029
+    }
+   },
+   "singapore_household_units": {
+    "fatal_fires": 41,
+    "single": 34,
+    "multi": 7,
+    "ge3": 2,
+    "ge4": 1,
+    "ge5": 0,
+    "deaths": 51,
+    "deaths_in_multi": 17,
+    "distribution": {
+     "1": 34,
+     "2": 5,
+     "3": 1,
+     "4": 1
+    },
+    "window": "2012-2025",
+    "years": 14,
+    "exposure": {
+     "dwelling_years_M": 20.081,
+     "person_years_M": 79.12,
+     "household_years_M": 18.541,
+     "multi_person_household_years_M": 15.947
+    }
+   },
+   "compare_household_units": {
+    "dwelling_years_M": {
+     "single": {
+      "singapore": {
+       "events": 34,
+       "exposure_millions": 20.081,
+       "rate": 1.6931,
+       "ci95": [
+        1.1726,
+        2.366
+       ]
+      },
+      "england": {
+       "events": 2514,
+       "exposure_millions": 342.738,
+       "rate": 7.335,
+       "ci95": [
+        7.0511,
+        7.6275
+       ]
+      },
+      "ratio": {
+       "ratio": 0.230829,
+       "ci95": [
+        0.159493,
+        0.323426
+       ]
+      }
+     },
+     "multi": {
+      "singapore": {
+       "events": 7,
+       "exposure_millions": 20.081,
+       "rate": 0.3486,
+       "ci95": [
+        0.1402,
+        0.7182
+       ]
+      },
+      "england": {
+       "events": 137,
+       "exposure_millions": 342.738,
+       "rate": 0.3997,
+       "ci95": [
+        0.3356,
+        0.4725
+       ]
+      },
+      "ratio": {
+       "ratio": 0.872076,
+       "ci95": [
+        0.344143,
+        1.845806
+       ]
+      }
+     },
+     "ge3": {
+      "singapore": {
+       "events": 2,
+       "exposure_millions": 20.081,
+       "rate": 0.0996,
+       "ci95": [
+        0.0121,
+        0.3598
+       ]
+      },
+      "england": {
+       "events": 32,
+       "exposure_millions": 342.738,
+       "rate": 0.0934,
+       "ci95": [
+        0.0639,
+        0.1318
+       ]
+      },
+      "ratio": {
+       "ratio": 1.066736,
+       "ci95": [
+        0.123864,
+        4.181236
+       ]
+      }
+     },
+     "ge4": {
+      "singapore": {
+       "events": 1,
+       "exposure_millions": 20.081,
+       "rate": 0.0498,
+       "ci95": [
+        0.0013,
+        0.2775
+       ]
+      },
+      "england": {
+       "events": 15,
+       "exposure_millions": 342.738,
+       "rate": 0.0438,
+       "ci95": [
+        0.0245,
+        0.0722
+       ]
+      },
+      "ratio": {
+       "ratio": 1.137852,
+       "ci95": [
+        0.027029,
+        7.395866
+       ]
+      }
+     },
+     "fatal_fires": {
+      "singapore": {
+       "events": 41,
+       "exposure_millions": 20.081,
+       "rate": 2.0417,
+       "ci95": [
+        1.4652,
+        2.7698
+       ]
+      },
+      "england": {
+       "events": 2651,
+       "exposure_millions": 342.738,
+       "rate": 7.7348,
+       "ci95": [
+        7.4431,
+        8.0349
+       ]
+      },
+      "ratio": {
+       "ratio": 0.263968,
+       "ci95": [
+        0.188981,
+        0.359088
+       ]
+      }
+     }
+    },
+    "person_years_M": {
+     "single": {
+      "singapore": {
+       "events": 34,
+       "exposure_millions": 79.12,
+       "rate": 0.4297,
+       "ci95": [
+        0.2976,
+        0.6005
+       ]
+      },
+      "england": {
+       "events": 2514,
+       "exposure_millions": 785.17,
+       "rate": 3.2019,
+       "ci95": [
+        3.0779,
+        3.3295
+       ]
+      },
+      "ratio": {
+       "ratio": 0.134212,
+       "ci95": [
+        0.092735,
+        0.188051
+       ]
+      }
+     },
+     "multi": {
+      "singapore": {
+       "events": 7,
+       "exposure_millions": 79.12,
+       "rate": 0.0885,
+       "ci95": [
+        0.0356,
+        0.1823
+       ]
+      },
+      "england": {
+       "events": 137,
+       "exposure_millions": 785.17,
+       "rate": 0.1745,
+       "ci95": [
+        0.1465,
+        0.2063
+       ]
+      },
+      "ratio": {
+       "ratio": 0.507055,
+       "ci95": [
+        0.200097,
+        1.073214
+       ]
+      }
+     },
+     "ge3": {
+      "singapore": {
+       "events": 2,
+       "exposure_millions": 79.12,
+       "rate": 0.0253,
+       "ci95": [
+        0.0031,
+        0.0913
+       ]
+      },
+      "england": {
+       "events": 32,
+       "exposure_millions": 785.17,
+       "rate": 0.0408,
+       "ci95": [
+        0.0279,
+        0.0575
+       ]
+      },
+      "ratio": {
+       "ratio": 0.620237,
+       "ci95": [
+        0.072019,
+        2.431113
+       ]
+      }
+     },
+     "ge4": {
+      "singapore": {
+       "events": 1,
+       "exposure_millions": 79.12,
+       "rate": 0.0126,
+       "ci95": [
+        0.0003,
+        0.0704
+       ]
+      },
+      "england": {
+       "events": 15,
+       "exposure_millions": 785.17,
+       "rate": 0.0191,
+       "ci95": [
+        0.0107,
+        0.0315
+       ]
+      },
+      "ratio": {
+       "ratio": 0.661586,
+       "ci95": [
+        0.015715,
+        4.300209
+       ]
+      }
+     },
+     "fatal_fires": {
+      "singapore": {
+       "events": 41,
+       "exposure_millions": 79.12,
+       "rate": 0.5182,
+       "ci95": [
+        0.3719,
+        0.703
+       ]
+      },
+      "england": {
+       "events": 2651,
+       "exposure_millions": 785.17,
+       "rate": 3.3763,
+       "ci95": [
+        3.249,
+        3.5074
+       ]
+      },
+      "ratio": {
+       "ratio": 0.15348,
+       "ci95": [
+        0.10988,
+        0.208786
+       ]
+      }
+     }
+    },
+    "identity": {
+     "share_singapore": 0.1707,
+     "share_england": 0.0517,
+     "share_ci_singapore": [
+      0.072,
+      0.321
+     ],
+     "share_ci_england": [
+      0.044,
+      0.061
+     ],
+     "odds_ratio": 3.78,
+     "odds_ratio_ci95": [
+      1.39,
+      8.86
+     ],
+     "ratio_multi_over_ratio_single_dwellings": 3.78,
+     "fisher_p": 0.0052,
+     "p_central": 0.01
+    }
+   }
+  },
+  "overlap": {
+   "england_dwellings": {
+    "fatal_fires": 2283,
+    "single": 2169,
+    "multi": 114,
+    "ge3": 27,
+    "ge4": 13,
+    "ge5": 6,
+    "deaths": 2512,
+    "deaths_in_multi": 343,
+    "distribution": {
+     "1": 2169,
+     "2": 87,
+     "3": 14,
+     "4": 7,
+     "5": 2,
+     "6": 3,
+     "71": 1
+    },
+    "window": "2012/13 to 2023/24",
+    "years": 12,
+    "exposure": {
+     "dwelling_years_M": 291.189,
+     "person_years_M": 667.73,
+     "household_years_M": 276.291,
+     "multi_person_household_years_M": 193.053
+    }
+   },
+   "singapore_residential": {
+    "fatal_fires": 38,
+    "single": 31,
+    "multi": 7,
+    "ge3": 2,
+    "ge4": 2,
+    "ge5": 0,
+    "deaths": 49,
+    "deaths_in_multi": 18,
+    "distribution": {
+     "1": 31,
+     "2": 5,
+     "4": 2
+    },
+    "window": "April 2012 to March 2024",
+    "years": 12,
+    "exposure": {
+     "dwelling_years_M": 16.861,
+     "person_years_M": 66.97,
+     "household_years_M": 15.591,
+     "multi_person_household_years_M": 13.481
+    }
+   },
+   "compare_residential": {
+    "dwelling_years_M": {
+     "single": {
+      "singapore": {
+       "events": 31,
+       "exposure_millions": 16.861,
+       "rate": 1.8386,
+       "ci95": [
+        1.2492,
+        2.6097
+       ]
+      },
+      "england": {
+       "events": 2169,
+       "exposure_millions": 291.189,
+       "rate": 7.4488,
+       "ci95": [
+        7.1386,
+        7.769
+       ]
+      },
+      "ratio": {
+       "ratio": 0.246828,
+       "ci95": [
+        0.167287,
+        0.351401
+       ]
+      }
+     },
+     "multi": {
+      "singapore": {
+       "events": 7,
+       "exposure_millions": 16.861,
+       "rate": 0.4152,
+       "ci95": [
+        0.1669,
+        0.8554
+       ]
+      },
+      "england": {
+       "events": 114,
+       "exposure_millions": 291.189,
+       "rate": 0.3915,
+       "ci95": [
+        0.3229,
+        0.4703
+       ]
+      },
+      "ratio": {
+       "ratio": 1.060437,
+       "ci95": [
+        0.416931,
+        2.2566
+       ]
+      }
+     },
+     "ge3": {
+      "singapore": {
+       "events": 2,
+       "exposure_millions": 16.861,
+       "rate": 0.1186,
+       "ci95": [
+        0.0144,
+        0.4285
+       ]
+      },
+      "england": {
+       "events": 27,
+       "exposure_millions": 291.189,
+       "rate": 0.0927,
+       "ci95": [
+        0.0611,
+        0.1349
+       ]
+      },
+      "ratio": {
+       "ratio": 1.279257,
+       "ci95": [
+        0.14742,
+        5.090665
+       ]
+      }
+     },
+     "ge4": {
+      "singapore": {
+       "events": 2,
+       "exposure_millions": 16.861,
+       "rate": 0.1186,
+       "ci95": [
+        0.0144,
+        0.4285
+       ]
+      },
+      "england": {
+       "events": 13,
+       "exposure_millions": 291.189,
+       "rate": 0.0446,
+       "ci95": [
+        0.0238,
+        0.0763
+       ]
+      },
+      "ratio": {
+       "ratio": 2.656919,
+       "ci95": [
+        0.291091,
+        11.735823
+       ]
+      }
+     },
+     "fatal_fires": {
+      "singapore": {
+       "events": 38,
+       "exposure_millions": 16.861,
+       "rate": 2.2537,
+       "ci95": [
+        1.5949,
+        3.0934
+       ]
+      },
+      "england": {
+       "events": 2283,
+       "exposure_millions": 291.189,
+       "rate": 7.8403,
+       "ci95": [
+        7.5219,
+        8.1686
+       ]
+      },
+      "ratio": {
+       "ratio": 0.287455,
+       "ci95": [
+        0.202884,
+        0.395775
+       ]
+      }
+     }
+    },
+    "person_years_M": {
+     "single": {
+      "singapore": {
+       "events": 31,
+       "exposure_millions": 66.97,
+       "rate": 0.4629,
+       "ci95": [
+        0.3145,
+        0.657
+       ]
+      },
+      "england": {
+       "events": 2169,
+       "exposure_millions": 667.73,
+       "rate": 3.2483,
+       "ci95": [
+        3.113,
+        3.388
+       ]
+      },
+      "ratio": {
+       "ratio": 0.142503,
+       "ci95": [
+        0.096581,
+        0.202876
+       ]
+      }
+     },
+     "multi": {
+      "singapore": {
+       "events": 7,
+       "exposure_millions": 66.97,
+       "rate": 0.1045,
+       "ci95": [
+        0.042,
+        0.2154
+       ]
+      },
+      "england": {
+       "events": 114,
+       "exposure_millions": 667.73,
+       "rate": 0.1707,
+       "ci95": [
+        0.1408,
+        0.2051
+       ]
+      },
+      "ratio": {
+       "ratio": 0.612229,
+       "ci95": [
+        0.24071,
+        1.302818
+       ]
+      }
+     },
+     "ge3": {
+      "singapore": {
+       "events": 2,
+       "exposure_millions": 66.97,
+       "rate": 0.0299,
+       "ci95": [
+        0.0036,
+        0.1079
+       ]
+      },
+      "england": {
+       "events": 27,
+       "exposure_millions": 667.73,
+       "rate": 0.0404,
+       "ci95": [
+        0.0266,
+        0.0588
+       ]
+      },
+      "ratio": {
+       "ratio": 0.738562,
+       "ci95": [
+        0.085111,
+        2.939026
+       ]
+      }
+     },
+     "ge4": {
+      "singapore": {
+       "events": 2,
+       "exposure_millions": 66.97,
+       "rate": 0.0299,
+       "ci95": [
+        0.0036,
+        0.1079
+       ]
+      },
+      "england": {
+       "events": 13,
+       "exposure_millions": 667.73,
+       "rate": 0.0195,
+       "ci95": [
+        0.0104,
+        0.0333
+       ]
+      },
+      "ratio": {
+       "ratio": 1.533936,
+       "ci95": [
+        0.168057,
+        6.775518
+       ]
+      }
+     },
+     "fatal_fires": {
+      "singapore": {
+       "events": 38,
+       "exposure_millions": 66.97,
+       "rate": 0.5674,
+       "ci95": [
+        0.4015,
+        0.7788
+       ]
+      },
+      "england": {
+       "events": 2283,
+       "exposure_millions": 667.73,
+       "rate": 3.419,
+       "ci95": [
+        3.2802,
+        3.5622
+       ]
+      },
+      "ratio": {
+       "ratio": 0.165958,
+       "ci95": [
+        0.117132,
+        0.228495
+       ]
+      }
+     }
+    },
+    "identity": {
+     "share_singapore": 0.1842,
+     "share_england": 0.0499,
+     "share_ci_singapore": [
+      0.077,
+      0.343
+     ],
+     "share_ci_england": [
+      0.041,
+      0.06
+     ],
+     "odds_ratio": 4.3,
+     "odds_ratio_ci95": [
+      1.56,
+      10.21
+     ],
+     "ratio_multi_over_ratio_single_dwellings": 4.3,
+     "fisher_p": 0.0029,
+     "p_central": 0.0057
+    }
+   },
+   "singapore_dwelling_stock": {
+    "fatal_fires": 36,
+    "single": 31,
+    "multi": 5,
+    "ge3": 1,
+    "ge4": 1,
+    "ge5": 0,
+    "deaths": 43,
+    "deaths_in_multi": 12,
+    "distribution": {
+     "1": 31,
+     "2": 4,
+     "4": 1
+    },
+    "window": "April 2012 to March 2024",
+    "years": 12,
+    "exposure": {
+     "dwelling_years_M": 16.861,
+     "person_years_M": 66.97,
+     "household_years_M": 15.591,
+     "multi_person_household_years_M": 13.481
+    }
+   },
+   "compare_dwelling_stock": {
+    "dwelling_years_M": {
+     "single": {
+      "singapore": {
+       "events": 31,
+       "exposure_millions": 16.861,
+       "rate": 1.8386,
+       "ci95": [
+        1.2492,
+        2.6097
+       ]
+      },
+      "england": {
+       "events": 2169,
+       "exposure_millions": 291.189,
+       "rate": 7.4488,
+       "ci95": [
+        7.1386,
+        7.769
+       ]
+      },
+      "ratio": {
+       "ratio": 0.246828,
+       "ci95": [
+        0.167287,
+        0.351401
+       ]
+      }
+     },
+     "multi": {
+      "singapore": {
+       "events": 5,
+       "exposure_millions": 16.861,
+       "rate": 0.2965,
+       "ci95": [
+        0.0963,
+        0.692
+       ]
+      },
+      "england": {
+       "events": 114,
+       "exposure_millions": 291.189,
+       "rate": 0.3915,
+       "ci95": [
+        0.3229,
+        0.4703
+       ]
+      },
+      "ratio": {
+       "ratio": 0.757455,
+       "ci95": [
+        0.24133,
+        1.819851
+       ]
+      }
+     },
+     "ge3": {
+      "singapore": {
+       "events": 1,
+       "exposure_millions": 16.861,
+       "rate": 0.0593,
+       "ci95": [
+        0.0015,
+        0.3304
+       ]
+      },
+      "england": {
+       "events": 27,
+       "exposure_millions": 291.189,
+       "rate": 0.0927,
+       "ci95": [
+        0.0611,
+        0.1349
+       ]
+      },
+      "ratio": {
+       "ratio": 0.639629,
+       "ci95": [
+        0.015623,
+        3.880669
+       ]
+      }
+     },
+     "ge4": {
+      "singapore": {
+       "events": 1,
+       "exposure_millions": 16.861,
+       "rate": 0.0593,
+       "ci95": [
+        0.0015,
+        0.3304
+       ]
+      },
+      "england": {
+       "events": 13,
+       "exposure_millions": 291.189,
+       "rate": 0.0446,
+       "ci95": [
+        0.0238,
+        0.0763
+       ]
+      },
+      "ratio": {
+       "ratio": 1.328459,
+       "ci95": [
+        0.03126,
+        8.844601
+       ]
+      }
+     },
+     "fatal_fires": {
+      "singapore": {
+       "events": 36,
+       "exposure_millions": 16.861,
+       "rate": 2.1351,
+       "ci95": [
+        1.4954,
+        2.9559
+       ]
+      },
+      "england": {
+       "events": 2283,
+       "exposure_millions": 291.189,
+       "rate": 7.8403,
+       "ci95": [
+        7.5219,
+        8.1686
+       ]
+      },
+      "ratio": {
+       "ratio": 0.272325,
+       "ci95": [
+        0.190244,
+        0.378154
+       ]
+      }
+     }
+    },
+    "person_years_M": {
+     "single": {
+      "singapore": {
+       "events": 31,
+       "exposure_millions": 66.97,
+       "rate": 0.4629,
+       "ci95": [
+        0.3145,
+        0.657
+       ]
+      },
+      "england": {
+       "events": 2169,
+       "exposure_millions": 667.73,
+       "rate": 3.2483,
+       "ci95": [
+        3.113,
+        3.388
+       ]
+      },
+      "ratio": {
+       "ratio": 0.142503,
+       "ci95": [
+        0.096581,
+        0.202876
+       ]
+      }
+     },
+     "multi": {
+      "singapore": {
+       "events": 5,
+       "exposure_millions": 66.97,
+       "rate": 0.0747,
+       "ci95": [
+        0.0242,
+        0.1742
+       ]
+      },
+      "england": {
+       "events": 114,
+       "exposure_millions": 667.73,
+       "rate": 0.1707,
+       "ci95": [
+        0.1408,
+        0.2051
+       ]
+      },
+      "ratio": {
+       "ratio": 0.437306,
+       "ci95": [
+        0.139329,
+        1.050666
+       ]
+      }
+     },
+     "ge3": {
+      "singapore": {
+       "events": 1,
+       "exposure_millions": 66.97,
+       "rate": 0.0149,
+       "ci95": [
+        0.0004,
+        0.0832
+       ]
+      },
+      "england": {
+       "events": 27,
+       "exposure_millions": 667.73,
+       "rate": 0.0404,
+       "ci95": [
+        0.0266,
+        0.0588
+       ]
+      },
+      "ratio": {
+       "ratio": 0.369281,
+       "ci95": [
+        0.00902,
+        2.240451
+       ]
+      }
+     },
+     "ge4": {
+      "singapore": {
+       "events": 1,
+       "exposure_millions": 66.97,
+       "rate": 0.0149,
+       "ci95": [
+        0.0004,
+        0.0832
+       ]
+      },
+      "england": {
+       "events": 13,
+       "exposure_millions": 667.73,
+       "rate": 0.0195,
+       "ci95": [
+        0.0104,
+        0.0333
+       ]
+      },
+      "ratio": {
+       "ratio": 0.766968,
+       "ci95": [
+        0.018047,
+        5.10631
+       ]
+      }
+     },
+     "fatal_fires": {
+      "singapore": {
+       "events": 36,
+       "exposure_millions": 66.97,
+       "rate": 0.5376,
+       "ci95": [
+        0.3765,
+        0.7442
+       ]
+      },
+      "england": {
+       "events": 2283,
+       "exposure_millions": 667.73,
+       "rate": 3.419,
+       "ci95": [
+        3.2802,
+        3.5622
+       ]
+      },
+      "ratio": {
+       "ratio": 0.157223,
+       "ci95": [
+        0.109835,
+        0.218322
+       ]
+      }
+     }
+    },
+    "identity": {
+     "share_singapore": 0.1389,
+     "share_england": 0.0499,
+     "share_ci_singapore": [
+      0.047,
+      0.295
+     ],
+     "share_ci_england": [
+      0.041,
+      0.06
+     ],
+     "odds_ratio": 3.07,
+     "odds_ratio_ci95": [
+      0.91,
+      8.16
+     ],
+     "ratio_multi_over_ratio_single_dwellings": 3.07,
+     "fisher_p": 0.034,
+     "p_central": 0.069
+    }
+   },
+   "singapore_household_units": {
+    "fatal_fires": 35,
+    "single": 31,
+    "multi": 4,
+    "ge3": 1,
+    "ge4": 1,
+    "ge5": 0,
+    "deaths": 41,
+    "deaths_in_multi": 10,
+    "distribution": {
+     "1": 31,
+     "2": 3,
+     "4": 1
+    },
+    "window": "April 2012 to March 2024",
+    "years": 12,
+    "exposure": {
+     "dwelling_years_M": 16.861,
+     "person_years_M": 66.97,
+     "household_years_M": 15.591,
+     "multi_person_household_years_M": 13.481
+    }
+   },
+   "compare_household_units": {
+    "dwelling_years_M": {
+     "single": {
+      "singapore": {
+       "events": 31,
+       "exposure_millions": 16.861,
+       "rate": 1.8386,
+       "ci95": [
+        1.2492,
+        2.6097
+       ]
+      },
+      "england": {
+       "events": 2169,
+       "exposure_millions": 291.189,
+       "rate": 7.4488,
+       "ci95": [
+        7.1386,
+        7.769
+       ]
+      },
+      "ratio": {
+       "ratio": 0.246828,
+       "ci95": [
+        0.167287,
+        0.351401
+       ]
+      }
+     },
+     "multi": {
+      "singapore": {
+       "events": 4,
+       "exposure_millions": 16.861,
+       "rate": 0.2372,
+       "ci95": [
+        0.0646,
+        0.6074
+       ]
+      },
+      "england": {
+       "events": 114,
+       "exposure_millions": 291.189,
+       "rate": 0.3915,
+       "ci95": [
+        0.3229,
+        0.4703
+       ]
+      },
+      "ratio": {
+       "ratio": 0.605964,
+       "ci95": [
+        0.162329,
+        1.594429
+       ]
+      }
+     },
+     "ge3": {
+      "singapore": {
+       "events": 1,
+       "exposure_millions": 16.861,
+       "rate": 0.0593,
+       "ci95": [
+        0.0015,
+        0.3304
+       ]
+      },
+      "england": {
+       "events": 27,
+       "exposure_millions": 291.189,
+       "rate": 0.0927,
+       "ci95": [
+        0.0611,
+        0.1349
+       ]
+      },
+      "ratio": {
+       "ratio": 0.639629,
+       "ci95": [
+        0.015623,
+        3.880669
+       ]
+      }
+     },
+     "ge4": {
+      "singapore": {
+       "events": 1,
+       "exposure_millions": 16.861,
+       "rate": 0.0593,
+       "ci95": [
+        0.0015,
+        0.3304
+       ]
+      },
+      "england": {
+       "events": 13,
+       "exposure_millions": 291.189,
+       "rate": 0.0446,
+       "ci95": [
+        0.0238,
+        0.0763
+       ]
+      },
+      "ratio": {
+       "ratio": 1.328459,
+       "ci95": [
+        0.03126,
+        8.844601
+       ]
+      }
+     },
+     "fatal_fires": {
+      "singapore": {
+       "events": 35,
+       "exposure_millions": 16.861,
+       "rate": 2.0758,
+       "ci95": [
+        1.4459,
+        2.8869
+       ]
+      },
+      "england": {
+       "events": 2283,
+       "exposure_millions": 291.189,
+       "rate": 7.8403,
+       "ci95": [
+        7.5219,
+        8.1686
+       ]
+      },
+      "ratio": {
+       "ratio": 0.264761,
+       "ci95": [
+        0.183949,
+        0.369319
+       ]
+      }
+     }
+    },
+    "person_years_M": {
+     "single": {
+      "singapore": {
+       "events": 31,
+       "exposure_millions": 66.97,
+       "rate": 0.4629,
+       "ci95": [
+        0.3145,
+        0.657
+       ]
+      },
+      "england": {
+       "events": 2169,
+       "exposure_millions": 667.73,
+       "rate": 3.2483,
+       "ci95": [
+        3.113,
+        3.388
+       ]
+      },
+      "ratio": {
+       "ratio": 0.142503,
+       "ci95": [
+        0.096581,
+        0.202876
+       ]
+      }
+     },
+     "multi": {
+      "singapore": {
+       "events": 4,
+       "exposure_millions": 66.97,
+       "rate": 0.0597,
+       "ci95": [
+        0.0163,
+        0.1529
+       ]
+      },
+      "england": {
+       "events": 114,
+       "exposure_millions": 667.73,
+       "rate": 0.1707,
+       "ci95": [
+        0.1408,
+        0.2051
+       ]
+      },
+      "ratio": {
+       "ratio": 0.349845,
+       "ci95": [
+        0.093718,
+        0.920522
+       ]
+      }
+     },
+     "ge3": {
+      "singapore": {
+       "events": 1,
+       "exposure_millions": 66.97,
+       "rate": 0.0149,
+       "ci95": [
+        0.0004,
+        0.0832
+       ]
+      },
+      "england": {
+       "events": 27,
+       "exposure_millions": 667.73,
+       "rate": 0.0404,
+       "ci95": [
+        0.0266,
+        0.0588
+       ]
+      },
+      "ratio": {
+       "ratio": 0.369281,
+       "ci95": [
+        0.00902,
+        2.240451
+       ]
+      }
+     },
+     "ge4": {
+      "singapore": {
+       "events": 1,
+       "exposure_millions": 66.97,
+       "rate": 0.0149,
+       "ci95": [
+        0.0004,
+        0.0832
+       ]
+      },
+      "england": {
+       "events": 13,
+       "exposure_millions": 667.73,
+       "rate": 0.0195,
+       "ci95": [
+        0.0104,
+        0.0333
+       ]
+      },
+      "ratio": {
+       "ratio": 0.766968,
+       "ci95": [
+        0.018047,
+        5.10631
+       ]
+      }
+     },
+     "fatal_fires": {
+      "singapore": {
+       "events": 35,
+       "exposure_millions": 66.97,
+       "rate": 0.5226,
+       "ci95": [
+        0.364,
+        0.7268
+       ]
+      },
+      "england": {
+       "events": 2283,
+       "exposure_millions": 667.73,
+       "rate": 3.419,
+       "ci95": [
+        3.2802,
+        3.5622
+       ]
+      },
+      "ratio": {
+       "ratio": 0.152856,
+       "ci95": [
+        0.1062,
+        0.213222
+       ]
+      }
+     }
+    },
+    "identity": {
+     "share_singapore": 0.1143,
+     "share_england": 0.0499,
+     "share_ci_singapore": [
+      0.032,
+      0.267
+     ],
+     "share_ci_england": [
+      0.041,
+      0.06
+     ],
+     "odds_ratio": 2.46,
+     "odds_ratio_ci95": [
+      0.62,
+      7.11
+     ],
+     "ratio_multi_over_ratio_single_dwellings": 2.46,
+     "fisher_p": 0.099,
+     "p_central": 0.2
+    }
+   }
+  },
+  "review": {
+   "england_dwellings": {
+    "fatal_fires": 1804,
+    "single": 1708,
+    "multi": 96,
+    "ge3": 25,
+    "ge4": 13,
+    "ge5": 6,
+    "deaths": 2013,
+    "deaths_in_multi": 305,
+    "distribution": {
+     "1": 1708,
+     "2": 71,
+     "3": 12,
+     "4": 7,
+     "5": 2,
+     "6": 3,
+     "71": 1
+    },
+    "window": "2010/11 to 2018/19",
+    "years": 9,
+    "exposure": {
+     "dwelling_years_M": 211.908,
+     "person_years_M": 489.19,
+     "household_years_M": 202.894,
+     "multi_person_household_years_M": 141.681
+    }
+   },
+   "singapore_residential": {
+    "fatal_fires": 20,
+    "single": 15,
+    "multi": 5,
+    "ge3": 1,
+    "ge4": 1,
+    "ge5": 0,
+    "deaths": 27,
+    "deaths_in_multi": 12,
+    "distribution": {
+     "1": 15,
+     "2": 4,
+     "4": 1
+    },
+    "window": "2012-2018",
+    "years": 7,
+    "exposure": {
+     "dwelling_years_M": 9.295,
+     "person_years_M": 38.57,
+     "household_years_M": 8.631,
+     "multi_person_household_years_M": 7.606
+    }
+   },
+   "compare_residential": {
+    "dwelling_years_M": {
+     "single": {
+      "singapore": {
+       "events": 15,
+       "exposure_millions": 9.295,
+       "rate": 1.6138,
+       "ci95": [
+        0.9032,
+        2.6617
+       ]
+      },
+      "england": {
+       "events": 1708,
+       "exposure_millions": 211.908,
+       "rate": 8.0601,
+       "ci95": [
+        7.6823,
+        8.4516
+       ]
+      },
+      "ratio": {
+       "ratio": 0.200217,
+       "ci95": [
+        0.111811,
+        0.331169
+       ]
+      }
+     },
+     "multi": {
+      "singapore": {
+       "events": 5,
+       "exposure_millions": 9.295,
+       "rate": 0.5379,
+       "ci95": [
+        0.1747,
+        1.2553
+       ]
+      },
+      "england": {
+       "events": 96,
+       "exposure_millions": 211.908,
+       "rate": 0.453,
+       "ci95": [
+        0.367,
+        0.5532
+       ]
+      },
+      "ratio": {
+       "ratio": 1.187399,
+       "ci95": [
+        0.376994,
+        2.868352
+       ]
+      }
+     },
+     "ge3": {
+      "singapore": {
+       "events": 1,
+       "exposure_millions": 9.295,
+       "rate": 0.1076,
+       "ci95": [
+        0.0027,
+        0.5994
+       ]
+      },
+      "england": {
+       "events": 25,
+       "exposure_millions": 211.908,
+       "rate": 0.118,
+       "ci95": [
+        0.0763,
+        0.1742
+       ]
+      },
+      "ratio": {
+       "ratio": 0.911923,
+       "ci95": [
+        0.022211,
+        5.57078
+       ]
+      }
+     },
+     "ge4": {
+      "singapore": {
+       "events": 1,
+       "exposure_millions": 9.295,
+       "rate": 0.1076,
+       "ci95": [
+        0.0027,
+        0.5994
+       ]
+      },
+      "england": {
+       "events": 13,
+       "exposure_millions": 211.908,
+       "rate": 0.0613,
+       "ci95": [
+        0.0327,
+        0.1049
+       ]
+      },
+      "ratio": {
+       "ratio": 1.753697,
+       "ci95": [
+        0.041266,
+        11.675744
+       ]
+      }
+     },
+     "fatal_fires": {
+      "singapore": {
+       "events": 20,
+       "exposure_millions": 9.295,
+       "rate": 2.1517,
+       "ci95": [
+        1.3143,
+        3.3231
+       ]
+      },
+      "england": {
+       "events": 1804,
+       "exposure_millions": 211.908,
+       "rate": 8.5131,
+       "ci95": [
+        8.1248,
+        8.9152
+       ]
+      },
+      "ratio": {
+       "ratio": 0.25275,
+       "ci95": [
+        0.154012,
+        0.391529
+       ]
+      }
+     }
+    },
+    "person_years_M": {
+     "single": {
+      "singapore": {
+       "events": 15,
+       "exposure_millions": 38.57,
+       "rate": 0.3889,
+       "ci95": [
+        0.2177,
+        0.6414
+       ]
+      },
+      "england": {
+       "events": 1708,
+       "exposure_millions": 489.19,
+       "rate": 3.4915,
+       "ci95": [
+        3.3278,
+        3.6611
+       ]
+      },
+      "ratio": {
+       "ratio": 0.111386,
+       "ci95": [
+        0.062204,
+        0.184238
+       ]
+      }
+     },
+     "multi": {
+      "singapore": {
+       "events": 5,
+       "exposure_millions": 38.57,
+       "rate": 0.1296,
+       "ci95": [
+        0.0421,
+        0.3025
+       ]
+      },
+      "england": {
+       "events": 96,
+       "exposure_millions": 489.19,
+       "rate": 0.1962,
+       "ci95": [
+        0.159,
+        0.2396
+       ]
+      },
+      "ratio": {
+       "ratio": 0.660582,
+       "ci95": [
+        0.209732,
+        1.595741
+       ]
+      }
+     },
+     "ge3": {
+      "singapore": {
+       "events": 1,
+       "exposure_millions": 38.57,
+       "rate": 0.0259,
+       "ci95": [
+        0.0007,
+        0.1445
+       ]
+      },
+      "england": {
+       "events": 25,
+       "exposure_millions": 489.19,
+       "rate": 0.0511,
+       "ci95": [
+        0.0331,
+        0.0754
+       ]
+      },
+      "ratio": {
+       "ratio": 0.507327,
+       "ci95": [
+        0.012356,
+        3.099174
+       ]
+      }
+     },
+     "ge4": {
+      "singapore": {
+       "events": 1,
+       "exposure_millions": 38.57,
+       "rate": 0.0259,
+       "ci95": [
+        0.0007,
+        0.1445
+       ]
+      },
+      "england": {
+       "events": 13,
+       "exposure_millions": 489.19,
+       "rate": 0.0266,
+       "ci95": [
+        0.0141,
+        0.0454
+       ]
+      },
+      "ratio": {
+       "ratio": 0.975629,
+       "ci95": [
+        0.022957,
+        6.495529
+       ]
+      }
+     },
+     "fatal_fires": {
+      "singapore": {
+       "events": 20,
+       "exposure_millions": 38.57,
+       "rate": 0.5185,
+       "ci95": [
+        0.3167,
+        0.8008
+       ]
+      },
+      "england": {
+       "events": 1804,
+       "exposure_millions": 489.19,
+       "rate": 3.6877,
+       "ci95": [
+        3.5195,
+        3.8619
+       ]
+      },
+      "ratio": {
+       "ratio": 0.140612,
+       "ci95": [
+        0.085681,
+        0.217818
+       ]
+      }
+     }
+    },
+    "identity": {
+     "share_singapore": 0.25,
+     "share_england": 0.0532,
+     "share_ci_singapore": [
+      0.087,
+      0.491
+     ],
+     "share_ci_england": [
+      0.043,
+      0.065
+     ],
+     "odds_ratio": 5.93,
+     "odds_ratio_ci95": [
+      1.65,
+      17.59
+     ],
+     "ratio_multi_over_ratio_single_dwellings": 5.93,
+     "fisher_p": 0.0038,
+     "p_central": 0.0075
+    }
+   },
+   "singapore_dwelling_stock": {
+    "fatal_fires": 18,
+    "single": 15,
+    "multi": 3,
+    "ge3": 0,
+    "ge4": 0,
+    "ge5": 0,
+    "deaths": 21,
+    "deaths_in_multi": 6,
+    "distribution": {
+     "1": 15,
+     "2": 3
+    },
+    "window": "2012-2018",
+    "years": 7,
+    "exposure": {
+     "dwelling_years_M": 9.295,
+     "person_years_M": 38.57,
+     "household_years_M": 8.631,
+     "multi_person_household_years_M": 7.606
+    }
+   },
+   "compare_dwelling_stock": {
+    "dwelling_years_M": {
+     "single": {
+      "singapore": {
+       "events": 15,
+       "exposure_millions": 9.295,
+       "rate": 1.6138,
+       "ci95": [
+        0.9032,
+        2.6617
+       ]
+      },
+      "england": {
+       "events": 1708,
+       "exposure_millions": 211.908,
+       "rate": 8.0601,
+       "ci95": [
+        7.6823,
+        8.4516
+       ]
+      },
+      "ratio": {
+       "ratio": 0.200217,
+       "ci95": [
+        0.111811,
+        0.331169
+       ]
+      }
+     },
+     "multi": {
+      "singapore": {
+       "events": 3,
+       "exposure_millions": 9.295,
+       "rate": 0.3228,
+       "ci95": [
+        0.0666,
+        0.9432
+       ]
+      },
+      "england": {
+       "events": 96,
+       "exposure_millions": 211.908,
+       "rate": 0.453,
+       "ci95": [
+        0.367,
+        0.5532
+       ]
+      },
+      "ratio": {
+       "ratio": 0.712439,
+       "ci95": [
+        0.144385,
+        2.145421
+       ]
+      }
+     },
+     "ge3": {
+      "singapore": {
+       "events": 0,
+       "exposure_millions": 9.295,
+       "rate": 0.0,
+       "ci95": [
+        0.0,
+        0.3969
+       ]
+      },
+      "england": {
+       "events": 25,
+       "exposure_millions": 211.908,
+       "rate": 0.118,
+       "ci95": [
+        0.0763,
+        0.1742
+       ]
+      },
+      "ratio": {
+       "ratio": 0.0,
+       "ci95": [
+        0.0,
+        3.624829
+       ]
+      }
+     },
+     "ge4": {
+      "singapore": {
+       "events": 0,
+       "exposure_millions": 9.295,
+       "rate": 0.0,
+       "ci95": [
+        0.0,
+        0.3969
+       ]
+      },
+      "england": {
+       "events": 13,
+       "exposure_millions": 211.908,
+       "rate": 0.0613,
+       "ci95": [
+        0.0327,
+        0.1049
+       ]
+      },
+      "ratio": {
+       "ratio": 0.0,
+       "ci95": [
+        0.0,
+        7.480366
+       ]
+      }
+     },
+     "fatal_fires": {
+      "singapore": {
+       "events": 18,
+       "exposure_millions": 9.295,
+       "rate": 1.9365,
+       "ci95": [
+        1.1477,
+        3.0605
+       ]
+      },
+      "england": {
+       "events": 1804,
+       "exposure_millions": 211.908,
+       "rate": 8.5131,
+       "ci95": [
+        8.1248,
+        8.9152
+       ]
+      },
+      "ratio": {
+       "ratio": 0.227475,
+       "ci95": [
+        0.134506,
+        0.360549
+       ]
+      }
+     }
+    },
+    "person_years_M": {
+     "single": {
+      "singapore": {
+       "events": 15,
+       "exposure_millions": 38.57,
+       "rate": 0.3889,
+       "ci95": [
+        0.2177,
+        0.6414
+       ]
+      },
+      "england": {
+       "events": 1708,
+       "exposure_millions": 489.19,
+       "rate": 3.4915,
+       "ci95": [
+        3.3278,
+        3.6611
+       ]
+      },
+      "ratio": {
+       "ratio": 0.111386,
+       "ci95": [
+        0.062204,
+        0.184238
+       ]
+      }
+     },
+     "multi": {
+      "singapore": {
+       "events": 3,
+       "exposure_millions": 38.57,
+       "rate": 0.0778,
+       "ci95": [
+        0.016,
+        0.2273
+       ]
+      },
+      "england": {
+       "events": 96,
+       "exposure_millions": 489.19,
+       "rate": 0.1962,
+       "ci95": [
+        0.159,
+        0.2396
+       ]
+      },
+      "ratio": {
+       "ratio": 0.396349,
+       "ci95": [
+        0.080325,
+        1.193555
+       ]
+      }
+     },
+     "ge3": {
+      "singapore": {
+       "events": 0,
+       "exposure_millions": 38.57,
+       "rate": 0.0,
+       "ci95": [
+        0.0,
+        0.0956
+       ]
+      },
+      "england": {
+       "events": 25,
+       "exposure_millions": 489.19,
+       "rate": 0.0511,
+       "ci95": [
+        0.0331,
+        0.0754
+       ]
+      },
+      "ratio": {
+       "ratio": 0.0,
+       "ci95": [
+        0.0,
+        2.01659
+       ]
+      }
+     },
+     "ge4": {
+      "singapore": {
+       "events": 0,
+       "exposure_millions": 38.57,
+       "rate": 0.0,
+       "ci95": [
+        0.0,
+        0.0956
+       ]
+      },
+      "england": {
+       "events": 13,
+       "exposure_millions": 489.19,
+       "rate": 0.0266,
+       "ci95": [
+        0.0141,
+        0.0454
+       ]
+      },
+      "ratio": {
+       "ratio": 0.0,
+       "ci95": [
+        0.0,
+        4.161528
+       ]
+      }
+     },
+     "fatal_fires": {
+      "singapore": {
+       "events": 18,
+       "exposure_millions": 38.57,
+       "rate": 0.4667,
+       "ci95": [
+        0.2766,
+        0.7376
+       ]
+      },
+      "england": {
+       "events": 1804,
+       "exposure_millions": 489.19,
+       "rate": 3.6877,
+       "ci95": [
+        3.5195,
+        3.8619
+       ]
+      },
+      "ratio": {
+       "ratio": 0.126551,
+       "ci95": [
+        0.074829,
+        0.200583
+       ]
+      }
+     }
+    },
+    "identity": {
+     "share_singapore": 0.1667,
+     "share_england": 0.0532,
+     "share_ci_singapore": [
+      0.036,
+      0.414
+     ],
+     "share_ci_england": [
+      0.043,
+      0.065
+     ],
+     "odds_ratio": 3.56,
+     "odds_ratio_ci95": [
+      0.65,
+      12.87
+     ],
+     "ratio_multi_over_ratio_single_dwellings": 3.56,
+     "fisher_p": 0.07,
+     "p_central": 0.14
+    }
+   },
+   "singapore_household_units": {
+    "fatal_fires": 17,
+    "single": 15,
+    "multi": 2,
+    "ge3": 0,
+    "ge4": 0,
+    "ge5": 0,
+    "deaths": 19,
+    "deaths_in_multi": 4,
+    "distribution": {
+     "1": 15,
+     "2": 2
+    },
+    "window": "2012-2018",
+    "years": 7,
+    "exposure": {
+     "dwelling_years_M": 9.295,
+     "person_years_M": 38.57,
+     "household_years_M": 8.631,
+     "multi_person_household_years_M": 7.606
+    }
+   },
+   "compare_household_units": {
+    "dwelling_years_M": {
+     "single": {
+      "singapore": {
+       "events": 15,
+       "exposure_millions": 9.295,
+       "rate": 1.6138,
+       "ci95": [
+        0.9032,
+        2.6617
+       ]
+      },
+      "england": {
+       "events": 1708,
+       "exposure_millions": 211.908,
+       "rate": 8.0601,
+       "ci95": [
+        7.6823,
+        8.4516
+       ]
+      },
+      "ratio": {
+       "ratio": 0.200217,
+       "ci95": [
+        0.111811,
+        0.331169
+       ]
+      }
+     },
+     "multi": {
+      "singapore": {
+       "events": 2,
+       "exposure_millions": 9.295,
+       "rate": 0.2152,
+       "ci95": [
+        0.0261,
+        0.7773
+       ]
+      },
+      "england": {
+       "events": 96,
+       "exposure_millions": 211.908,
+       "rate": 0.453,
+       "ci95": [
+        0.367,
+        0.5532
+       ]
+      },
+      "ratio": {
+       "ratio": 0.47496,
+       "ci95": [
+        0.056706,
+        1.763047
+       ]
+      }
+     },
+     "ge3": {
+      "singapore": {
+       "events": 0,
+       "exposure_millions": 9.295,
+       "rate": 0.0,
+       "ci95": [
+        0.0,
+        0.3969
+       ]
+      },
+      "england": {
+       "events": 25,
+       "exposure_millions": 211.908,
+       "rate": 0.118,
+       "ci95": [
+        0.0763,
+        0.1742
+       ]
+      },
+      "ratio": {
+       "ratio": 0.0,
+       "ci95": [
+        0.0,
+        3.624829
+       ]
+      }
+     },
+     "ge4": {
+      "singapore": {
+       "events": 0,
+       "exposure_millions": 9.295,
+       "rate": 0.0,
+       "ci95": [
+        0.0,
+        0.3969
+       ]
+      },
+      "england": {
+       "events": 13,
+       "exposure_millions": 211.908,
+       "rate": 0.0613,
+       "ci95": [
+        0.0327,
+        0.1049
+       ]
+      },
+      "ratio": {
+       "ratio": 0.0,
+       "ci95": [
+        0.0,
+        7.480366
+       ]
+      }
+     },
+     "fatal_fires": {
+      "singapore": {
+       "events": 17,
+       "exposure_millions": 9.295,
+       "rate": 1.8289,
+       "ci95": [
+        1.0654,
+        2.9283
+       ]
+      },
+      "england": {
+       "events": 1804,
+       "exposure_millions": 211.908,
+       "rate": 8.5131,
+       "ci95": [
+        8.1248,
+        8.9152
+       ]
+      },
+      "ratio": {
+       "ratio": 0.214838,
+       "ci95": [
+        0.124871,
+        0.34495
+       ]
+      }
+     }
+    },
+    "person_years_M": {
+     "single": {
+      "singapore": {
+       "events": 15,
+       "exposure_millions": 38.57,
+       "rate": 0.3889,
+       "ci95": [
+        0.2177,
+        0.6414
+       ]
+      },
+      "england": {
+       "events": 1708,
+       "exposure_millions": 489.19,
+       "rate": 3.4915,
+       "ci95": [
+        3.3278,
+        3.6611
+       ]
+      },
+      "ratio": {
+       "ratio": 0.111386,
+       "ci95": [
+        0.062204,
+        0.184238
+       ]
+      }
+     },
+     "multi": {
+      "singapore": {
+       "events": 2,
+       "exposure_millions": 38.57,
+       "rate": 0.0519,
+       "ci95": [
+        0.0063,
+        0.1873
+       ]
+      },
+      "england": {
+       "events": 96,
+       "exposure_millions": 489.19,
+       "rate": 0.1962,
+       "ci95": [
+        0.159,
+        0.2396
+       ]
+      },
+      "ratio": {
+       "ratio": 0.264233,
+       "ci95": [
+        0.031547,
+        0.98083
+       ]
+      }
+     },
+     "ge3": {
+      "singapore": {
+       "events": 0,
+       "exposure_millions": 38.57,
+       "rate": 0.0,
+       "ci95": [
+        0.0,
+        0.0956
+       ]
+      },
+      "england": {
+       "events": 25,
+       "exposure_millions": 489.19,
+       "rate": 0.0511,
+       "ci95": [
+        0.0331,
+        0.0754
+       ]
+      },
+      "ratio": {
+       "ratio": 0.0,
+       "ci95": [
+        0.0,
+        2.01659
+       ]
+      }
+     },
+     "ge4": {
+      "singapore": {
+       "events": 0,
+       "exposure_millions": 38.57,
+       "rate": 0.0,
+       "ci95": [
+        0.0,
+        0.0956
+       ]
+      },
+      "england": {
+       "events": 13,
+       "exposure_millions": 489.19,
+       "rate": 0.0266,
+       "ci95": [
+        0.0141,
+        0.0454
+       ]
+      },
+      "ratio": {
+       "ratio": 0.0,
+       "ci95": [
+        0.0,
+        4.161528
+       ]
+      }
+     },
+     "fatal_fires": {
+      "singapore": {
+       "events": 17,
+       "exposure_millions": 38.57,
+       "rate": 0.4408,
+       "ci95": [
+        0.2568,
+        0.7057
+       ]
+      },
+      "england": {
+       "events": 1804,
+       "exposure_millions": 489.19,
+       "rate": 3.6877,
+       "ci95": [
+        3.5195,
+        3.8619
+       ]
+      },
+      "ratio": {
+       "ratio": 0.11952,
+       "ci95": [
+        0.069469,
+        0.191905
+       ]
+      }
+     }
+    },
+    "identity": {
+     "share_singapore": 0.1176,
+     "share_england": 0.0532,
+     "share_ci_singapore": [
+      0.015,
+      0.364
+     ],
+     "share_ci_england": [
+      0.043,
+      0.065
+     ],
+     "odds_ratio": 2.37,
+     "odds_ratio_ci95": [
+      0.26,
+      10.43
+     ],
+     "ratio_multi_over_ratio_single_dwellings": 2.37,
+     "fisher_p": 0.23,
+     "p_central": 0.46
+    }
+   }
+  }
+ },
+ "primary_basis": "Singapore: fatal fires in premises counted in the dwelling stock, 2012-2025; England: dwelling fires, 2012/13 to 2025/26",
+ "denominator_sensitivity": {
+  "dwelling_years_M": {
+   "single": {
+    "ratio": 0.230829,
+    "ci95": [
+     0.159493,
+     0.323426
+    ]
+   },
+   "multi": {
+    "ratio": 0.996658,
+    "ci95": [
+     0.421806,
+     2.019773
+    ]
+   }
+  },
+  "person_years_M": {
+   "single": {
+    "ratio": 0.134212,
+    "ci95": [
+     0.092735,
+     0.188051
+    ]
+   },
+   "multi": {
+    "ratio": 0.579491,
+    "ci95": [
+     0.245252,
+     1.174365
+    ]
+   }
+  },
+  "household_years_M": {
+   "single": {
+    "ratio": 0.236525,
+    "ci95": [
+     0.163429,
+     0.331407
+    ]
+   },
+   "multi": {
+    "ratio": 1.021251,
+    "ci95": [
+     0.432214,
+     2.06961
+    ]
+   }
+  },
+  "multi_person_household_years_M": {
+   "multi": {
+    "ratio": 0.829792,
+    "ci95": [
+     0.351185,
+     1.681612
+    ]
+   },
+   "one_person_share_of_households": {
+    "singapore": 0.14,
+    "england": 0.301
+   }
+  },
+  "resident_person_years_M": {
+   "single": {
+    "ratio": 0.189639,
+    "ci95": [
+     0.131032,
+     0.265712
+    ]
+   },
+   "multi": {
+    "ratio": 0.818809,
+    "ci95": [
+     0.346536,
+     1.659353
+    ]
+   }
+  }
+ },
+ "denominator_sensitivity_residential_basis": {
+  "dwelling_years_M": {
+   "single": {
+    "ratio": 0.230829,
+    "ci95": [
+     0.159493,
+     0.323426
+    ]
+   },
+   "multi": {
+    "ratio": 1.245823,
+    "ci95": [
+     0.584309,
+     2.361543
+    ]
+   }
+  },
+  "person_years_M": {
+   "single": {
+    "ratio": 0.134212,
+    "ci95": [
+     0.092735,
+     0.188051
+    ]
+   },
+   "multi": {
+    "ratio": 0.724364,
+    "ci95": [
+     0.339737,
+     1.373081
+    ]
+   }
+  },
+  "household_years_M": {
+   "single": {
+    "ratio": 0.236525,
+    "ci95": [
+     0.163429,
+     0.331407
+    ]
+   },
+   "multi": {
+    "ratio": 1.276563,
+    "ci95": [
+     0.598727,
+     2.419813
+    ]
+   }
+  }
+ },
+ "numerator_sensitivity": {
+  "without_homicide_by_fire_SGF_2012_02": {
+   "single": {
+    "ratio": 0.22404,
+    "ci95": [
+     0.153874,
+     0.315469
+    ]
+   }
+  },
+  "england_accidental_only": {
+   "single": {
+    "ratio": 0.267915,
+    "ci95": [
+     0.185051,
+     0.37555
+    ]
+   },
+   "multi": {
+    "ratio": 1.23011,
+    "ci95": [
+     0.518234,
+     2.509168
+    ]
+   },
+   "england_single": 2166,
+   "england_multi": 111
+  },
+  "capture_bounds": {
+   "note": "upper bounds on the Singapore fatal dwelling-fire rate: every death in the official series (any type of fire), or every death in the register including boundary events, taken as a separate single-death dwelling fire",
+   "official_deaths_2012_2025": {
+    "portal_series": 57,
+    "with_reported_2024_revision": 59
+   },
+   "register_deaths_including_boundary_events": 70,
+   "bound_official": {
+    "ratio": 0.379856,
+    "ci95": [
+     0.288347,
+     0.491563
+    ]
+   },
+   "bound_all_recorded": {
+    "ratio": 0.450677,
+    "ci95": [
+     0.350245,
+     0.571376
+    ]
+   }
+  },
+  "missed_single_death_fires_needed_for_equal_single_rate": 113,
+  "england_strictest_definition": {
+   "note": "England restricted to accidental dwelling fires and to deaths at the scene with a recorded fire cause; Singapore unrestricted",
+   "england_single": 1289,
+   "england_multi": 79,
+   "single": {
+    "ratio": 0.450197,
+    "ci95": [
+     0.310402,
+     0.632394
+    ]
+   },
+   "multi": {
+    "ratio": 1.728382,
+    "ci95": [
+     0.721167,
+     3.574628
+    ]
+   }
+  }
+ },
+ "definition_sensitivity_england_dwellings": {
+  "primary": {
+   "base": {
+    "single": 2514,
+    "multi": 137
+   },
+   "deaths after leaving the scene alive excluded": {
+    "single": 1800,
+    "multi": 111,
+    "single_change_pct": -28.4,
+    "multi_change_pct": -19.0
+   },
+   "deaths with cause recorded as other or not known excluded": {
+    "single": 2122,
+    "multi": 115,
+    "single_change_pct": -15.6,
+    "multi_change_pct": -16.1
+   },
+   "deliberate fires excluded": {
+    "single": 2166,
+    "multi": 111,
+    "single_change_pct": -13.8,
+    "multi_change_pct": -19.0
+   },
+   "both death exclusions": {
+    "single": 1485,
+    "multi": 95,
+    "single_change_pct": -40.9,
+    "multi_change_pct": -30.7
+   },
+   "both death exclusions and deliberate fires excluded": {
+    "single": 1289,
+    "multi": 79,
+    "single_change_pct": -48.7,
+    "multi_change_pct": -42.3
+   }
+  },
+  "review": {
+   "base": {
+    "single": 1708,
+    "multi": 96
+   },
+   "deaths after leaving the scene alive excluded": {
+    "single": 1210,
+    "multi": 84,
+    "single_change_pct": -29.2,
+    "multi_change_pct": -12.5
+   },
+   "deaths with cause recorded as other or not known excluded": {
+    "single": 1429,
+    "multi": 80,
+    "single_change_pct": -16.3,
+    "multi_change_pct": -16.7
+   },
+   "deliberate fires excluded": {
+    "single": 1449,
+    "multi": 76,
+    "single_change_pct": -15.2,
+    "multi_change_pct": -20.8
+   },
+   "both death exclusions": {
+    "single": 984,
+    "multi": 72,
+    "single_change_pct": -42.4,
+    "multi_change_pct": -25.0
+   },
+   "both death exclusions and deliberate fires excluded": {
+    "single": 844,
+    "multi": 58,
+    "single_change_pct": -50.6,
+    "multi_change_pct": -39.6
+   }
+  }
+ },
+ "two_processes_england_dwellings": {
+  "window": "2010/11 to 2025/26",
+  "note": "one row per death; the 71 Grenfell Tower records are set aside",
+  "victims_single": 2932,
+  "victims_multiple": 393,
+  "shares": {
+   "aged under 15": {
+    "single": {
+     "k": 34,
+     "n": 2932,
+     "share": 0.012,
+     "ci95": [
+      0.008,
+      0.016
+     ]
+    },
+    "multiple": {
+     "k": 109,
+     "n": 393,
+     "share": 0.277,
+     "ci95": [
+      0.234,
+      0.324
+     ]
+    }
+   },
+   "aged 15 to 39": {
+    "single": {
+     "k": 250,
+     "n": 2932,
+     "share": 0.085,
+     "ci95": [
+      0.075,
+      0.096
+     ]
+    },
+    "multiple": {
+     "k": 95,
+     "n": 393,
+     "share": 0.242,
+     "ci95": [
+      0.2,
+      0.287
+     ]
+    }
+   },
+   "aged 40 to 64": {
+    "single": {
+     "k": 1005,
+     "n": 2932,
+     "share": 0.343,
+     "ci95": [
+      0.326,
+      0.36
+     ]
+    },
+    "multiple": {
+     "k": 81,
+     "n": 393,
+     "share": 0.206,
+     "ci95": [
+      0.167,
+      0.25
+     ]
+    }
+   },
+   "aged 65 or over": {
+    "single": {
+     "k": 1572,
+     "n": 2932,
+     "share": 0.536,
+     "ci95": [
+      0.518,
+      0.554
+     ]
+    },
+    "multiple": {
+     "k": 106,
+     "n": 393,
+     "share": 0.27,
+     "ci95": [
+      0.226,
+      0.316
+     ]
+    }
+   },
+   "in the room of origin when the fire started": {
+    "single": {
+     "k": 1969,
+     "n": 2932,
+     "share": 0.672,
+     "ci95": [
+      0.654,
+      0.689
+     ]
+    },
+    "multiple": {
+     "k": 80,
+     "n": 393,
+     "share": 0.204,
+     "ci95": [
+      0.165,
+      0.247
+     ]
+    }
+   },
+   "elsewhere in the building when the fire started": {
+    "single": {
+     "k": 636,
+     "n": 2932,
+     "share": 0.217,
+     "ci95": [
+      0.202,
+      0.232
+     ]
+    },
+    "multiple": {
+     "k": 230,
+     "n": 393,
+     "share": 0.585,
+     "ci95": [
+      0.535,
+      0.634
+     ]
+    }
+   },
+   "found in the room of origin": {
+    "single": {
+     "k": 1674,
+     "n": 2932,
+     "share": 0.571,
+     "ci95": [
+      0.553,
+      0.589
+     ]
+    },
+    "multiple": {
+     "k": 62,
+     "n": 393,
+     "share": 0.158,
+     "ci95": [
+      0.123,
+      0.198
+     ]
+    }
+   },
+   "found elsewhere in the building": {
+    "single": {
+     "k": 1197,
+     "n": 2932,
+     "share": 0.408,
+     "ci95": [
+      0.39,
+      0.426
+     ]
+    },
+    "multiple": {
+     "k": 306,
+     "n": 393,
+     "share": 0.779,
+     "ci95": [
+      0.734,
+      0.819
+     ]
+    }
+   },
+   "fire reported between 00:00 and 06:00": {
+    "single": {
+     "k": 676,
+     "n": 2932,
+     "share": 0.231,
+     "ci95": [
+      0.215,
+      0.246
+     ]
+    },
+    "multiple": {
+     "k": 201,
+     "n": 393,
+     "share": 0.511,
+     "ci95": [
+      0.461,
+      0.562
+     ]
+    }
+   },
+   "ignition by smokers' materials": {
+    "single": {
+     "k": 849,
+     "n": 2932,
+     "share": 0.29,
+     "ci95": [
+      0.273,
+      0.306
+     ]
+    },
+    "multiple": {
+     "k": 60,
+     "n": 393,
+     "share": 0.153,
+     "ci95": [
+      0.119,
+      0.192
+     ]
+    }
+   },
+   "fire recorded as deliberate": {
+    "single": {
+     "k": 416,
+     "n": 2932,
+     "share": 0.142,
+     "ci95": [
+      0.129,
+      0.155
+     ]
+    },
+    "multiple": {
+     "k": 90,
+     "n": 393,
+     "share": 0.229,
+     "ci95": [
+      0.188,
+      0.274
+     ]
+    }
+   },
+   "death by burns alone": {
+    "single": {
+     "k": 698,
+     "n": 2932,
+     "share": 0.238,
+     "ci95": [
+      0.223,
+      0.254
+     ]
+    },
+    "multiple": {
+     "k": 32,
+     "n": 393,
+     "share": 0.081,
+     "ci95": [
+      0.056,
+      0.113
+     ]
+    }
+   },
+   "overcome by gas or smoke": {
+    "single": {
+     "k": 1153,
+     "n": 2932,
+     "share": 0.393,
+     "ci95": [
+      0.376,
+      0.411
+     ]
+    },
+    "multiple": {
+     "k": 243,
+     "n": 393,
+     "share": 0.618,
+     "ci95": [
+      0.568,
+      0.667
+     ]
+    }
+   },
+   "left the scene alive and died later": {
+    "single": {
+     "k": 847,
+     "n": 2932,
+     "share": 0.289,
+     "ci95": [
+      0.273,
+      0.306
+     ]
+    },
+    "multiple": {
+     "k": 49,
+     "n": 393,
+     "share": 0.125,
+     "ci95": [
+      0.094,
+      0.161
+     ]
+    }
+   },
+   "no alarm present": {
+    "single": {
+     "k": 916,
+     "n": 2932,
+     "share": 0.312,
+     "ci95": [
+      0.296,
+      0.33
+     ]
+    },
+    "multiple": {
+     "k": 157,
+     "n": 393,
+     "share": 0.399,
+     "ci95": [
+      0.351,
+      0.45
+     ]
+    }
+   }
+  },
+  "by_hour": {
+   "hours": [
+    "00-01",
+    "01-02",
+    "02-03",
+    "03-04",
+    "04-05",
+    "05-06",
+    "06-07",
+    "07-08",
+    "08-09",
+    "09-10",
+    "10-11",
+    "11-12",
+    "12-13",
+    "13-14",
+    "14-15",
+    "15-16",
+    "16-17",
+    "17-18",
+    "18-19",
+    "19-20",
+    "20-21",
+    "21-22",
+    "22-23",
+    "23-00"
+   ],
+   "single": [
+    0.0406,
+    0.0464,
+    0.0382,
+    0.0355,
+    0.0331,
+    0.0368,
+    0.0389,
+    0.0454,
+    0.0416,
+    0.0447,
+    0.0522,
+    0.0409,
+    0.0477,
+    0.0341,
+    0.0437,
+    0.0409,
+    0.0433,
+    0.0467,
+    0.0385,
+    0.0447,
+    0.046,
+    0.0426,
+    0.043,
+    0.0344
+   ],
+   "multiple": [
+    0.0992,
+    0.0967,
+    0.1018,
+    0.0763,
+    0.0891,
+    0.0483,
+    0.0356,
+    0.0509,
+    0.028,
+    0.0305,
+    0.0051,
+    0.0076,
+    0.0127,
+    0.0051,
+    0.0153,
+    0.0153,
+    0.0102,
+    0.0153,
+    0.0483,
+    0.0254,
+    0.0305,
+    0.0102,
+    0.0611,
+    0.0814
+   ]
+  },
+  "by_age": {
+   "bands": [
+    "0-4",
+    "5-9",
+    "10-14",
+    "15-19",
+    "20-24",
+    "25-29",
+    "30-34",
+    "35-39",
+    "40-44",
+    "45-49",
+    "50-54",
+    "55-59",
+    "60-64",
+    "65-69",
+    "70-74",
+    "75-79",
+    "80-84",
+    "85+"
+   ],
+   "single": [
+    16,
+    9,
+    9,
+    14,
+    29,
+    47,
+    73,
+    87,
+    144,
+    178,
+    216,
+    221,
+    246,
+    256,
+    298,
+    299,
+    276,
+    443
+   ],
+   "multiple": [
+    39,
+    50,
+    20,
+    13,
+    18,
+    19,
+    25,
+    20,
+    25,
+    15,
+    14,
+    9,
+    18,
+    14,
+    19,
+    17,
+    21,
+    35
+   ]
+  },
+  "position_checks": {
+   "note": "position when the fire started; 'elsewhere' is a different floor, room, cabin or compartment from the fire origin; every victim stays in the denominator",
+   "single": {
+    "n": 2932,
+    "origin": 1969,
+    "elsewhere": 636,
+    "other_or_not_known": 327,
+    "share_elsewhere": 0.217,
+    "share_elsewhere_if_every_other_or_unknown_position_is_counted": 0.328
+   },
+   "multiple": {
+    "n": 393,
+    "origin": 80,
+    "elsewhere": 230,
+    "share_elsewhere": 0.585
+   },
+   "fires_with_exactly_two_deaths": {
+    "fires": 127,
+    "victims": 254,
+    "elsewhere": 129,
+    "share_elsewhere": 0.508,
+    "note": "rebuilt by grouping, so conditional on the grouping; every fire has the same weight"
+   },
+   "without_2017_18": {
+    "single": 0.216,
+    "multiple": 0.58
+   }
+  }
+ },
+ "age_standardisation": {
+  "total": {
+   "single_death_fires": {
+    "observed": 34,
+    "expected_at_english_age_specific_rates": 193.7,
+    "ratio": 0.1755,
+    "ci95": [
+     0.1216,
+     0.2453
+    ],
+    "english_deaths_used": 2514
+   },
+   "deaths_in_multiple_death_fires": {
+    "observed": 19,
+    "expected_at_english_age_specific_rates": 29.3,
+    "ratio": 0.65,
+    "note": "deaths in one fire are not independent, so no interval is given",
+    "english_deaths_used": 325
+   }
+  },
+  "age_table_single": [
+   {
+    "age": "0-4",
+    "england_deaths": 12.3,
+    "england_rate_per_M": 0.274,
+    "singapore_person_years": 3260740
+   },
+   {
+    "age": "5-9",
+    "england_deaths": 9.3,
+    "england_rate_per_M": 0.199,
+    "singapore_person_years": 3160580
+   },
+   {
+    "age": "10-14",
+    "england_deaths": 9.3,
+    "england_rate_per_M": 0.203,
+    "singapore_person_years": 3345733
+   },
+   {
+    "age": "15-19",
+    "england_deaths": 13.4,
+    "england_rate_per_M": 0.294,
+    "singapore_person_years": 5580960
+   },
+   {
+    "age": "20-24",
+    "england_deaths": 22.6,
+    "england_rate_per_M": 0.456,
+    "singapore_person_years": 7977052
+   },
+   {
+    "age": "25-29",
+    "england_deaths": 40.1,
+    "england_rate_per_M": 0.763,
+    "singapore_person_years": 8310826
+   },
+   {
+    "age": "30-34",
+    "england_deaths": 61.7,
+    "england_rate_per_M": 1.138,
+    "singapore_person_years": 7575670
+   },
+   {
+    "age": "35-39",
+    "england_deaths": 71.0,
+    "england_rate_per_M": 1.355,
+    "singapore_person_years": 6565898
+   },
+   {
+    "age": "40-44",
+    "england_deaths": 126.5,
+    "england_rate_per_M": 2.456,
+    "singapore_person_years": 5842367
+   },
+   {
+    "age": "45-49",
+    "england_deaths": 142.0,
+    "england_rate_per_M": 2.706,
+    "singapore_person_years": 5307683
+   },
+   {
+    "age": "50-54",
+    "england_deaths": 193.4,
+    "england_rate_per_M": 3.625,
+    "singapore_person_years": 4955326
+   },
+   {
+    "age": "55-59",
+    "england_deaths": 200.6,
+    "england_rate_per_M": 4.026,
+    "singapore_person_years": 4582430
+   },
+   {
+    "age": "60-64",
+    "england_deaths": 212.9,
+    "england_rate_per_M": 4.8,
+    "singapore_person_years": 4017112
+   },
+   {
+    "age": "65-69",
+    "england_deaths": 228.4,
+    "england_rate_per_M": 5.652,
+    "singapore_person_years": 3164586
+   },
+   {
+    "age": "70-74",
+    "england_deaths": 275.7,
+    "england_rate_per_M": 7.877,
+    "singapore_person_years": 2237947
+   },
+   {
+    "age": "75-79",
+    "england_deaths": 274.6,
+    "england_rate_per_M": 9.792,
+    "singapore_person_years": 1468078
+   },
+   {
+    "age": "80-84",
+    "england_deaths": 235.6,
+    "england_rate_per_M": 11.988,
+    "singapore_person_years": 935521
+   },
+   {
+    "age": "85+",
+    "england_deaths": 384.7,
+    "england_rate_per_M": 20.247,
+    "singapore_person_years": 831676
+   }
+  ],
+  "resident": {
+   "single_death_fires": {
+    "observed": 34,
+    "expected_at_english_age_specific_rates": 161.7,
+    "ratio": 0.2103,
+    "ci95": [
+     0.1456,
+     0.2939
+    ],
+    "english_deaths_used": 2514
+   },
+   "deaths_in_multiple_death_fires": {
+    "observed": 19,
+    "expected_at_english_age_specific_rates": 21.3,
+    "ratio": 0.894,
+    "note": "deaths in one fire are not independent, so no interval is given",
+    "english_deaths_used": 325
+   }
+  },
+  "share_aged_65_or_over": {
+   "england": 0.181,
+   "singapore_total": 0.109,
+   "singapore_resident": 0.143
+  },
+  "crude_ratio_per_person_single": {
+   "ratio": 0.134212,
+   "ci95": [
+    0.092735,
+    0.188051
+   ]
+  }
+ },
+ "household_standardisation": {
+  "source": "Home Office (2022) in-depth review, Table 38; fatal dwelling fires 2010/11 to 2018/19",
+  "english_fatal_dwelling_fires": 1808,
+  "in_one_person_households": 1114,
+  "share_one_person": 0.616,
+  "type_other_or_not_known": 312,
+  "english_one_person_share_of_households": 0.302,
+  "singapore_one_person_share_of_resident_households": 0.14,
+  "unstated_counted_as_two_or_more": {
+   "english_rates_per_M_household_years": {
+    "one_person": 18.2,
+    "two_or_more_single_death": 4.22,
+    "two_or_more_multiple_death": 0.678
+   },
+   "rate_ratio_one_person_to_two_or_more": 3.72,
+   "expected_single": 114.5,
+   "observed_single": 34,
+   "ratio_single": 0.2969,
+   "ratio_single_ci95": [
+    0.2056,
+    0.4149
+   ],
+   "expected_multi": 10.8,
+   "observed_multi": 8,
+   "ratio_multi": 0.7404,
+   "ratio_multi_ci95": [
+    0.3196,
+    1.4588
+   ],
+   "expected_share_of_fires_with_two_or_more": 0.086,
+   "english_share_given_household_of_two_or_more": 0.138
+  },
+  "unstated_spread_in_proportion": {
+   "english_rates_per_M_household_years": {
+    "one_person": 21.99,
+    "two_or_more_single_death": 2.58,
+    "two_or_more_multiple_death": 0.678
+   },
+   "rate_ratio_one_person_to_two_or_more": 6.75,
+   "expected_single": 98.2,
+   "observed_single": 34,
+   "ratio_single": 0.3462,
+   "ratio_single_ci95": [
+    0.2397,
+    0.4838
+   ],
+   "expected_multi": 10.8,
+   "observed_multi": 8,
+   "ratio_multi": 0.7404,
+   "ratio_multi_ci95": [
+    0.3196,
+    1.4588
+   ],
+   "expected_share_of_fires_with_two_or_more": 0.099,
+   "english_share_given_household_of_two_or_more": 0.208
+  },
+  "residential_basis_unstated_counted_as_two_or_more": {
+   "english_rates_per_M_household_years": {
+    "one_person": 18.2,
+    "two_or_more_single_death": 4.22,
+    "two_or_more_multiple_death": 0.678
+   },
+   "rate_ratio_one_person_to_two_or_more": 3.72,
+   "expected_single": 114.5,
+   "observed_single": 34,
+   "ratio_single": 0.2969,
+   "ratio_single_ci95": [
+    0.2056,
+    0.4149
+   ],
+   "expected_multi": 10.8,
+   "observed_multi": 10,
+   "ratio_multi": 0.9254,
+   "ratio_multi_ci95": [
+    0.4438,
+    1.7019
+   ],
+   "expected_share_of_fires_with_two_or_more": 0.086,
+   "english_share_given_household_of_two_or_more": 0.138
+  },
+  "crude_ratio_per_household": {
+   "single": {
+    "ratio": 0.236525,
+    "ci95": [
+     0.163429,
+     0.331407
+    ]
+   },
+   "multi": {
+    "ratio": 1.021251,
+    "ci95": [
+     0.432214,
+     2.06961
+    ]
+   }
+  },
+  "note": "English rates are for 2010/11 to 2018/19 and are applied to Singapore resident households of 2012 to 2025"
+ },
+ "shape_above_one_death": {
+  "England, all fires": {
+   "label": "England 2010/11 to 2025/26, all fires",
+   "multi": 230,
+   "two": 177,
+   "ge3": 53,
+   "ge4": 25,
+   "ge5": 9,
+   "share_exactly_two": 0.77,
+   "ci95": [
+    0.71,
+    0.822
+   ],
+   "b2": 4.08,
+   "b2_ci95": [
+    3.67,
+    4.56
+   ],
+   "loglik": -188.969,
+   "distribution": {
+    "2": 177,
+    "3": 28,
+    "4": 16,
+    "5": 5,
+    "6": 4
+   }
+  },
+  "England, buildings": {
+   "label": "England 2010/11 to 2025/26, buildings",
+   "multi": 181,
+   "two": 140,
+   "ge3": 41,
+   "ge4": 20,
+   "ge5": 8,
+   "share_exactly_two": 0.773,
+   "ci95": [
+    0.706,
+    0.832
+   ],
+   "b2": 4.07,
+   "b2_ci95": [
+    3.61,
+    4.6
+   ],
+   "loglik": -149.389,
+   "distribution": {
+    "2": 140,
+    "3": 21,
+    "4": 12,
+    "5": 4,
+    "6": 4
+   }
+  },
+  "England, dwellings": {
+   "label": "England 2010/11 to 2025/26, dwellings",
+   "multi": 164,
+   "two": 127,
+   "ge3": 37,
+   "ge4": 18,
+   "ge5": 6,
+   "share_exactly_two": 0.774,
+   "ci95": [
+    0.703,
+    0.836
+   ],
+   "b2": 4.1,
+   "b2_ci95": [
+    3.6,
+    4.66
+   ],
+   "loglik": -134.11,
+   "distribution": {
+    "2": 127,
+    "3": 19,
+    "4": 12,
+    "5": 2,
+    "6": 4
+   }
+  },
+  "England, dwellings, accidental": {
+   "label": "England 2010/11 to 2025/26, dwellings, accidental",
+   "multi": 130,
+   "two": 106,
+   "ge3": 24,
+   "ge4": 12,
+   "ge5": 4,
+   "share_exactly_two": 0.815,
+   "ci95": [
+    0.738,
+    0.878
+   ],
+   "b2": 4.41,
+   "b2_ci95": [
+    3.79,
+    5.13
+   ],
+   "loglik": -93.511,
+   "distribution": {
+    "2": 106,
+    "3": 12,
+    "4": 8,
+    "5": 1,
+    "6": 3
+   }
+  },
+  "England, dwellings, deliberate": {
+   "label": "England 2010/11 to 2025/26, dwellings, deliberate",
+   "multi": 34,
+   "two": 21,
+   "ge3": 13,
+   "ge4": 6,
+   "ge5": 2,
+   "share_exactly_two": 0.618,
+   "ci95": [
+    0.436,
+    0.778
+   ],
+   "b2": 3.33,
+   "b2_ci95": [
+    2.6,
+    4.29
+   ],
+   "loglik": -38.869,
+   "distribution": {
+    "2": 21,
+    "3": 7,
+    "4": 4,
+    "5": 1,
+    "6": 1
+   }
+  },
+  "England, other buildings": {
+   "label": "England 2010/11 to 2025/26, other buildings",
+   "multi": 17,
+   "two": 13,
+   "ge3": 4,
+   "ge4": 2,
+   "ge5": 2,
+   "share_exactly_two": 0.765,
+   "ci95": [
+    0.501,
+    0.932
+   ],
+   "b2": 3.88,
+   "b2_ci95": [
+    2.65,
+    5.73
+   ],
+   "loglik": -15.245,
+   "distribution": {
+    "2": 13,
+    "3": 2,
+    "5": 2
+   }
+  },
+  "England, road vehicles": {
+   "label": "England 2010/11 to 2025/26, road vehicles",
+   "multi": 34,
+   "two": 24,
+   "ge3": 10,
+   "ge4": 3,
+   "ge5": 0,
+   "share_exactly_two": 0.706,
+   "ci95": [
+    0.525,
+    0.849
+   ],
+   "b2": 3.99,
+   "b2_ci95": [
+    3.03,
+    5.29
+   ],
+   "loglik": -29.037,
+   "distribution": {
+    "2": 24,
+    "3": 7,
+    "4": 3
+   }
+  },
+  "England, outdoors": {
+   "label": "England 2010/11 to 2025/26, outdoors",
+   "multi": 15,
+   "two": 13,
+   "ge3": 2,
+   "ge4": 2,
+   "ge5": 1,
+   "share_exactly_two": 0.867,
+   "ci95": [
+    0.595,
+    0.983
+   ],
+   "b2": 4.49,
+   "b2_ci95": [
+    2.89,
+    7.09
+   ],
+   "loglik": -10.444,
+   "distribution": {
+    "2": 13,
+    "4": 1,
+    "5": 1
+   }
+  },
+  "Singapore, residential": {
+   "label": "Singapore 2012-2025, residential",
+   "multi": 10,
+   "two": 7,
+   "ge3": 3,
+   "ge4": 2,
+   "ge5": 0,
+   "share_exactly_two": 0.7,
+   "ci95": [
+    0.348,
+    0.933
+   ],
+   "b2": 3.66,
+   "b2_ci95": [
+    2.27,
+    5.99
+   ],
+   "loglik": -9.859,
+   "distribution": {
+    "2": 7,
+    "3": 1,
+    "4": 2
+   }
+  },
+  "Singapore, buildings": {
+   "label": "Singapore 2012-2025, building fires",
+   "multi": 12,
+   "two": 8,
+   "ge3": 4,
+   "ge4": 2,
+   "ge5": 0,
+   "share_exactly_two": 0.667,
+   "ci95": [
+    0.349,
+    0.901
+   ],
+   "b2": 3.63,
+   "b2_ci95": [
+    2.35,
+    5.67
+   ],
+   "loglik": -12.002,
+   "distribution": {
+    "2": 8,
+    "3": 2,
+    "4": 2
+   }
+  },
+  "Singapore, dwelling stock": {
+   "label": "Singapore 2012-2025, premises in the dwelling stock",
+   "multi": 8,
+   "two": 6,
+   "ge3": 2,
+   "ge4": 1,
+   "ge5": 0,
+   "share_exactly_two": 0.75,
+   "ci95": [
+    0.349,
+    0.968
+   ],
+   "b2": 4.08,
+   "b2_ci95": [
+    2.32,
+    7.33
+   ],
+   "loglik": -6.596,
+   "distribution": {
+    "2": 6,
+    "3": 1,
+    "4": 1
+   }
+  },
+  "United States, residential buildings": {
+   "label": "United States 2021-2023, residential buildings, shares among reported fires",
+   "share_exactly_two": 0.768,
+   "note": "published percentage (76.8% two deaths, 14.3% three, 4.7% four, 4.2% five or more); counts not published"
+  },
+  "Australia_preventable_residential": {
+   "label": "Australia FY2003/04 to 2016/17, residential, intent excluded",
+   "multi": 57,
+   "two": 41,
+   "ge3": 16,
+   "share_exactly_two": 0.719,
+   "ci95": [
+    0.585,
+    0.83
+   ],
+   "b2": 3.72,
+   "b2_ci95": [
+    3.03,
+    4.59
+   ],
+   "loglik": -52.287
+  },
+  "NewZealand_unintentional_domestic": {
+   "label": "New Zealand 2007-2014, domestic, intent excluded",
+   "multi": 9,
+   "two": 6,
+   "ge3": 3,
+   "share_exactly_two": 0.667,
+   "ci95": [
+    0.299,
+    0.925
+   ],
+   "b2": 3.76,
+   "b2_ci95": [
+    2.26,
+    6.38
+   ],
+   "loglik": -8.47
+  }
+ },
+ "shape_tests": {
+  "singapore_residential_vs_england_dwellings": {
+   "fisher_p_two_vs_three_or_more": 0.698,
+   "common_exponent": {
+    "b2_common": 4.07,
+    "ci95": [
+     3.59,
+     4.61
+    ],
+    "lrt": 0.19,
+    "df": 1,
+    "p": 0.664
+   }
+  },
+  "england_locations": {
+   "b2_common": 4.08,
+   "ci95": [
+    3.67,
+    4.56
+   ],
+   "lrt": 0.27,
+   "df": 3,
+   "p": 0.966
+  },
+  "england_dwellings_accidental_vs_deliberate": {
+   "fisher_p_two_vs_three_or_more": 0.021,
+   "common_exponent": {
+    "b2_common": 4.1,
+    "ci95": [
+     3.6,
+     4.66
+    ],
+    "lrt": 3.46,
+    "df": 1,
+    "p": 0.063
+   }
+  },
+  "Australia_preventable_residential_vs_england_dwellings_accidental": {
+   "fisher_p_two_vs_three_or_more": 0.175
+  },
+  "NewZealand_unintentional_domestic_vs_england_dwellings_accidental": {
+   "fisher_p_two_vs_three_or_more": 0.376
+  }
+ },
+ "continuation_probabilities_england_dwellings": {
+  "1": {
+   "at_least_n": 3096,
+   "at_least_n_plus_1": 164,
+   "h": 0.053,
+   "ci95": [
+    0.045,
+    0.061
+   ]
+  },
+  "2": {
+   "at_least_n": 164,
+   "at_least_n_plus_1": 37,
+   "h": 0.226,
+   "ci95": [
+    0.164,
+    0.297
+   ]
+  },
+  "3": {
+   "at_least_n": 37,
+   "at_least_n_plus_1": 18,
+   "h": 0.486,
+   "ci95": [
+    0.319,
+    0.656
+   ]
+  },
+  "4": {
+   "at_least_n": 18,
+   "at_least_n_plus_1": 6,
+   "h": 0.333,
+   "ci95": [
+    0.133,
+    0.59
+   ]
+  },
+  "5": {
+   "at_least_n": 6,
+   "at_least_n_plus_1": 4,
+   "h": 0.667,
+   "ci95": [
+    0.223,
+    0.957
+   ]
+  }
+ },
+ "two_part_law": {
+  "Singapore, building fires": {
+   "fatal_fires": 50,
+   "multi": 12,
+   "b_one_parameter": 2.77,
+   "share_implied_by_one_parameter": 0.2025,
+   "share_observed": 0.24,
+   "b2": 3.63,
+   "b2_ci95": [
+    2.35,
+    5.67
+   ],
+   "lrt": 1.84,
+   "p": 0.17498
+  },
+  "Singapore, residential": {
+   "fatal_fires": 44,
+   "multi": 10,
+   "b_one_parameter": 2.83,
+   "share_implied_by_one_parameter": 0.1937,
+   "share_observed": 0.2273,
+   "b2": 3.66,
+   "b2_ci95": [
+    2.27,
+    5.99
+   ],
+   "lrt": 1.39,
+   "p": 0.23874
+  },
+  "England, dwellings 2010/11 to 2025/26": {
+   "fatal_fires": 3096,
+   "multi": 164,
+   "b_one_parameter": 4.43,
+   "share_implied_by_one_parameter": 0.0546,
+   "share_observed": 0.053,
+   "b2": 4.1,
+   "b2_ci95": [
+    3.6,
+    4.66
+   ],
+   "lrt": 1.58,
+   "p": 0.20864
+  },
+  "England, dwellings 2010/11 to 2018/19": {
+   "fatal_fires": 1803,
+   "multi": 95,
+   "b_one_parameter": 4.41,
+   "share_implied_by_one_parameter": 0.0556,
+   "share_observed": 0.0527,
+   "b2": 3.87,
+   "b2_ci95": [
+    3.29,
+    4.56
+   ],
+   "lrt": 2.69,
+   "p": 0.10089
+  },
+  "England, all fires 2010/11 to 2025/26": {
+   "fatal_fires": 4035,
+   "multi": 230,
+   "b_one_parameter": 4.34,
+   "share_implied_by_one_parameter": 0.0584,
+   "share_observed": 0.057,
+   "b2": 4.08,
+   "b2_ci95": [
+    3.67,
+    4.56
+   ],
+   "lrt": 1.36,
+   "p": 0.2433
+  }
+ },
+ "singapore_tail_with_english_shape": {
+  "note": "Singapore's own rate of multiple-death building fires with the shape of English dwelling fires above one death",
+  "multiple_death_fires_per_year_buildings": 0.857,
+  "multiple_death_fires_per_year_residential": 0.571,
+  "english_b2": 4.1,
+  "english_b2_ci95": [
+   3.6,
+   4.66
+  ],
+  "scenarios": {
+   "cap of 8": {
+    "return_period_5_or_more_yr": 34.5,
+    "return_period_10_or_more_yr": null,
+    "return_period_30_or_more_yr": null,
+    "at_interval_edges_5_or_more_yr": [
+     21.9,
+     58.0
+    ]
+   },
+   "cap of 17": {
+    "return_period_5_or_more_yr": 30.2,
+    "return_period_10_or_more_yr": 348.4,
+    "return_period_30_or_more_yr": null,
+    "at_interval_edges_5_or_more_yr": [
+     18.4,
+     52.7
+    ]
+   },
+   "no cap": {
+    "return_period_5_or_more_yr": 29.8,
+    "return_period_10_or_more_yr": 295.9,
+    "return_period_30_or_more_yr": 9871.4,
+    "at_interval_edges_5_or_more_yr": [
+     17.9,
+     52.3
+    ]
+   }
+  },
+  "probability_no_fire_of_5_or_more_in_14_years": 0.62,
+  "monitoring_bayes_factor_cap4_vs_no_cap": {
+   "after_10yr": 1.42,
+   "after_20yr": 1.99,
+   "after_30yr": 2.77,
+   "after_50yr": 5.25
+  },
+  "singapore_own_shape": {
+   "b2": 3.63,
+   "ci95": [
+    2.35,
+    5.67
+   ],
+   "return_period_5_or_more_yr": 18.4,
+   "return_period_10_or_more_yr": 128.9
+  }
+ },
+ "grenfell_under_shape_above_one_death": {
+  "review": {
+   "window": "2010/11 to 2018/19",
+   "ordinary_multiple_death_fires": 95,
+   "per_year": 10.56,
+   "b2": 3.87,
+   "b2_ci95": [
+    3.29,
+    4.56
+   ],
+   "P_70_or_more_given_two_or_more": 1.97e-05,
+   "return_period_yr": 4800,
+   "return_period_yr_flat_edge": 500,
+   "P_at_least_one_in_window": 0.00187,
+   "P_at_least_one_in_window_flat_edge": 0.0164
+  },
+  "all": {
+   "window": "2010/11 to 2025/26",
+   "ordinary_multiple_death_fires": 164,
+   "per_year": 10.25,
+   "b2": 4.1,
+   "b2_ci95": [
+    3.6,
+    4.66
+   ],
+   "P_70_or_more_given_two_or_more": 8.43e-06,
+   "return_period_yr": 11600,
+   "return_period_yr_flat_edge": 1800,
+   "P_at_least_one_in_window": 0.00138,
+   "P_at_least_one_in_window_flat_edge": 0.00878
+  }
+ },
+ "scope_matched_pairs": {
+  "Australia": {
+   "scope_of_source": "Australia_preventable_residential",
+   "england_recut": "dwellings, accidental",
+   "england_window": "2010/11 to 2016/17",
+   "source_years": 14,
+   "single": 753,
+   "multi": 57,
+   "england_single": 1153,
+   "england_multi": 58,
+   "per_household": {
+    "single": {
+     "ratio": 0.953734,
+     "ci95": [
+      0.868894,
+      1.046378
+     ]
+    },
+    "multi": {
+     "ratio": 1.435186,
+     "ci95": [
+      0.978054,
+      2.105256
+     ]
+    },
+    "rate_single": {
+     "events": 753,
+     "exposure_millions": 107.402,
+     "rate": 7.0111,
+     "ci95": [
+      6.5192,
+      7.5302
+     ]
+    },
+    "rate_multi": {
+     "events": 57,
+     "exposure_millions": 107.402,
+     "rate": 0.5307,
+     "ci95": [
+      0.402,
+      0.6876
+     ]
+    },
+    "england_rate_single": {
+     "events": 1153,
+     "exposure_millions": 156.846,
+     "rate": 7.3512,
+     "ci95": [
+      6.9329,
+      7.788
+     ]
+    },
+    "england_rate_multi": {
+     "events": 58,
+     "exposure_millions": 156.846,
+     "rate": 0.3698,
+     "ci95": [
+      0.2808,
+      0.478
+     ]
+    }
+   },
+   "per_person": {
+    "single": {
+     "ratio": 0.79395,
+     "ci95": [
+      0.723324,
+      0.871073
+     ]
+    },
+    "multi": {
+     "ratio": 1.194743,
+     "ci95": [
+      0.814196,
+      1.752553
+     ]
+    }
+   }
+  },
+  "New Zealand": {
+   "scope_of_source": "NewZealand_unintentional_domestic",
+   "england_recut": "dwellings, accidental",
+   "england_window": "2010/11 to 2014/15",
+   "source_years": 8,
+   "single": 98,
+   "multi": 9,
+   "england_single": 823,
+   "england_multi": 37,
+   "per_household": {
+    "single": {
+     "ratio": 1.093446,
+     "ci95": [
+      0.877586,
+      1.349581
+     ]
+    },
+    "multi": {
+     "ratio": 2.233633,
+     "ci95": [
+      0.947988,
+      4.712544
+     ]
+    },
+    "rate_single": {
+     "events": 98,
+     "exposure_millions": 12.126,
+     "rate": 8.082,
+     "ci95": [
+      6.5614,
+      9.8494
+     ]
+    },
+    "rate_multi": {
+     "events": 9,
+     "exposure_millions": 12.126,
+     "rate": 0.7422,
+     "ci95": [
+      0.3394,
+      1.409
+     ]
+    },
+    "england_rate_single": {
+     "events": 823,
+     "exposure_millions": 111.346,
+     "rate": 7.3913,
+     "ci95": [
+      6.8949,
+      7.9141
+     ]
+    },
+    "england_rate_multi": {
+     "events": 37,
+     "exposure_millions": 111.346,
+     "rate": 0.3323,
+     "ci95": [
+      0.234,
+      0.458
+     ]
+    }
+   },
+   "per_person": {
+    "single": {
+     "ratio": 0.90767,
+     "ci95": [
+      0.728484,
+      1.120287
+     ]
+    },
+    "multi": {
+     "ratio": 1.854139,
+     "ci95": [
+      0.786925,
+      3.911883
+     ]
+    }
+   }
+  },
+  "United States": {
+   "scope_of_source": "residential buildings, all causes, 2018-2020; scaled national estimate",
+   "england_recut": "dwellings",
+   "england_window": "2018/19 to 2020/21",
+   "england_single": 514,
+   "england_multi": 29,
+   "per_household": {
+    "rate_single": 13.362,
+    "rate_multi": 1.997,
+    "england_rate_single": 7.375,
+    "england_rate_multi": 0.416,
+    "ratio_single": 1.81,
+    "ratio_multi": 4.8,
+    "ratio_multi_rounding": [
+     4.61,
+     4.98
+    ],
+    "england_multi_ratio_ci_only": [
+     3.34,
+     7.16
+    ],
+    "ratio_multi_range_both_periods": [
+     2.74,
+     4.98
+    ]
+   },
+   "second_period_2021_2023": {
+    "note": "direct national estimate of 200 multiple-death fires a year, published rounded to the nearest 100, stated as 11% of fatal fires",
+    "england_window": "2021/22 to 2023/24",
+    "england_multi": 30,
+    "england_rate_multi": 0.423,
+    "rate_multi": 1.543,
+    "rate_multi_rounding": [
+     1.158,
+     1.929
+    ],
+    "ratio_multi": 3.65,
+    "ratio_multi_rounding": [
+     2.74,
+     4.56
+    ]
+   }
+  }
+ },
+ "review_checks": {
+  "symmetric_screen": {
+   "single": 32,
+   "multi": 8,
+   "removed": [
+    "SGF-2015-05",
+    "SGF-2016-02"
+   ],
+   "single_ratio": {
+    "ratio": 0.217251,
+    "ci95": [
+     0.148273,
+     0.307496
+    ]
+   },
+   "multi_ratio": {
+    "ratio": 0.996658,
+    "ci95": [
+     0.421806,
+     2.019773
+    ]
+   }
+  },
+  "joint_household_and_age": {
+   "english_rates_per_M_household_years": {
+    "one_person_over_pension_age": 25.98,
+    "one_person_under": 12.68,
+    "two_or_more_single_death": 4.22
+   },
+   "singapore_one_person_aged_65_plus_share_of_households": 0.045,
+   "england_one_person_aged_65_plus_share_of_households": 0.125,
+   "expected_single": 111.3,
+   "ratio_single": 0.3054,
+   "ratio_single_ci95": [
+    0.2115,
+    0.4267
+   ]
+  },
+  "all_allowances_compounded": {
+   "note": "household and age standardisation multiplied by the effect of the strictest English definition (accidental fires, deaths at the scene, recorded cause) applied to England alone; an upper bound on the single-death ratio, since the definition is not applied to Singapore",
+   "definition_factor_single": 1.95,
+   "definition_factor_multi": 1.734,
+   "single_ratio": 0.5956,
+   "single_ratio_ci95": [
+    0.4125,
+    0.8323
+   ],
+   "single_ratio_unstated_spread": 0.6752,
+   "single_ratio_unstated_spread_ci95": [
+    0.4675,
+    0.9436
+   ],
+   "multi_ratio": 1.284,
+   "multi_ratio_ci95": [
+    0.5542,
+    2.5298
+   ]
+  },
+  "return_period_with_rate_uncertainty": {
+   "five_or_more_yr": [
+    14.0,
+    30.0,
+    67.0
+   ],
+   "ten_or_more_yr": [
+    105.0,
+    296.0,
+    926.0
+   ],
+   "rate_interval_alone_five_or_more_yr": [
+    17.0,
+    58.0
+   ]
+  },
+  "size_check_all_fires_review_window": {
+   "published": {
+    "1": 2213,
+    "2": 108,
+    "3": 17,
+    "4": 8,
+    "5": 5,
+    "6": 3
+   },
+   "reconstructed": {
+    "1": 2205,
+    "2": 106,
+    "3": 17,
+    "4": 10,
+    "5": 5,
+    "6": 3
+   },
+   "b2_published": 4.0,
+   "b2_published_ci95": [
+    3.49,
+    4.59
+   ],
+   "b2_reconstructed": 3.89,
+   "b2_reconstructed_ci95": [
+    3.4,
+    4.46
+   ]
+  },
+  "grenfell_included_in_fit": {
+   "fatal_dwelling_fires": 1804,
+   "b_single_law": 4.35,
+   "P_70_or_more_per_fire": 1.9e-07,
+   "P_any_of_the_fires_70_or_more": 0.000343
+  },
+  "P_no_fire_of_5_or_more_in_14_years_single_law": 0.21,
+  "separation_after_allowances": {
+   "note": "ratio of the multiple-death rate ratio to the single-death rate ratio (Equation 8) after each allowance; exact interval and central p conditional on Singapore's total, with the English expectations taken as fixed",
+   "household": {
+    "expected_single": 114.5,
+    "expected_multi": 10.81,
+    "expected_share_two_or_more": 0.086,
+    "ratio_of_ratios": 2.49,
+    "ci95": [
+     1.0,
+     5.49
+    ],
+    "p_central": 0.051
+   },
+   "household_unstated_spread": {
+    "expected_single": 98.2,
+    "expected_multi": 10.81,
+    "expected_share_two_or_more": 0.099,
+    "ratio_of_ratios": 2.14,
+    "ci95": [
+     0.86,
+     4.71
+    ],
+    "p_central": 0.1
+   },
+   "household_and_age": {
+    "expected_single": 111.3,
+    "expected_multi": 10.81,
+    "expected_share_two_or_more": 0.088,
+    "ratio_of_ratios": 2.42,
+    "ci95": [
+     0.97,
+     5.34
+    ],
+    "p_central": 0.058
+   },
+   "compounded": {
+    "expected_single": 57.1,
+    "expected_multi": 6.23,
+    "expected_share_two_or_more": 0.098,
+    "ratio_of_ratios": 2.16,
+    "ci95": [
+     0.86,
+     4.74
+    ],
+    "p_central": 0.1
+   },
+   "compounded_unstated_spread": {
+    "expected_single": 50.4,
+    "expected_multi": 6.23,
+    "expected_share_two_or_more": 0.11,
+    "ratio_of_ratios": 1.9,
+    "ci95": [
+     0.76,
+     4.19
+    ],
+    "p_central": 0.17
+   },
+   "compounded_with_english_count_error": {
+    "note": "2.5, 50 and 97.5 percentiles; all counts drawn, exposures fixed; an approximate check on the exact intervals, which carry Singapore's count error only",
+    "single_ratio": [
+     0.42,
+     0.6,
+     0.83
+    ],
+    "multi_ratio": [
+     0.59,
+     1.31,
+     2.56
+    ],
+    "ratio_of_ratios": [
+     0.93,
+     2.19,
+     4.69
+    ],
+    "P_ratio_of_ratios_above_1": 0.964,
+    "P_single_ratio_below_1": 0.9994
+   }
+  },
+  "per_person_multi_ratio_range": [
+   0.26,
+   0.35,
+   0.4,
+   0.44,
+   0.51,
+   0.58,
+   0.61,
+   0.66,
+   0.72
+  ],
+  "per_dwelling_multi_ratio_range": [
+   0.47,
+   0.61,
+   0.71,
+   0.76,
+   0.87,
+   1.0,
+   1.06,
+   1.19,
+   1.25
+  ],
+  "capture_tipping": {
+   "note": "capture of single-death fires relative to multiple-death fires, as a fraction of England's, that would alone produce the crude separation of the two rate ratios; and the unrecorded single-death fires that would bring Singapore's share down to England's",
+   "relative_capture_needed": 0.231,
+   "unrecorded_single_death_fires_needed": 113,
+   "single_ratio_if_one_fifth_of_single_death_fires_unrecorded": 0.289,
+   "share_with_them": 0.0516,
+   "england_share": 0.0517
+  },
+  "share_as_monitoring_signal": {
+   "single": 38,
+   "multi": 12,
+   "deaths": 68,
+   "share": 0.24,
+   "after_halving_single_death_fires": {
+    "single": 19,
+    "deaths": 49,
+    "share": 0.387
+   }
+  },
+  "model_free_tail": {
+   "fires_of_5_or_more": 0,
+   "years": 14.0,
+   "one_sided_95pct_upper_rate_per_yr": 0.214,
+   "return_period_at_least_yr": 4.7,
+   "likelihood_factor_for_1pct_beyond_the_maximum": 0.605,
+   "fatal_fires": 50,
+   "note": "the likelihood of a record with no fire above four deaths is multiplied by (1 - eps)^K when probability eps is moved above four deaths, wherever it is placed"
+  }
+ },
+ "england_bounds_from_official_counts": {
+  "note": "sharp bounds for each threshold separately; one allocation need not attain them at every threshold together. Grenfell Tower is included in the counts of 2017/18.",
+  "dwellings, 2012/13 to 2023/24": {
+   "multiple_death_fires": 114,
+   "fatal_fires": 2283,
+   "deaths": 2512,
+   "strata_checked": 12,
+   "strata_with_reconstruction_outside_bounds": [],
+   "bounds": {
+    "3 or more": [
+     24,
+     31
+    ],
+    "4 or more": [
+     10,
+     16
+    ],
+    "5 or more": [
+     5,
+     7
+    ]
+   },
+   "reconstruction": {
+    "3 or more": 27,
+    "4 or more": 13,
+    "5 or more": 6
+   },
+   "reconstruction_multiple_death_fires": 114,
+   "reconstruction_inside_bounds": true,
+   "share_exactly_two_bounds": [
+    0.728,
+    0.789
+   ],
+   "share_exactly_two_reconstruction": 0.763
+  },
+  "buildings, 2012/13 to 2023/24": {
+   "multiple_death_fires": 127,
+   "fatal_fires": 2467,
+   "deaths": 2714,
+   "strata_checked": 24,
+   "strata_with_reconstruction_outside_bounds": [],
+   "bounds": {
+    "3 or more": [
+     27,
+     34
+    ],
+    "4 or more": [
+     11,
+     17
+    ],
+    "5 or more": [
+     6,
+     8
+    ]
+   },
+   "reconstruction": {
+    "3 or more": 30,
+    "4 or more": 14,
+    "5 or more": 7
+   },
+   "reconstruction_multiple_death_fires": 127,
+   "reconstruction_inside_bounds": true,
+   "share_exactly_two_bounds": [
+    0.732,
+    0.787
+   ],
+   "share_exactly_two_reconstruction": 0.764
+  },
+  "dwellings, 2010/11 to 2018/19": {
+   "multiple_death_fires": 96,
+   "fatal_fires": 1804,
+   "deaths": 2013,
+   "strata_checked": 9,
+   "strata_with_reconstruction_outside_bounds": [],
+   "bounds": {
+    "3 or more": [
+     23,
+     29
+    ],
+    "4 or more": [
+     9,
+     15
+    ],
+    "5 or more": [
+     5,
+     6
+    ]
+   },
+   "reconstruction": {
+    "3 or more": 25,
+    "4 or more": 13,
+    "5 or more": 6
+   },
+   "reconstruction_multiple_death_fires": 96,
+   "reconstruction_inside_bounds": true,
+   "share_exactly_two_bounds": [
+    0.698,
+    0.76
+   ],
+   "share_exactly_two_reconstruction": 0.74
+  },
+  "dwellings, 2010/11 to 2025/26": {
+   "multiple_death_fires": 165,
+   "fatal_fires": 3097,
+   "deaths": 3396,
+   "strata_checked": 16,
+   "strata_with_reconstruction_outside_bounds": [],
+   "bounds": {
+    "3 or more": [
+     33,
+     47
+    ],
+    "4 or more": [
+     11,
+     23
+    ],
+    "5 or more": [
+     5,
+     9
+    ]
+   },
+   "reconstruction": {
+    "3 or more": 38,
+    "4 or more": 19,
+    "5 or more": 7
+   },
+   "reconstruction_multiple_death_fires": 165,
+   "reconstruction_inside_bounds": true,
+   "share_exactly_two_bounds": [
+    0.715,
+    0.8
+   ],
+   "share_exactly_two_reconstruction": 0.77
+  },
+  "buildings, 2010/11 to 2025/26": {
+   "multiple_death_fires": 182,
+   "fatal_fires": 3342,
+   "deaths": 3666,
+   "strata_checked": 32,
+   "strata_with_reconstruction_outside_bounds": [],
+   "bounds": {
+    "3 or more": [
+     37,
+     51
+    ],
+    "4 or more": [
+     13,
+     25
+    ],
+    "5 or more": [
+     7,
+     11
+    ]
+   },
+   "reconstruction": {
+    "3 or more": 42,
+    "4 or more": 21,
+    "5 or more": 9
+   },
+   "reconstruction_multiple_death_fires": 182,
+   "reconstruction_inside_bounds": true,
+   "share_exactly_two_bounds": [
+    0.72,
+    0.797
+   ],
+   "share_exactly_two_reconstruction": 0.769
+  },
+  "all fires, 2010/11 to 2018/19": {
+   "multiple_death_fires": 144,
+   "fatal_fires": 2349,
+   "deaths": 2633,
+   "strata_checked": 36,
+   "strata_with_reconstruction_outside_bounds": [
+    {
+     "location": "road vehicles",
+     "financial_year": "2010/11",
+     "threshold": 3,
+     "bounds": [
+      0,
+      0
+     ],
+     "reconstruction": 1
+    },
+    {
+     "location": "road vehicles",
+     "financial_year": "2010/11",
+     "threshold": 4,
+     "bounds": [
+      0,
+      0
+     ],
+     "reconstruction": 1
+    }
+   ],
+   "bounds": {
+    "3 or more": [
+     34,
+     40
+    ],
+    "4 or more": [
+     15,
+     21
+    ],
+    "5 or more": [
+     9,
+     10
+    ]
+   },
+   "reconstruction": {
+    "3 or more": 37,
+    "4 or more": 20,
+    "5 or more": 10
+   },
+   "reconstruction_multiple_death_fires": 143,
+   "reconstruction_inside_bounds": true,
+   "share_exactly_two_bounds": [
+    0.722,
+    0.764
+   ],
+   "share_exactly_two_reconstruction": 0.741
+  }
+ },
+ "known_answer_test": {
+  "note": "English dwelling fires, Grenfell Tower set aside; fires expected at 3, 4 and 5 or more deaths under a single power law fitted to all fatal fires and under the three-part form; 'chance' is the Poisson probability of a count at least as far from the expectation as the nearer official bound",
+  "fitted_and_checked_on_the_same_window": {
+   "2010/11 to 2025/26": {
+    "fatal_fires": 3096,
+    "single_death_fires": 2932,
+    "multiple_death_fires": 164,
+    "share": 0.053,
+    "b_single": 4.43,
+    "b2": 4.1,
+    "single_law": {
+     "3": 33.5,
+     "4": 11.0,
+     "5": 4.7
+    },
+    "three_part": {
+     "3": 37.8,
+     "4": 13.8,
+     "5": 6.5
+    },
+    "reconstruction": {
+     "3": 37,
+     "4": 18,
+     "5": 6
+    },
+    "official_bounds": {
+     "3": [
+      32,
+      46
+     ],
+     "4": [
+      10,
+      22
+     ],
+     "5": [
+      4,
+      8
+     ]
+    },
+    "single_law_against_bounds": {
+     "3": {
+      "position": "inside"
+     },
+     "4": {
+      "position": "inside"
+     },
+     "5": {
+      "position": "inside"
+     }
+    },
+    "three_part_against_bounds": {
+     "3": {
+      "position": "inside"
+     },
+     "4": {
+      "position": "inside"
+     },
+     "5": {
+      "position": "inside"
+     }
+    }
+   },
+   "2010/11 to 2018/19": {
+    "fatal_fires": 1803,
+    "single_death_fires": 1708,
+    "multiple_death_fires": 95,
+    "share": 0.0527,
+    "b_single": 4.41,
+    "b2": 3.87,
+    "single_law": {
+     "3": 20.0,
+     "4": 6.6,
+     "5": 2.9
+    },
+    "three_part": {
+     "3": 24.3,
+     "4": 9.5,
+     "5": 4.7
+    },
+    "reconstruction": {
+     "3": 24,
+     "4": 12,
+     "5": 5
+    },
+    "official_bounds": {
+     "3": [
+      22,
+      28
+     ],
+     "4": [
+      8,
+      14
+     ],
+     "5": [
+      4,
+      5
+     ]
+    },
+    "single_law_against_bounds": {
+     "3": {
+      "position": "below",
+      "chance": 0.356
+     },
+     "4": {
+      "position": "below",
+      "chance": 0.342
+     },
+     "5": {
+      "position": "below",
+      "chance": 0.33
+     }
+    },
+    "three_part_against_bounds": {
+     "3": {
+      "position": "inside"
+     },
+     "4": {
+      "position": "inside"
+     },
+     "5": {
+      "position": "inside"
+     }
+    }
+   },
+   "2012/13 to 2023/24": {
+    "fatal_fires": 2282,
+    "single_death_fires": 2169,
+    "multiple_death_fires": 113,
+    "share": 0.0495,
+    "b_single": 4.51,
+    "b2": 4.06,
+    "single_law": {
+     "3": 22.5,
+     "4": 7.2,
+     "5": 3.1
+    },
+    "three_part": {
+     "3": 26.5,
+     "4": 9.8,
+     "5": 4.6
+    },
+    "reconstruction": {
+     "3": 26,
+     "4": 12,
+     "5": 5
+    },
+    "official_bounds": {
+     "3": [
+      23,
+      30
+     ],
+     "4": [
+      9,
+      15
+     ],
+     "5": [
+      4,
+      6
+     ]
+    },
+    "single_law_against_bounds": {
+     "3": {
+      "position": "below",
+      "chance": 0.486
+     },
+     "4": {
+      "position": "below",
+      "chance": 0.297
+     },
+     "5": {
+      "position": "below",
+      "chance": 0.375
+     }
+    },
+    "three_part_against_bounds": {
+     "3": {
+      "position": "inside"
+     },
+     "4": {
+      "position": "inside"
+     },
+     "5": {
+      "position": "inside"
+     }
+    }
+   },
+   "2010/11 to 2017/18": {
+    "fatal_fires": 1622,
+    "single_death_fires": 1540,
+    "multiple_death_fires": 82,
+    "share": 0.0506,
+    "b_single": 4.45,
+    "b2": 3.81,
+    "single_law": {
+     "3": 17.2,
+     "4": 5.6,
+     "5": 2.4
+    },
+    "three_part": {
+     "3": 21.6,
+     "4": 8.7,
+     "5": 4.3
+    },
+    "reconstruction": {
+     "3": 21,
+     "4": 11,
+     "5": 5
+    },
+    "official_bounds": {
+     "3": [
+      19,
+      25
+     ],
+     "4": [
+      7,
+      13
+     ],
+     "5": [
+      4,
+      5
+     ]
+    },
+    "single_law_against_bounds": {
+     "3": {
+      "position": "below",
+      "chance": 0.363
+     },
+     "4": {
+      "position": "below",
+      "chance": 0.33
+     },
+     "5": {
+      "position": "below",
+      "chance": 0.221
+     }
+    },
+    "three_part_against_bounds": {
+     "3": {
+      "position": "inside"
+     },
+     "4": {
+      "position": "inside"
+     },
+     "5": {
+      "position": "inside"
+     }
+    }
+   },
+   "2018/19 to 2025/26": {
+    "fatal_fires": 1474,
+    "single_death_fires": 1392,
+    "multiple_death_fires": 82,
+    "share": 0.0556,
+    "b_single": 4.41,
+    "b2": 4.47,
+    "single_law": {
+     "3": 16.3,
+     "4": 5.4,
+     "5": 2.3
+    },
+    "three_part": {
+     "3": 16.0,
+     "4": 5.2,
+     "5": 2.2
+    },
+    "reconstruction": {
+     "3": 16,
+     "4": 7,
+     "5": 1
+    },
+    "official_bounds": {
+     "3": [
+      13,
+      21
+     ],
+     "4": [
+      3,
+      9
+     ],
+     "5": [
+      0,
+      3
+     ]
+    },
+    "single_law_against_bounds": {
+     "3": {
+      "position": "inside"
+     },
+     "4": {
+      "position": "inside"
+     },
+     "5": {
+      "position": "inside"
+     }
+    },
+    "three_part_against_bounds": {
+     "3": {
+      "position": "inside"
+     },
+     "4": {
+      "position": "inside"
+     },
+     "5": {
+      "position": "inside"
+     }
+    }
+   }
+  },
+  "windows_single_law_below_bounds": 3,
+  "windows_three_part_outside_bounds": 0,
+  "fitted_on_first_half_checked_on_second": {
+   "fitted_on": "2010/11 to 2017/18",
+   "checked_on": "2018/19 to 2025/26",
+   "b_single": 4.45,
+   "b2": 3.81,
+   "single_law": {
+    "3": 15.6,
+    "4": 5.1,
+    "5": 2.2
+   },
+   "three_part_given_the_later_count_of_multiple_death_fires": {
+    "3": 21.6,
+    "4": 8.7,
+    "5": 4.3
+   },
+   "reconstruction": {
+    "3": 16,
+    "4": 7,
+    "5": 1
+   },
+   "official_bounds": {
+    "3": [
+     13,
+     21
+    ],
+    "4": [
+     3,
+     9
+    ],
+    "5": [
+     0,
+     3
+    ]
+   },
+   "single_law_against_bounds": {
+    "3": {
+     "position": "inside"
+    },
+    "4": {
+     "position": "inside"
+    },
+    "5": {
+     "position": "inside"
+    }
+   },
+   "three_part_against_bounds": {
+    "3": {
+     "position": "above",
+     "chance": 0.506
+    },
+    "4": {
+     "position": "inside"
+    },
+    "5": {
+     "position": "above",
+     "chance": 0.377
+    }
+   }
+  },
+  "fitted_on_second_half_checked_on_first": {
+   "fitted_on": "2018/19 to 2025/26",
+   "checked_on": "2010/11 to 2017/18",
+   "b_single": 4.41,
+   "b2": 4.47,
+   "single_law": {
+    "3": 17.9,
+    "4": 5.9,
+    "5": 2.6
+   },
+   "three_part_given_the_later_count_of_multiple_death_fires": {
+    "3": 16.0,
+    "4": 5.2,
+    "5": 2.2
+   },
+   "reconstruction": {
+    "3": 21,
+    "4": 11,
+    "5": 5
+   },
+   "official_bounds": {
+    "3": [
+     19,
+     25
+    ],
+    "4": [
+     7,
+     13
+    ],
+    "5": [
+     4,
+     5
+    ]
+   },
+   "single_law_against_bounds": {
+    "3": {
+     "position": "below",
+     "chance": 0.428
+    },
+    "4": {
+     "position": "below",
+     "chance": 0.378
+    },
+    "5": {
+     "position": "below",
+     "chance": 0.264
+    }
+   },
+   "three_part_against_bounds": {
+    "3": {
+     "position": "below",
+     "chance": 0.258
+    },
+    "4": {
+     "position": "below",
+     "chance": 0.268
+    },
+    "5": {
+     "position": "below",
+     "chance": 0.181
+    }
+   }
+  },
+  "households": {
+   "window": "2010/11 to 2018/19",
+   "reconstruction": {
+    "3": 24,
+    "4": 12,
+    "5": 5
+   },
+   "official_bounds": {
+    "3": [
+     22,
+     28
+    ],
+    "4": [
+     8,
+     14
+    ],
+    "5": [
+     4,
+     5
+    ]
+   },
+   "cases": {
+    "all households": {
+     "fatal_fires": 1803,
+     "single_death_fires": 1708,
+     "multiple_death_fires": 95,
+     "share": 0.0527,
+     "b_single": 4.41,
+     "b2": 3.87,
+     "single_law": {
+      "3": 20.0,
+      "4": 6.6,
+      "5": 2.9
+     },
+     "three_part": {
+      "3": 24.3,
+      "4": 9.5,
+      "5": 4.7
+     },
+     "single_law_against_bounds": {
+      "3": {
+       "position": "below",
+       "chance": 0.356
+      },
+      "4": {
+       "position": "below",
+       "chance": 0.342
+      },
+      "5": {
+       "position": "below",
+       "chance": 0.33
+      }
+     },
+     "p_single_law_within_three_part": 0.1
+    },
+    "households of two or more, unstated type counted with them": {
+     "fatal_fires": 693,
+     "single_death_fires": 598,
+     "multiple_death_fires": 95,
+     "share": 0.1371,
+     "b_single": 3.35,
+     "b2": 3.87,
+     "single_law": {
+      "3": 28.6,
+      "4": 13.3,
+      "5": 7.5
+     },
+     "three_part": {
+      "3": 24.3,
+      "4": 9.5,
+      "5": 4.7
+     },
+     "single_law_against_bounds": {
+      "3": {
+       "position": "above",
+       "chance": 0.505
+      },
+      "4": {
+       "position": "inside"
+      },
+      "5": {
+       "position": "above",
+       "chance": 0.241
+      }
+     },
+     "p_single_law_within_three_part": 0.057
+    },
+    "households of two or more, unstated type spread in proportion": {
+     "fatal_fires": 460.7,
+     "single_death_fires": 365.7,
+     "multiple_death_fires": 95,
+     "share": 0.2062,
+     "b_single": 2.94,
+     "b2": 3.87,
+     "single_law": {
+      "3": 31.8,
+      "4": 16.8,
+      "5": 10.4
+     },
+     "three_part": {
+      "3": 24.3,
+      "4": 9.5,
+      "5": 4.7
+     },
+     "single_law_against_bounds": {
+      "3": {
+       "position": "above",
+       "chance": 0.286
+      },
+      "4": {
+       "position": "above",
+       "chance": 0.297
+      },
+      "5": {
+       "position": "above",
+       "chance": 0.053
+      }
+     },
+     "p_single_law_within_three_part": 0.00022
+    }
+   },
+   "if_one_in_ten_multiple_death_fires_is_in_a_one_person_household": {
+    "households of two or more, unstated type counted with them": {
+     "single_law_5_or_more": 6.1,
+     "three_part_5_or_more": 4.2,
+     "b_single": 3.45
+    },
+    "households of two or more, unstated type spread in proportion": {
+     "single_law_5_or_more": 8.6,
+     "three_part_5_or_more": 4.2,
+     "b_single": 3.04
+    }
+   },
+   "edition_note": {
+    "review_table_fatal_dwelling_fires": 1808,
+    "record_level_fatal_dwelling_fires": 1804,
+    "note": "the household rows take single-death fires from the review table; both totals include Grenfell Tower"
+   },
+   "single_law_5_or_more_ratio_to_all_households": [
+    2.6,
+    3.6
+   ],
+   "curve_as_single_death_fires_are_removed": [
+    {
+     "kept": 1.0,
+     "b_single": 4.41,
+     "single_law_5_or_more": 2.87
+    },
+    {
+     "kept": 0.926,
+     "b_single": 4.324,
+     "single_law_5_or_more": 3.11
+    },
+    {
+     "kept": 0.858,
+     "b_single": 4.24,
+     "single_law_5_or_more": 3.36
+    },
+    {
+     "kept": 0.794,
+     "b_single": 4.155,
+     "single_law_5_or_more": 3.63
+    },
+    {
+     "kept": 0.736,
+     "b_single": 4.074,
+     "single_law_5_or_more": 3.91
+    },
+    {
+     "kept": 0.681,
+     "b_single": 3.992,
+     "single_law_5_or_more": 4.21
+    },
+    {
+     "kept": 0.631,
+     "b_single": 3.912,
+     "single_law_5_or_more": 4.53
+    },
+    {
+     "kept": 0.584,
+     "b_single": 3.833,
+     "single_law_5_or_more": 4.86
+    },
+    {
+     "kept": 0.541,
+     "b_single": 3.756,
+     "single_law_5_or_more": 5.21
+    },
+    {
+     "kept": 0.501,
+     "b_single": 3.68,
+     "single_law_5_or_more": 5.57
+    },
+    {
+     "kept": 0.464,
+     "b_single": 3.606,
+     "single_law_5_or_more": 5.95
+    },
+    {
+     "kept": 0.43,
+     "b_single": 3.533,
+     "single_law_5_or_more": 6.34
+    },
+    {
+     "kept": 0.398,
+     "b_single": 3.461,
+     "single_law_5_or_more": 6.75
+    },
+    {
+     "kept": 0.369,
+     "b_single": 3.392,
+     "single_law_5_or_more": 7.16
+    },
+    {
+     "kept": 0.341,
+     "b_single": 3.322,
+     "single_law_5_or_more": 7.61
+    },
+    {
+     "kept": 0.316,
+     "b_single": 3.256,
+     "single_law_5_or_more": 8.05
+    },
+    {
+     "kept": 0.293,
+     "b_single": 3.191,
+     "single_law_5_or_more": 8.49
+    },
+    {
+     "kept": 0.271,
+     "b_single": 3.127,
+     "single_law_5_or_more": 8.96
+    },
+    {
+     "kept": 0.251,
+     "b_single": 3.065,
+     "single_law_5_or_more": 9.43
+    },
+    {
+     "kept": 0.233,
+     "b_single": 3.007,
+     "single_law_5_or_more": 9.88
+    },
+    {
+     "kept": 0.215,
+     "b_single": 2.945,
+     "single_law_5_or_more": 10.38
+    },
+    {
+     "kept": 0.2,
+     "b_single": 2.892,
+     "single_law_5_or_more": 10.83
+    },
+    {
+     "kept": 0.185,
+     "b_single": 2.836,
+     "single_law_5_or_more": 11.31
+    },
+    {
+     "kept": 0.171,
+     "b_single": 2.781,
+     "single_law_5_or_more": 11.79
+    },
+    {
+     "kept": 0.158,
+     "b_single": 2.728,
+     "single_law_5_or_more": 12.27
+    },
+    {
+     "kept": 0.147,
+     "b_single": 2.682,
+     "single_law_5_or_more": 12.7
+    },
+    {
+     "kept": 0.136,
+     "b_single": 2.633,
+     "single_law_5_or_more": 13.16
+    },
+    {
+     "kept": 0.126,
+     "b_single": 2.587,
+     "single_law_5_or_more": 13.59
+    },
+    {
+     "kept": 0.117,
+     "b_single": 2.544,
+     "single_law_5_or_more": 14.01
+    },
+    {
+     "kept": 0.108,
+     "b_single": 2.5,
+     "single_law_5_or_more": 14.44
+    },
+    {
+     "kept": 0.1,
+     "b_single": 2.459,
+     "single_law_5_or_more": 14.84
+    }
+   ],
+   "at_singapores_single_death_rate": {
+    "kept": 0.231,
+    "b_single": 3.0,
+    "singapore_b_single_dwelling_stock": 3.04
+   }
+  },
+  "singapore_sized_english_records": {
+   "fatal_fires": 42,
+   "years": 14.0,
+   "draws": 4000,
+   "true_return_period_5_or_more_yr": 47.8,
+   "single_law_exponent_pct_2_5_50_97_5": [
+    2.56,
+    3.06,
+    3.96
+   ],
+   "single_law_return_period_yr_pct_2_5_25_50_75_97_5": [
+    7.18,
+    12.68,
+    18.24,
+    30.05,
+    94.47
+   ],
+   "three_part_return_period_yr_pct_2_5_25_50_75": [
+    10.86,
+    25.25,
+    53.91,
+    204.13
+   ],
+   "three_part_share_of_records_with_no_finite_estimate": 0.152,
+   "share_within_a_factor_of_two_of_the_truth": {
+    "single_law": 0.33,
+    "three_part": 0.41
+   },
+   "expected_single_death_fires": 34,
+   "expected_multiple_death_fires": 8
+  },
+  "records_drawn_from_a_single_power_law": {
+   "fatal_fires": 42,
+   "years": 14.0,
+   "draws": 4000,
+   "true_return_period_5_or_more_yr": 17.7,
+   "single_law_exponent_pct_2_5_50_97_5": [
+    2.47,
+    3.08,
+    4.29
+   ],
+   "single_law_return_period_yr_pct_2_5_25_50_75_97_5": [
+    6.07,
+    12.07,
+    19.13,
+    35.28,
+    169.43
+   ],
+   "three_part_return_period_yr_pct_2_5_25_50_75": [
+    5.67,
+    11.92,
+    21.85,
+    59.64
+   ],
+   "three_part_share_of_records_with_no_finite_estimate": 0.079,
+   "share_within_a_factor_of_two_of_the_truth": {
+    "single_law": 0.66,
+    "three_part": 0.51
+   },
+   "exponent": 3.04
+  }
+ },
+ "table_extras": {
+  "England, dwellings 2010/11 to 2025/26": {
+   "fatal_fires": 3096,
+   "b": 4.43,
+   "ci95": [
+    4.26,
+    4.62
+   ],
+   "gof_p": 0.09
+  },
+  "England, dwellings 2010/11 to 2018/19 (shape)": {
+   "label": "England 2010/11 to 2018/19, dwellings",
+   "multi": 95,
+   "two": 71,
+   "ge3": 24,
+   "ge4": 12,
+   "ge5": 5,
+   "share_exactly_two": 0.747,
+   "ci95": [
+    0.648,
+    0.831
+   ],
+   "b2": 3.87,
+   "b2_ci95": [
+    3.29,
+    4.56
+   ],
+   "loglik": -85.477,
+   "distribution": {
+    "2": 71,
+    "3": 12,
+    "4": 7,
+    "5": 2,
+    "6": 3
+   }
+  },
+  "England_all_fires_within_regime": {
+   "multi": 141,
+   "two": 108,
+   "share_exactly_two": 0.766,
+   "b2": 4.0,
+   "b2_ci95": [
+    3.49,
+    4.59
+   ]
+  },
+  "China_all_fires_within_regime": {
+   "multi": 1988,
+   "two": 1216,
+   "share_exactly_two": 0.612,
+   "b2": 3.01,
+   "b2_ci95": [
+    2.92,
+    3.11
+   ]
+  },
+  "United States, implied b2 from published share": 4.08,
+  "Singapore own shape, return period 30 or more yr": 2517.0,
+  "Singapore annual counts": [
+   2,
+   2,
+   4,
+   5,
+   2,
+   3,
+   4,
+   3,
+   1,
+   5,
+   6,
+   3,
+   6,
+   4
+  ],
+  "Singapore variance to mean of annual counts": 0.68
+ }
+}

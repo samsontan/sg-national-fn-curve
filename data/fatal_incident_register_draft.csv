@@ -1,0 +1,63 @@
+incident_id,year,month,premises_type,fatalities,injuries,cause_category,building_scope,in_scdf_annual_total,source_urls,access_date
+SGF-2005-01,2005,May,HDB residential,1,1,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/fire_stats_jan_dec2005.pdf,2026-07-11
+SGF-2006-01,2006,Feb,industrial,1,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/fire_stats_2006.pdf,2026-07-11
+SGF-2006-02,2006,Jul,HDB residential,1,1,cooking,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/fire_stats_2006.pdf,2026-07-11
+SGF-2006-03,2006,Oct,HDB residential,1,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/fire_stats_2006.pdf,2026-07-11
+SGF-2007-01,2007,May,industrial,2,,other (process fire),borderline,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/fire_stats_2007.pdf,2026-07-11
+SGF-2007-02,2007,Sep,commercial (shophouse),2,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/fire_stats_2007.pdf,2026-07-11
+SGF-2009-01,2009,Aug,residential,1,,deliberate,building,no,https://www.elitigation.sg/gd/s/2014_SGHC_96,2026-11-20
+SGF-2011-01,2011,Mar,residential,1,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/fire_stats_2011.pdf,2026-07-11
+SGF-2011-02,2011,May,industrial,2,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/fire_stats_2011.pdf,2026-07-11
+SGF-2011-03,2011,May,residential,1,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/fire_stats_2011.pdf,2026-07-11
+SGF-2012-01,2012,Apr,HDB residential,1,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/fire_stats_2012_.pdf,2026-07-11
+SGF-2012-02,2012,May,residential,1,,deliberate,building,no,https://www.elitigation.sg/gdviewer/s/2014_SGCA_52,2026-11-20
+SGF-2013-01,2013,Mar,industrial (shipyard),1,4,unknown,borderline,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/scdf-fire-stats-2013.pdf,2026-07-11
+SGF-2013-02,2013,Oct,HDB residential,1,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/scdf-fire-stats-2013.pdf,2026-07-11
+SGF-2013-03,2013,Nov,private residential,2,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/scdf-fire-stats-2013.pdf,2026-07-11
+SGF-2014-01,2014,Jan,private residential (condominium common area),2,0,smoking,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/topic-a---fire-stats-for-jan-to-dec-2014-(100215).pdf,2026-07-11
+SGF-2014-02,2014,Jun,HDB residential,1,1,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/topic-a---fire-stats-for-jan-to-dec-2014-(100215).pdf,2026-07-11
+SGF-2014-03,2014,Aug,industrial,1,,electrical,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/topic-a---fire-stats-for-jan-to-dec-2014-(100215).pdf,2026-07-11
+SGF-2014-04,2014,Dec,commercial (shophouse used as workers lodging),4,0,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/topic-a---fire-stats-for-jan-to-dec-2014-(100215).pdf,2026-07-11
+SGF-2015-01,2015,Apr,private residential (converted workers accommodation),2,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/fire-incident-statistics-jan-dec-2015.pdf,2026-07-11
+SGF-2015-02,2015,Jun,private residential,2,7,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/fire-incident-statistics-jan-dec-2015.pdf,2026-07-11
+SGF-2015-03,2015,Oct,HDB residential,1,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/fire-incident-statistics-jan-dec-2015.pdf,2026-07-11
+SGF-2015-04,2015,Nov,HDB residential,1,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/fire-incident-statistics-jan-dec-2015.pdf,2026-07-11
+SGF-2015-05,2015,Nov,residential,1,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/fire-incident-statistics-jan-dec-2015.pdf,2026-07-11
+SGF-2016-01,2016,Apr,private residential,1,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/fire-stats-201608e02643-ddda-4d72-b6bb-1e1c5eb00057.pdf,2026-07-11
+SGF-2016-02,2016,Oct,residential (shophouse area),1,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/fire-stats-201608e02643-ddda-4d72-b6bb-1e1c5eb00057.pdf,2026-07-11
+SGF-2017-01,2017,Apr,HDB residential,1,,other (flash fire),building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/fire-ambulance-enforcement-statistics-2017.pdf,2026-07-11
+SGF-2017-02,2017,May,industrial,1,,other (fire spread via non-compliant composite cladding),building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/fire-ambulance-enforcement-statistics-2017.pdf,2026-07-11
+SGF-2017-03,2017,Jun,HDB residential,1,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/fire-ambulance-enforcement-statistics-2017.pdf,2026-07-11
+SGF-2018-01,2018,Apr,HDB residential,1,0,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/scdf-annual-statistics-2018.pdf,2026-07-11
+SGF-2018-02,2018,May,HDB residential,1,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/scdf-annual-statistics-2018.pdf,2026-07-11
+SGF-2018-03,2018,Oct,HDB residential,1,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/scdf-annual-statistics-2018.pdf,2026-07-11
+SGF-2018-04,2018,Nov,HDB residential,1,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/scdf-annual-statistics-2018.pdf,2026-07-11
+SGF-2019-02,2019,Jun,industrial (LPG facility),1,2,other (LPG piping fire),borderline,no,https://www.malaymail.com/news/money/2019/06/25/union-gas-monitoring-lpg-supply-after-deadly-fire-at-suppliers-facility-in/1765221,2026-07-11
+SGF-2019-01,2019,Jul,HDB residential,1,0,PMD-battery,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/scdf-annual-statistics-2019.pdf,2026-07-11
+SGF-2019-03,2019,Nov,HDB residential,1,,unknown,building,no,https://mothership.sg/2019/11/man-burnt-to-death-jurong-west-hdb/,2026-07-11
+SGF-2019-04,2019,Nov,HDB residential (common corridor),1,,unknown,building,no,https://mothership.sg/2023/11/bukit-batok-fire-woman-death-unfortunate-misadventure ; https://www.channelnewsasia.com/singapore/bukit-batok-fire-hoarder-died-unfortunate-misadventure-neighbour-disputes-cigarette-3906331,2026-11-20
+SGF-2020-01,2020,Feb,HDB residential,1,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/scdf_annual_statistics_2020.pdf,2026-07-11
+SGF-2021-05,2021,Feb,industrial,3,7,other (combustible dust explosion and flash fire),building,no,https://dustsafetyscience.com/potato-starch-explosion-tuas-singapore/,2026-07-11
+SGF-2021-01,2021,Mar,HDB residential,1,1,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/scdf-annual-statistics-2021.pdf ; https://mothership.sg/2021/03/ang-mo-kio-fire/,2026-07-11
+SGF-2021-02,2021,May,residential,1,,unknown,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/scdf-annual-statistics-2021.pdf,2026-07-11
+SGF-2021-03,2021,Jun,"HDB residential (common area, lift)",1,,PMD-battery,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/scdf-annual-statistics-2021.pdf ; https://mothership.sg/2021/06/pmd-fire-woodlands/,2026-07-11
+SGF-2021-04,2021,Oct,HDB residential,1,0,PMD-battery,building,uncertain,https://www.thestar.com.my/aseanplus/aseanplus-news/2021/10/08/singapore-man-dies-in-jurong-west-flat-fire-2-others-rescued-from-ledge,2026-07-11
+SGF-2023-03,2022,Jan,HDB residential,1,0,"other (deliberate ignition, non-malicious)",building,yes,https://mothership.sg/2023/08/fire-kill-bed-bugs-maid-died/,2026-07-11
+SGF-2022-01,2022,Mar,HDB residential,1,0,PMD-battery,building,yes,https://mothership.sg/2022/03/dead-pmd-fire-new-upper-changi-road-flat/,2026-07-11
+SGF-2022-02,2022,May,HDB residential,4,0,smoking,building,yes,https://www.scdf.gov.sg/docs/default-source/media-room-(publications)/annual-statistics/scdf-annual-statistics-2022.pdf ; https://mothership.sg/2022/05/bedok-north-fire-investigations/ ; https://www.asiaone.com/singapore/sole-survivor-bedok-north-fire-succumbs-injuries-after-almost-2-years ; https://mothership.sg/2026/01/bedok-north-fire-charge/index.html,2026-11-20
+SGF-2022-03,2022,Aug,HDB residential,1,3,unknown,building,uncertain,https://mothership.sg/2022/08/fire-jurong-east-hdb/,2026-07-11
+SGF-2022-04,2022,Nov,private residential (condominium),2,1,unknown,building,uncertain,https://mothership.sg/2022/11/rivervale-crescent-fire-2-dead/,2026-07-11
+SGF-2022-05,2022,Dec,industrial,1,0,other (gas-cylinder fire),building,uncertain,https://www.theonlinecitizen.com/2022/12/31/38-year-old-worker-dies-from-fire-at-building-in-tuas-46-total-workplace-deaths-in-2022/,2026-07-11
+SGF-2023-01,2023,Feb,HDB residential,1,1,electrical,building,yes,https://mothership.sg/2023/03/pasir-ris-fire-man-passed-away/,2026-07-11
+SGF-2023-02,2023,Jun,HDB residential,1,0,smoking,building,yes,https://mothership.sg/2024/10/bukit-batok-fire-inquiry-man-79-dead/,2026-07-11
+SGF-2023-04,2023,Jun,HDB residential,1,,unknown,building,uncertain,https://mothership.sg/2023/06/yishun-fire-17-year-old-death ; https://www.channelnewsasia.com/singapore/fire-dies-teenager-boy-yishun-ring-road-hdb-flat-3554176,2026-11-20
+SGF-2024-01,2024,Feb,HDB residential,1,0,unknown,building,yes,https://mothership.sg/2024/02/two-fires-marsiling-road/,2026-07-11
+SGF-2024-02,2024,Feb,HDB residential,1,1,unknown,building,yes,https://mothership.sg/2024/02/fire-canberra-crescent/,2026-07-11
+SGF-2024-03,2024,May,HDB residential,1,2,unknown,building,yes,https://mothership.sg/2024/05/fire-in-whampoa-1-dead-2-hospital/,2026-07-11
+SGF-2024-04,2024,Aug,HDB residential (common corridor),1,0,unknown,building,yes,https://mothership.sg/2024/08/potong-pasir-fire-charred-body/,2026-07-11
+SGF-2024-05,2024,Sep,HDB residential,1,0,unknown,building,yes,https://mothership.sg/2024/09/1-dead-chua-chu-kang-fire/,2026-07-11
+SGF-2024-06,2024,Sep,industrial,2,0,unknown,building,yes,https://mothership.sg/2024/09/kaki-bukit-fire-deaths/ ; https://sg.news.yahoo.com/more-fatal-fires-ev-blazes-020000349.html,2026-07-11
+SGF-2025-01,2025,Jan,HDB residential,3,0,unknown,building,yes,https://mothership.sg/2025/01/people-hougang-fire-couple-daughter/ ; https://www.mha.gov.sg/media-room/newsroom/response-to-adjournment-motion-on-fire-safety-in-our-homes/,2026-07-11
+SGF-2025-02,2025,Apr,commercial (mixed-use shophouse),1,20,other (fire in storage area; unauthorised partitions found),building,yes,https://mothership.sg/2025/04/child-dead-river-valley-fire/ ; https://www.theonlinecitizen.com/2025/04/08/10-year-old-girl-dies-after-fire-at-river-valley-road-shophouse/,2026-07-11
+SGF-2025-03,2025,Jul,HDB residential,2,3,unknown,building,no,https://mothership.sg/2025/07/2-found-dead-after-toa-payoh-flat-catches-fire/,2026-07-11
+SGF-2025-04,2025,Aug,HDB residential,2,0,PMD-battery,building,yes,https://mothership.sg/2025/08/bukit-merah-fire-likely-started-from-pmd/ ; https://www.theonlinecitizen.com/2025/08/14/scdf-bukit-merah-flat-fire-that-killed-two-likely-caused-by-pmd-battery-pack/,2026-07-11

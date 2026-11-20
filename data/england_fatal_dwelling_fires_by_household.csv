@@ -1,0 +1,11 @@
+household_type,fatal_dwelling_fires,persons_in_household,source
+Lone person over pensionable age,660,one,"Home Office (2022) In-depth review of fire-related fatalities and severe casualties in England, 2010/11 to 2018/19, Appendix D, Table 38"
+Lone person under pensionable age,454,one,"Home Office (2022) In-depth review, Appendix D, Table 38"
+Lone parent with dependent child/ren,34,two or more,"Home Office (2022) In-depth review, Appendix D, Table 38"
+"Couple one or more over pensionable age, no children",130,two or more,"Home Office (2022) In-depth review, Appendix D, Table 38"
+"Couple both under pensionable age, no children",78,two or more,"Home Office (2022) In-depth review, Appendix D, Table 38"
+Couple with dependent children,59,two or more,"Home Office (2022) In-depth review, Appendix D, Table 38"
+"Three or more adults under pensionable age, no children",49,two or more,"Home Office (2022) In-depth review, Appendix D, Table 38"
+Three or more adults with dependent children,32,two or more,"Home Office (2022) In-depth review, Appendix D, Table 38"
+Other,251,not stated,"Home Office (2022) In-depth review, Appendix D, Table 38"
+Not known,61,not stated,"Home Office (2022) In-depth review, Appendix D, Table 38"

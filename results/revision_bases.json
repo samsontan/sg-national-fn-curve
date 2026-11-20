@@ -1,0 +1,272 @@
+{
+ "Singapore_residential": {
+  "basis": "residential",
+  "scope": "fatal fires in residential premises (public and private housing, and premises occupied as sleeping accommodation); all causes",
+  "events": 44,
+  "T": 14.0,
+  "pop_millions": 5.6514,
+  "rate_per_M_yr": 0.556,
+  "multi_fatality_events": 10,
+  "mfi": 0.2273,
+  "mfi_ci95": [
+   0.115,
+   0.378
+  ],
+  "b_untruncated": 2.83,
+  "b_ci95": [
+   2.28,
+   3.56
+  ],
+  "gof_p_obs_support": 0.727
+ },
+ "England_dwellings": {
+  "basis": "residential",
+  "scope": "fatal dwelling fires attended by fire and rescue services; all causes; multiple-fatality fires reconstructed from record-level fatality data; Grenfell Tower (N=71) set aside",
+  "events": 1803,
+  "T": 9.0,
+  "pop_millions": 54.35,
+  "rate_per_M_yr": 3.686,
+  "multi_fatality_events": 95,
+  "mfi": 0.0527,
+  "mfi_ci95": [
+   0.043,
+   0.064
+  ],
+  "b_untruncated": 4.41,
+  "b_ci95": [
+   4.18,
+   4.66
+  ],
+  "gof_p_obs_support": 0.148
+ },
+ "USA_residential": {
+  "basis": "residential",
+  "scope": "fatal fires in residential buildings incl. hotels, motels, dormitories; all causes; civilian deaths; shares from reporting departments",
+  "events": 11400,
+  "T": 6.0,
+  "pop_millions": 332.0,
+  "rate_per_M_yr": 5.723,
+  "multi_fatality_events": 1482,
+  "mfi": 0.13,
+  "mfi_ci95": [
+   0.124,
+   0.136
+  ],
+  "b_untruncated": 3.42,
+  "b_ci95": [
+   3.37,
+   3.48
+  ],
+  "gof_p_obs_support": 0.0
+ },
+ "Australia_preventable_residential": {
+  "basis": "residential",
+  "scope": "preventable residential fire deaths; excludes suicide and homicide with clear intent, bushfire, vehicles, supervised facilities; closed coronial cases",
+  "events": 810,
+  "T": 14.0,
+  "pop_millions": 22.186,
+  "rate_per_M_yr": 2.608,
+  "multi_fatality_events": 57,
+  "mfi": 0.0704,
+  "mfi_ci95": [
+   0.054,
+   0.09
+  ],
+  "b_untruncated": 4.05,
+  "b_ci95": [
+   3.77,
+   4.36
+  ],
+  "gof_p_obs_support": 0.307
+ },
+ "NewZealand_unintentional_domestic": {
+  "basis": "residential",
+  "scope": "unintentional and undetermined-intent domestic fire deaths; excludes suicide, homicide, vehicles, rest homes, hostels; coronial files",
+  "events": 107,
+  "T": 8.0,
+  "pop_millions": 4.367,
+  "rate_per_M_yr": 3.063,
+  "multi_fatality_events": 9,
+  "mfi": 0.0841,
+  "mfi_ci95": [
+   0.039,
+   0.154
+  ],
+  "b_untruncated": 3.86,
+  "b_ci95": [
+   3.2,
+   4.7
+  ],
+  "gof_p_obs_support": 0.944
+ },
+ "Singapore_buildings": {
+  "basis": "own scope",
+  "scope": "fatal fires in enclosed buildings, residential and non-residential; all causes",
+  "events": 50,
+  "T": 14.0,
+  "pop_millions": 5.6514,
+  "rate_per_M_yr": 0.632,
+  "multi_fatality_events": 12,
+  "mfi": 0.24,
+  "mfi_ci95": [
+   0.131,
+   0.382
+  ],
+  "b_untruncated": 2.77,
+  "b_ci95": [
+   2.27,
+   3.43
+  ],
+  "gof_p_obs_support": 0.955
+ },
+ "England_all_fires_within_regime": {
+  "basis": "own scope",
+  "scope": "all fatal fires attended by fire and rescue services: dwellings, other buildings, road vehicles, outdoor; deliberate fires included; Shoreham (N=11, outdoor) and Grenfell Tower (N=71) set aside",
+  "events": 2354,
+  "T": 9.0,
+  "pop_millions": 54.35,
+  "rate_per_M_yr": 4.812,
+  "multi_fatality_events": 141,
+  "mfi": 0.0599,
+  "mfi_ci95": [
+   0.051,
+   0.07
+  ],
+  "b_untruncated": 4.28,
+  "b_ci95": [
+   4.09,
+   4.48
+  ],
+  "gof_p_obs_support": 0.31
+ },
+ "China_all_fires_within_regime": {
+  "basis": "own scope",
+  "scope": "all recorded fires nationally (building and non-building), mainland China; three largest events (38, 74, 309 deaths) set aside",
+  "events": 8951,
+  "T": 5.0,
+  "pop_millions": 1266.0,
+  "rate_per_M_yr": 1.414,
+  "multi_fatality_events": 1988,
+  "mfi": 0.2221,
+  "mfi_ci95": [
+   0.214,
+   0.231
+  ],
+  "b_untruncated": 2.74,
+  "b_ci95": [
+   2.7,
+   2.79
+  ],
+  "gof_p_obs_support": 0.0
+ },
+ "England_bounds": {
+  "dwelling_rate_per_M_yr": 3.7,
+  "building_rate_per_M_yr": 3.99,
+  "all_fires_rate_per_M_yr": 4.82,
+  "mfi_all_fires": 0.0607,
+  "mfi_dwelling_upper_bound": 0.0785,
+  "mfi_building_upper_bound": 0.0727,
+  "ratio_SGres_over_ENGdwelling_min": 2.9,
+  "ratio_SGbldg_over_ENGbuilding_min": 3.3,
+  "rate_ratio_ENGdwelling_over_SGres": 6.7,
+  "rate_ratio_ENGbuilding_over_SGbldg": 6.3,
+  "fisher_p_SGres_vs_ENGdwelling_bound": 0.0022,
+  "fisher_p_SGbldg_vs_ENGbuilding_bound": 0.00026
+ },
+ "Grenfell": {
+  "all_fires_law": {
+   "b": 4.28,
+   "ci": [
+    4.09,
+    4.48
+   ],
+   "events_per_yr": 261.7,
+   "P_ge70_point": 2.7e-07,
+   "RP_yr_point": 14400,
+   "P_ge70_flat_edge": 6.2e-07,
+   "RP_yr_flat_edge": 6100
+  },
+  "dwelling_only_heaviest_bound": {
+   "b": 3.97,
+   "ci": [
+    3.79,
+    4.17
+   ],
+   "events_per_yr": 200.9,
+   "P_ge70_point": 1e-06,
+   "RP_yr_point": 4800,
+   "P_ge70_flat_edge": 2.4e-06,
+   "RP_yr_flat_edge": 2100
+  },
+  "building_only_heaviest_bound": {
+   "b": 4.06,
+   "ci": [
+    3.87,
+    4.26
+   ],
+   "events_per_yr": 216.9,
+   "P_ge70_point": 7.1e-07,
+   "RP_yr_point": 6500,
+   "P_ge70_flat_edge": 1.6e-06,
+   "RP_yr_flat_edge": 2800
+  },
+  "note": "Building-only bound assigns all 141 ordinary multi-fatality fires to buildings: the heaviest building-fire severity the source admits."
+ },
+ "residential_contrasts": {
+  "SGres_vs_USA_ratio": 1.75,
+  "SGres_vs_USA_note": "USA share is a published rounded percentage (13%, admissible 12.5-13.5%); the comparison uses Singapore's exact binomial interval against that value.",
+  "SGres_mfi_ci95": [
+   0.115,
+   0.378
+  ]
+ },
+ "contrast_sensitivities": {
+  "ratio_at_SG_lower_limit_residential": 1.46,
+  "ratio_at_SG_lower_limit_buildings": 1.8,
+  "without_largest_event": {
+   "k": 9,
+   "n": 43,
+   "mfi": 0.209,
+   "ci95": [
+    0.1,
+    0.36
+   ]
+  },
+  "window_2012_2018": {
+   "k": 5,
+   "n": 20,
+   "mfi": 0.25,
+   "ci95": [
+    0.087,
+    0.491
+   ]
+  },
+  "missed_single_death_fires_to_reach_bound": 84,
+  "per_dwelling_rate_SG": 2.19e-06,
+  "per_dwelling_rate_ENG": 8.5e-06,
+  "per_dwelling_rate_ratio_ENG_over_SG": 3.9,
+  "note": "The 2012-2018 and without-largest-event counts are read from the register (residential premises; the event removed is the four-death lodging-house fire, one of two four-death fires)."
+ },
+ "singapore_checks": {
+  "residential_events": 44,
+  "residential_multi": 10,
+  "residential_events_2012_2018": 20,
+  "residential_multi_2012_2018": 5,
+  "events_2012_2020": 26,
+  "events_2021_2025": 24,
+  "b_2012_2020_obs_support": 2.7,
+  "b_2021_2025_obs_support": 2.02,
+  "equality_lrt_p": 0.35,
+  "predicted_mean_deaths_per_event_2021_2025": 1.27,
+  "realised_mean": 1.46,
+  "last5_of_14_years_events": 24,
+  "binomial_split_p_two_sided": 0.077,
+  "loglinear_poisson_trend_p": 0.18,
+  "RP10_untruncated_yr": 34,
+  "RP10_at_b_interval_edges_yr": [
+   9,
+   184
+  ],
+  "note": "Split-sample fits at observed support (Nmax = 4). The five-year split was chosen after inspecting the data; the log-linear trend test is the unbiased check."
+ }
+}
